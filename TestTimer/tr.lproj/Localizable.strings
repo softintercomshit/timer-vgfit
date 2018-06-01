@@ -1,0 +1,198 @@
+/* 
+  Localizable.strings
+  
+
+  Created by Andrei on 10/5/17.
+  
+*/
+
+
+
+
+
+//Main Tabata View Controller:
+
+"Tabata" = "Tabata";
+"Prepare" = "Hazırlan";
+"Work" = "Çalışma";
+"Rest" = "Dinlenme";
+"Rest BC" = "Dinlenme AD";
+"Rounds left" = "Kalan Tur";
+"Cycles left" = "Kalan Devre";
+"Play" = "Oynat";
+"Resume" = "Devam Et";
+"Pause" = "Duraklat";
+"Reset" = "Sıfırla";
+"Do you want to reset the timer?" = "Kronometreyi sıfırlamak istiyor musunuz?";
+"Yes" = "Evet";
+
+
+// Main Rounds View Controller:
+
+"Rounds" = "Tur";
+
+
+// Main Stopwatch View Controller:
+
+"Stopwatch" = "Kronometre";
+"Time lap" = "Tur Zamanı";
+
+
+// Tabata Intervals View Controller:
+
+"Cancel" = "İptal";
+"Save" = "Kaydet";
+"Intervals" = "Interval’ler";
+"My workouts" = "Antrenmanlarım";
+"Cycles" = "Devreler";
+"Rest between cycles" = "Devreler arasında dinlenme";
+"Countdown before you start" = "Başlamadan önce geri sayım";
+"Do exercises for this long" = "Egzersizleri şu kadar süreyle yap";
+"Rest for this long" = "Şu kadar dinle";
+"One round is work + rest" = "Bir tur çalışma + dinlenmedir";
+"One cycle is" = "Bir devre";
+"rounds" = "turdur";
+//"One cycle is 2 rounds" = "Bir devre 2 turdur";
+"Recovery interval" = "Toparlanma interval’i";
+"Edit" = "Düzenle";
+"Delete" = "Sil";
+"Add new timer" = "Yeni kronometre ekle";
+"Tabata workout" = "Tabata antrenmanı";
+
+
+// Add New Timer Tabata View Controller:
+
+"Name" = "İsim";
+
+// Rounds Intervals View Controller:
+
+"Rounds workout" = "Tur antrenmanı";
+
+// Stopwatch Intervals View Controller:
+
+"Stopwatch workout" = "Kronometre antrenmanı";
+
+// Prepare Time View Controller:
+
+"Done" = "Tamam";
+"Min" = "Dak";
+"Sec" = "San";
+"Default" = "Varsayılan";
+"Yellow" = "Sarı";
+"Green" = "Yeşil";
+"Blue" = "Mavi";
+"Turquoise" = "Turkuaz";
+"Red" = "Kırmızı";
+
+
+// Rounds Intervals View Controller:
+
+"Work for this long" = "Şu kadar çalış";
+
+// Stopwatch Intervals View Controller:
+
+"Clock will make a sound at each lap" = "Saat, her turda ses çıkaracaktır";
+
+// Sound Each View Controller:
+
+"Sound each" = "Her ses";
+
+
+// Settings Manager View Controller
+
+"Sound" = "Ses";
+"Sound scheme" = "Ses melodisi";
+"Voice assist" = "Sesli yardımcı";
+"Vibration" = "Titreşim";
+"Flashlight" = "Fener";
+"Screen flash" = "Ekran bildirimi";
+"Ducking" = "Arka plana alma";
+"Rotation" = "Dönüş";
+"Time format" = "Kronometre biçimi";
+"Visual style" = "Görsel stil";
+"Light gray" = "Açık gri";
+"Gray" = "Gri";
+"Dark gray" = "Koyu gri";
+"Black" = "Siyah";
+"Rose" = "Gül rengi";
+"Violet" = "Menekşe";
+"Back" = "Geri";
+"Air Horn" = "Hava Kornası";
+"Beep" = "Bip Sesi";
+"Boxing Bell" = "Boks Kemeri";
+"Buzzer" = "Sinyal";
+"Censor" = "Sensör";
+"Chinese Gong" = "Çin Gong’u";
+"Ding" = "Ding";
+"Double Ding" = "Çift Ding";
+"Metal Ding" = "Metal Ding";
+"Punch" = "Yumruk";
+"Referee Whistle" = "Hakem Islığı";
+"Siren Horn" = "Siren";
+"Sports Whistle" = "Spor Islığı";
+"Tone" = "Ton";
+"Flashlight works only in foreground mode" = "Fener yalnızca ön plan modunda çalışır";
+"Reduce music volume during alert" = "Uyarı sırasında müzik sesini azalt";
+"Allow the screen to rotate during workout" = "Antrenman sırasında ekranın dönmesine izin ver";
+
+
+// More Tab Bar View Controller
+
+
+"More" = "Daha Fazla";
+"Stay connected with VGFIT" = "VGFIT ile bağlı kalın";
+"Rate us" = "Bize puan verin";
+"Send feedback" = "Geri bildirim gönder";
+"Tell a friend" = "Bir arkadaşına tavsiye et";
+"Share on Facebook" = "Facebook’da paylaş";
+"Tweet about us" = "Hakkımızda Tweet at";
+"Six Pack Abs by VGFIT" = "Karın Kaslari by VGFIT";
+"Fitness & Bodybuilding" = "Fitness ve Vücut Geliştirme";
+"Female Fitness" = "Kadınlar için Fitness";
+"Yoga by VGFIT" = "VGFIT ile Yoga";
+"7 Minutes by VGFIT" = "VGFIT ile 7 Dakika";
+"No Mail Accounts" = "Posta Hesabı Yok";
+"Please set up a Mail account in order to send email." = "Bir e-posta göndermek için lütfen bir E-Posta hesabı belirleyin.";
+"Timer Pro by VGFIT" = "VGFIT Timer Pro";
+"Device model" = " Cihaz modeli ";
+"iOS Version" = " iOS Sürümü ";
+"Application Version" = " Uygulama Sürümü ";
+"Check out this amazing app for iOS device !" = " iOS cihazları için bu harika uygulamaya göz atın! ";
+"Check out this amazing Timer Pro application for your iOS device !" = "iOS cihazınız için bu harika Timer Pro uygulamasına göz atın! ";
+"Notification" = " Bildirim";
+"Please login to your Facebook account from your device settings." = " Lütfen cihaz ayarlarından Facebook hesabınıza giriş yapın. ";
+"OK" = "TAMAM";
+"Oops" = "Bir şeyler yanlış";
+"The application can't send a tweet at the moment. This is because it cannot reach Twitter or you don't have a Twitter account associated with this device" = " Bu uygulama şu anda tweet gönderemiyor. Bunun nedeni, Twitter’a ulaşamaması veya bu cihazla ilişkilendirilmiş bir Twitter hesabınızın olmamasıdır.";
+
+
+
+
+// Timer Pro New Design
+
+
+"Start" = "Başlat";
+"Stop" = "Durdur";
+"Add" = "Ekle";
+"Enter name tabata workout" = "Tabata antrenmanı ismini gir";
+"Enter name rounds workout" = "Tur antrenmanı ismini gir";
+"Enter name stopwatch workout" = "Kronometre antrenman ismini gir";
+"Settings" = "Ayarlar";
+"Up next" = "Sıradaki";
+"Workout done" = "Antrenman bitti";
+
+
+// Water Reminder
+
+"Water Reminder" = "Su Alarmı";
+
+// Share app
+
+"Share app" = "Uygulamayı paylaş";
+
+// Health Kit
+
+"WARNING!" = "WARNING!";
+"App is not allowed to write data to the Health app. You can turn it on in the Health app" = "App is not allowed to write data to the Health app. You can turn it on in the Health app";
+"Open" = "Open";
+"Workout data is synced with Health app" = "Workout data is synced with Health app";

@@ -1,0 +1,202 @@
+/* 
+  Localizable.strings
+  
+
+  Created by Andrei on 10/5/17.
+  
+*/
+
+
+
+
+//Main Tabata View Controller:
+
+"Tabata" = "타바타";
+"Prepare" = "준비";
+"Work" = "운동";
+"Rest" = "휴식";
+"Rest BC" = "휴식 BC";
+"Rounds left" = "남은 라운드";
+"Cycles left" = "남은 사이클";
+"Play" = "재생";
+"Resume" = "다시 시작";
+"Pause" = "일시정지";
+"Reset" = "초기화";
+"Do you want to reset the timer?" = "타이머를 초기화하시겠습니까?";
+"Yes" = "네";
+
+
+// Main Rounds View Controller:
+
+"Rounds" = "라운드";
+
+
+// Main Stopwatch View Controller:
+
+"Stopwatch" = "스톱워치";
+"Time lap" = "랩타임Six";
+
+
+// Tabata Intervals View Controller:
+
+"Cancel" = "취소";
+"Save" = "저장";
+"Intervals" = "인터벌";
+"My workouts" = "내 운동";
+"Cycles" = "사이클";
+"Rest between cycles" = "사이클 사이에 휴식";
+"Countdown before you start" = "시작하기 전 카운트다운";
+"Do exercises for this long" = "오래 운동하기";
+"Rest for this long" = "오래 휴식하기";
+"One round is work + rest" = "1라운드는 운동 + 휴식입니다";
+"One cycle is" = "1사이클은";
+"rounds" = "라운드입니다";
+//"One cycle is 2 rounds" = "1사이클은 2라운드입니다";
+"Recovery interval" = "회복 간격";
+"Edit" = "편집";
+"Delete" = "삭제";
+"Add new timer" = "새 타이머 추가";
+"Tabata workout" = "타바타 운동";
+
+
+// Add New Timer Tabata View Controller:
+
+"Name" = "이름";
+
+// Rounds Intervals View Controller:
+
+"Rounds workout" = "라운드 운동";
+
+// Stopwatch Intervals View Controller:
+
+"Stopwatch workout" = "스톱워치 운동";
+
+// Prepare Time View Controller:
+
+"Done" = "완료";
+"Min" = "분";
+"Sec" = "초";
+"Default" = "초기값";
+"Yellow" = "노란색";
+"Green" = "초록색";
+"Blue" = "파란색";
+"Turquoise" = "청록색";
+"Red" = "빨간색";
+
+
+// Rounds Intervals View Controller:
+
+"Work for this long" = "오래 운동하기";
+
+// Stopwatch Intervals View Controller:
+
+"Clock will make a sound at each lap" = "각 랩마다 시계가 사운드를 냅니다";
+
+// Sound Each View Controller:
+
+"Sound each" = "사운드재생 간격";
+
+
+// Settings Manager View Controller
+
+"Sound" = "사운드";
+"Sound scheme" = "사운드 유형";
+"Voice assist" = "음성 지원";
+"Vibration" = "진동";
+"Flashlight" = "손전등";
+"Screen flash" = "스크린 플래시";
+"Ducking" = "더킹";
+"Rotation" = "회전";
+"Time format" = "타이머 형식";
+"Visual style" = "비주얼 스타일";
+"Light gray" = "밝은 회색";
+"Gray" = "회색";
+"Dark gray" = "어두운 회색";
+"Black" = "검정색";
+"Rose" = "장미색";
+"Violet" = "보라색";
+"Back" = "뒤로";
+"Air Horn" = "경적";
+"Beep" = "비프음";
+"Boxing Bell" = "권투 중";
+"Buzzer" = "부저";
+"Censor" = "쎈서";
+"Chinese Gong" = "징";
+"Ding" = "딩";
+"Double Ding" = "더블 딩";
+"Metal Ding" = "금속 딩";
+"Punch" = "펀치";
+"Referee Whistle" = "호루라기";
+"Siren Horn" = "사이렌";
+"Sports Whistle" = "스포츠 호루라기";
+"Tone" = "톤";
+"Flashlight works only in foreground mode" = "손전등은 전경 모드에서만 작동합니다";
+"Reduce music volume during alert" = "알람 중에는 음악 볼륨을 줄입니다";
+"Allow the screen to rotate during workout" = "운동 중에 화면을 회전하는 것을 허용";
+
+
+// More Tab Bar View Controller
+
+
+"More" = "더보기";
+"Stay connected with VGFIT" = "VGFIT와 연결 유지";
+"Rate us" = "평가하기";
+"Send feedback" = "피드백 보내기";
+"Tell a friend" = "친구에게 소개";
+"Share on Facebook" = "Facebook에 공유";
+"Tweet about us" = "트위트";
+"Six Pack Abs by VGFIT" = "복근 옆에 VGFIT";
+"Fitness & Bodybuilding" = "피트니스 & 보디 빌딩";
+"Female Fitness" = "여성 피트니스";
+"Yoga by VGFIT" = "VGFIT의 요가";
+"7 Minutes by VGFIT" = "VGFIT의 7분";
+"No Mail Accounts" = "메일 계정이 없습니다";
+"Please set up a Mail account in order to send email." = "이메일을 전송하려면 메일 계정을 설정하세요.";
+"Timer Pro by VGFIT" = "VGFIT의 타이머 프로";
+"Device model" = "장치 모델";
+"iOS Version" = " iOS 버전";
+"Application Version" = "앱 버전";
+"Check out this amazing app for iOS device !" = "iOS 기기를 위한 놀라운 앱을 확인하세요! ";
+"Check out this amazing Timer Pro application for your iOS device !" = "iOS 기기를 위한 놀라운 타이머 프로 앱을 확인하세요!";
+"Notification" = "공지";
+"Please login to your Facebook account from your device settings." = "디바이스 설정에서 Facebook계정을 로그인하세요.";
+"OK" = "확인";
+"Oops" = "어머나";
+"The application can't send a tweet at the moment. This is because it cannot reach Twitter or you don't have a Twitter account associated with this device" = "잠시 앱에서 트윗을 보낼 수 없습니다. 트위터에 연결할 수 없거나 기기와 연결된 트위터 계정이 없기 때문입니다";
+
+
+
+
+// Timer Pro New Design
+
+
+"Start" = "시작";
+"Stop" = "정지";
+"Add" = "추가";
+"Enter name tabata workout" = "타바타 운동 이름 입력";
+"Enter name rounds workout" = "라운드 운동 이름 입력";
+"Enter name stopwatch workout" = "스톱워치 운동 이름 입력";
+"Settings" = "설정";
+"Up next" = "다음";
+"Workout done" = "운동 완료";
+
+
+
+// Water Reminder
+
+"Water Reminder" = "물 알림";
+
+// Share app
+
+"Share app" = "앱 공유";
+
+
+// Health Kit
+
+"WARNING!" = "WARNING!";
+"App is not allowed to write data to the Health app. You can turn it on in the Health app" = "App is not allowed to write data to the Health app. You can turn it on in the Health app";
+"Open" = "Open";
+"Workout data is synced with Health app" = "Workout data is synced with Health app";
+
+
+

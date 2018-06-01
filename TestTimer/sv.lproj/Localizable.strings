@@ -1,0 +1,198 @@
+/* 
+  Localizable.strings
+  
+
+  Created by Andrei on 10/5/17.
+  
+*/
+
+
+
+//Main Tabata View Controller:
+
+"Tabata" = "Tabata";
+"Prepare" = "Förbered";
+"Work" = "Träna";
+"Rest" = "Vila";
+"Rest BC" = "Vila MC";
+"Rounds left" = "Rundor kvar";
+"Cycles left" = "Cykler kvar";
+"Play" = "Spela";
+"Resume" = "Fortsätt";
+"Pause" = "Pausa";
+"Reset" = "Återställ";
+"Do you want to reset the timer?" = "Vill du återställa timern?";
+"Yes" = "Ja";
+
+
+// Main Rounds View Controller:
+
+"Rounds" = "Rundor";
+
+
+// Main Stopwatch View Controller:
+
+"Stopwatch" = "Tidtagare";
+"Time lap" = "Varvtid";
+
+
+// Tabata Intervals View Controller:
+
+"Cancel" = "Avbryt";
+"Save" = "Spara";
+"Intervals" = "Intervaller";
+"My workouts" = "Mina träningar";
+"Cycles" = "Cyklee";
+"Rest between cycles" = "Vila mellan cykler";
+"Countdown before you start" = "Nedräkning innan du börjar";
+"Do exercises for this long" = "Gör övningen såhär länge";
+"Rest for this long" = "Vila såhär länge";
+"One round is work + rest" = "En runda är träning + vila";
+"One cycle is" = "En cykel är";
+"rounds" = "rundor";
+//"One cycle is 2 rounds" = "En cykel är två rundor";
+"Recovery interval" = "Återhämtningsintervall";
+"Edit" = "Redigera";
+"Delete" = "Radera";
+"Add new timer" = "Läg till ny timer";
+"Tabata workout" = "Tabata-workout";
+
+
+// Add New Timer Tabata View Controller:
+
+"Name" = "Namn";
+
+// Rounds Intervals View Controller:
+
+"Rounds workout" = "Roundor träning";
+
+// Stopwatch Intervals View Controller:
+
+"Stopwatch workout" = "Tidtagarursträning";
+
+// Prepare Time View Controller:
+
+"Done" = "Gjort";
+"Min" = "Min";
+"Sec" = "Sek";
+"Default" = "Standard";
+"Yellow" = "Gul";
+"Green" = "Grön";
+"Blue" = "Blå";
+"Turquoise" = "Turkos";
+"Red" = "Röd";
+
+
+// Rounds Intervals View Controller:
+
+"Work for this long" = "Jobba såhär länge";
+
+// Stopwatch Intervals View Controller:
+
+"Clock will make a sound at each lap" = "Klockan kommer att låta varje varv";
+
+// Sound Each View Controller:
+
+"Sound each" = "Gör ljud varje";
+
+
+// Settings Manager View Controller
+
+"Sound" = "Ljud";
+"Sound scheme" = "Ljudschema";
+"Voice assist" = "Röstassisten";
+"Vibration" = "Vibration";
+"Flashlight" = "Ficklampa";
+"Screen flash" = "Skärmflash";
+"Ducking" = "Duckning";
+"Rotation" = "Rotation";
+"Time format" = "Timer-format";
+"Visual style" = "Visuell stil";
+"Light gray" = "Ljusgrå";
+"Gray" = "Grå";
+"Dark gray" = "Mörkgrå";
+"Black" = "Svart";
+"Rose" = "Ros";
+"Violet" = "Violet";
+"Back" = "Tillbaka";
+"Air Horn" = "Tuta";
+"Beep" = "Beep";
+"Boxing Bell" = "Boxingsklocka";
+"Buzzer" = "Buzzer";
+"Censor" = "Sensor";
+"Chinese Gong" = "Kina-gong";
+"Ding" = "Pling";
+"Double Ding" = "Dubbelpling";
+"Metal Ding" = "Metall-pling";
+"Punch" = "Slag";
+"Referee Whistle" = "Visselpipa";
+"Siren Horn" = "Sirenhorn";
+"Sports Whistle" = "Sportvisselpipa";
+"Tone" = "Ton";
+"Flashlight works only in foreground mode" = "Ficklampan fungerar bara i förgrundsläge";
+"Reduce music volume during alert" = "Reducera musikvolymen vid notis";
+"Allow the screen to rotate during workout" = "Tillåt skärmen att rotera under träningen";
+
+
+// More Tab Bar View Controller
+
+
+"More" = "Mer";
+"Stay connected with VGFIT" = "Håll kontakt med VGFIT";
+"Rate us" = "Betygsätt oss";
+"Send feedback" = "Skicka feedback";
+"Tell a friend" = "Berätta för en vän";
+"Share on Facebook" = "Dela på Facebook";
+"Tweet about us" = "Tweeta om oss";
+"Six Pack Abs by VGFIT" = "Six Pack Abs by VGFIT";
+"Fitness & Bodybuilding" = "Fitness & Bodybuilding";
+"Female Fitness" = "Kvinnlig Fitness";
+"Yoga by VGFIT" = "Yoga från VGFIT";
+"7 Minutes by VGFIT" = "7 Minuter av VGFIT";
+"No Mail Accounts" = "Inga mailkonton";
+"Please set up a Mail account in order to send email." = "Sätt upp ett mailkonto för att skicka email";
+"Timer Pro by VGFIT" = " Timer Pro av VGFIT ";
+"Device model" = " Enhetsmodell ";
+"iOS Version" = " iOS Version ";
+"Application Version" = " App-version ";
+"Check out this amazing app for iOS device !" = " Kolla in denna otroliga app för iOS!";
+"Check out this amazing Timer Pro application for your iOS device !" = "Kolla in denna otroliga Timer Pro-app för din iOS-enhet!";
+"Notification" = " Notis";
+"Please login to your Facebook account from your device settings." = "Logga in på ditt facebook-konto från dina enhetsinställningar.";
+"OK" = "OK";
+"Oops" = "Hoppsan";
+"The application can't send a tweet at the moment. This is because it cannot reach Twitter or you don't have a Twitter account associated with this device" = " Applikationen kan inte skicka tweet för tillfället. Detta beror på att den inte kan nå Twitter eller att du inte har ett Twitter-konto kopplat till den här enheten";
+
+
+
+
+// Timer Pro New Design
+
+
+"Start" = "Start";
+"Stop" = "Stopp";
+"Add" = "Lägg till";
+"Enter name tabata workout" = "Fyll i namn för tabata-träning";
+"Enter name rounds workout" = "Fyll i namn för cykelträning";
+"Enter name stopwatch workout" = "Fyll i namn för tidtagarträning";
+"Settings" = "Inställningar";
+"Up next" = "Nästa";
+"Workout done" = "Träningen utförd";
+
+
+// Water Reminder
+
+"Water Reminder" = "Vätskepåminnelse";
+
+// Share app
+
+"Share app" = "Dela";
+
+
+// Health Kit
+
+"WARNING!" = "WARNING!";
+"App is not allowed to write data to the Health app. You can turn it on in the Health app" = "App is not allowed to write data to the Health app. You can turn it on in the Health app";
+"Open" = "Open";
+"Workout data is synced with Health app" = "Workout data is synced with Health app";
+

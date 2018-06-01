@@ -1,0 +1,198 @@
+/* 
+  Localizable.strings
+  
+
+  Created by Andrei on 10/5/17.
+  
+*/
+
+
+"Tabata" = "Tabata";
+"Prepare" = "Prepare";
+"Work" = "Work";
+"Rest" = "Rest";
+"Rest BC" = "Rest BC";
+"Rounds left" = "Rounds left";
+"Cycles left" = "Cycles left";
+"Play" = "Play";
+"Resume" = "Resume";
+"Pause" = "Pause";
+"Reset" = "Reset";
+"Do you want to reset the timer?" = "Do you want to reset the timer?";
+"Yes" = "Yes";
+
+
+// Main Rounds View Controller:
+
+"Rounds" = "Rounds";
+
+
+// Main Stopwatch View Controller:
+
+"Stopwatch" = "Stopwatch";
+"Time lap" = "Time lap";
+
+
+// Tabata Intervals View Controller:
+
+"Cancel" = "Cancel";
+"Save" = "Save";
+"Intervals" = "Intervals";
+"My workouts" = "My workouts";
+"Cycles" = "Cycles";
+"Rest between cycles" = "Rest between cycles";
+"Countdown before you start" = "Countdown before you start";
+"Do exercises for this long" = "Do exercises for this long";
+"Rest for this long" = "Rest for this long";
+"One round is work + rest" = "One round is work + rest";
+"One cycle is" = "One cycle is";
+"rounds" = "rounds";
+
+//"One cycle is 2 rounds" = "One cycle is 2 rounds";
+"Recovery interval" = "Recovery interval";
+"Edit" = "Edit";
+"Delete" = "Delete";
+"Add new timer" = "Add new timer";
+"Tabata workout" = "Tabata workout";
+
+
+// Add New Timer Tabata View Controller:
+
+"Name" = "Name";
+
+// Rounds Intervals View Controller:
+
+"Rounds workout" = "Rounds workout";
+
+// Stopwatch Intervals View Controller:
+
+"Stopwatch workout" = "Stopwatch workout";
+
+// Prepare Time View Controller:
+
+"Done" = "Done";
+"Min" = "Min";
+"Sec" = "Sec";
+"Default" = "Default";
+"Yellow" = "Yellow";
+"Green" = "Green";
+"Blue" = "Blue";
+"Turquoise" = "Turquoise";
+"Red" = "Red";
+
+
+// Rounds Intervals View Controller:
+
+"Work for this long" = "Work for this long";
+
+// Stopwatch Intervals View Controller:
+
+"Clock will make a sound at each lap" = "Clock will make a sound at each lap";
+
+// Sound Each View Controller:
+
+"Sound each" = "Sound each";
+
+
+// Settings Manager View Controller
+
+"Sound" = "Sound";
+"Sound scheme" = "Sound scheme";
+"Voice assist" = "Voice assist";
+"Vibration" = "Vibration";
+"Flashlight" = "Flashlight";
+"Screen flash" = "Screen flash";
+"Ducking" = "Ducking";
+"Rotation" = "Rotation";
+"Time format" = "Time format";
+"Visual style" = "Visual style";
+"Light gray" = "Light gray";
+"Gray" = "Gray";
+"Dark gray" = "Dark gray";
+"Black" = "Black";
+"Rose" = "Rose";
+"Violet" = "Violet";
+"Back" = "Back";
+"Air Horn" = "Air Horn";
+"Beep" = "Beep";
+"Boxing Bell" = "Boxing Bell";
+"Buzzer" = "Buzzer";
+"Censor" = "Censor";
+"Chinese Gong" = "Chinese Gong";
+"Ding" = "Ding";
+"Double Ding" = "Double Ding";
+"Metal Ding" = "Metal Ding";
+"Punch" = "Punch";
+"Referee Whistle" = "Referee Whistle";
+"Siren Horn" = "Siren Horn";
+"Sports Whistle" = "Sports Whistle";
+"Tone" = "Tone";
+"Flashlight works only in foreground mode" = "Flashlight works only in foreground mode";
+"Reduce music volume during alert" = "Reduce music volume during alert";
+"Allow the screen to rotate during workout" = "Allow the screen to rotate during workout";
+
+
+// More Tab Bar View Controller
+
+
+"More" = "More";
+"Stay connected with VGFIT" = "Stay connected with VGFIT";
+"Rate us" = "Rate us";
+"Send feedback" = "Send feedback";
+"Tell a friend" = "Tell a friend";
+"Share on Facebook" = "Share on Facebook";
+"Tweet about us" = "Tweet about us";
+"Six Pack Abs by VGFIT" = "Six Pack Abs by VGFIT";
+"Fitness & Bodybuilding" = "Fitness & Bodybuilding";
+"Female Fitness" = "Female Fitness";
+"Yoga by VGFIT" = "Yoga by VGFIT";
+"7 Minutes by VGFIT" = "7 Minutes by VGFIT";
+"No Mail Accounts" = "No Mail Accounts";
+"Please set up a Mail account in order to send email." = "Please set up a Mail account in order to send email.";
+"Timer Pro by VGFIT" = "Timer Pro by VGFIT";
+"Device model" = " Device model ";
+"iOS Version" = " iOS Version ";
+"Application Version" = " Application Version ";
+"Check out this amazing app for iOS device !" = " Check out this amazing app for iOS device ! ";
+"Check out this amazing Timer Pro application for your iOS device !" = " Check out this amazing Timer Pro application for your iOS device ! ";
+"Notification" = " Notification";
+"Please login to your Facebook account from your device settings." = " Please login to your Facebook account from your device settings. ";
+"OK" = "OK";
+"Oops" = "Oops";
+"The application can't send a tweet at the moment. This is because it cannot reach Twitter or you don't have a Twitter account associated with this device" = " The application can't send a tweet at the moment. This is because it cannot reach Twitter or you don't have a Twitter account associated with this device";
+
+
+
+
+// Timer Pro New Design
+
+
+"Start" = "Start";
+"Stop" = "Stop";
+"Add" = "Add";
+"Enter name tabata workout" = "Enter name tabata workout";
+"Enter name rounds workout" = "Enter name rounds workout";
+"Enter name stopwatch workout" = "Enter name stopwatch workout";
+"Settings" = "Settings";
+"Up next" = "Up next";
+"Workout done" = "Workout done";
+
+
+// Water Reminder
+
+"Water Reminder" = "Water Reminder";
+
+
+// Share app
+
+"Share app" = "Share app";
+
+
+// Health Kit
+
+"WARNING!" = "WARNING!";
+"App is not allowed to write data to the Health app. You can turn it on in the Health app" = "App is not allowed to write data to the Health app. You can turn it on in the Health app";
+"Open" = "Open";
+"Workout data is synced with Health app" = "Workout data is synced with Health app";
+
+

@@ -1,0 +1,198 @@
+/* 
+  Localizable.strings
+  
+
+  Created by Andrei on 10/5/17.
+  
+*/
+
+
+
+//Main Tabata View Controller:
+
+"Tabata" = "ทาบาตะ";
+"Prepare" = "เตรียมพร้อม";
+"Work" = "ออกกำลัง";
+"Rest" = "พัก";
+"Rest BC" = "พัก BC";
+"Rounds left" = "รอบที่เหลือ";
+"Cycles left" = "วงรอบที่เหลือ";
+"Play" = "เล่น";
+"Resume" = "หยุดพัก";
+"Pause" = "หยุดชั่วคราว";
+"Reset" = "รีเซ็ต";
+"Do you want to reset the timer?" = "คุณต้องการรีเซ็ตตัวจับเวลาใช่หรือไม่?";
+"Yes" = "ใช่";
+
+
+// Main Rounds View Controller:
+
+"Rounds" = "รอบ";
+
+
+// Main Stopwatch View Controller:
+
+"Stopwatch" = "นาฬิกาจับเวลา";
+"Time lap" = "เวลาที่เลือก";
+
+
+// Tabata Intervals View Controller:
+
+"Cancel" = "ยกเลิก";
+"Save" = "บันทึก";
+"Intervals" = "ช่วงเวลา";
+"My workouts" = "การออกกำลังกายของฉัน";
+"Cycles" = "วงรอบ";
+"Rest between cycles" = "ช่วงพักระหว่างวงรอบ";
+"Countdown before you start" = "นับถอยหลังก่อนเริ่มต้น";
+"Do exercises for this long" = "ออกกำลังกายนานเท่านี้";
+"Rest for this long" = "พักนานเท่านี้";
+"One round is work + rest" = "หนึ่งรอบ = ออกกำลัง + พัก";
+"One cycle is" = "หนึ่งวงรอบ =";
+"rounds" = "รอบ";
+//"One cycle is 2 rounds" = "หนึ่งวงรอบ = 2 รอบ";
+"Recovery interval" = "ช่วงเวลาการฟื้นคืน";
+"Edit" = "แก้ไข";
+"Delete" = "ลบ";
+"Add new timer" = "เพิ่มตัวจับเวลาใหม่";
+"Tabata workout" = "การออกกำลังกายแบบทาบาตะ";
+
+
+// Add New Timer Tabata View Controller:
+
+"Name" = "ชื่อ";
+
+// Rounds Intervals View Controller:
+
+"Rounds workout" = "รอบการออกกำลังกาย";
+
+// Stopwatch Intervals View Controller:
+
+"Stopwatch workout" = "นาฬิกาจับเวลาการออกกำลังกาย";
+
+// Prepare Time View Controller:
+
+"Done" = "เสร็จสิ้น";
+"Min" = "นาที";
+"Sec" = "วินาที";
+"Default" = "ค่าเริ่มต้น";
+"Yellow" = "สีเหลือง";
+"Green" = "สีเขียว";
+"Blue" = "สีน้ำเงิน";
+"Turquoise" = "สีเทอร์ควอยซ์";
+"Red" = "สีแดง";
+
+
+// Rounds Intervals View Controller:
+
+"Work for this long" = "ออกกำลังกายนานเท่านี้";
+
+// Stopwatch Intervals View Controller:
+
+"Clock will make a sound at each lap" = "นาฬิกาจะส่งเสียงในแต่ละรอบ";
+
+// Sound Each View Controller:
+
+"Sound each" = "เสียงทุก ๆ";
+
+
+// Settings Manager View Controller
+
+"Sound" = "เสียง";
+"Sound scheme" = "ประเภทเสียง";
+"Voice assist" = "ผู้ช่วยเสียง";
+"Vibration" = "การสั่น";
+"Flashlight" = "ไฟฉาย";
+"Screen flash" = "หน้าจอกะพริบ";
+"Ducking" = "เสียงลดลง";
+"Rotation" = "การหมุน";
+"Time format" = "รูปแบบการจับเวลา";
+"Visual style" = "สไตล์ภาพ";
+"Light gray" = "สีเทาอ่อน";
+"Gray" = "สีเทา";
+"Dark gray" = "สีเทาเข้ม";
+"Black" = "สีดำ";
+"Rose" = "สีกุหลาบ";
+"Violet" = "สีม่วง";
+"Back" = "กลับ";
+"Air Horn" = "แตรลม";
+"Beep" = "ปี๊บ";
+"Boxing Bell" = "ระฆังมวย";
+"Buzzer" = "เสียงออด";
+"Censor" = "เซ็นเซอร์";
+"Chinese Gong" = "ฆ้อง";
+"Ding" = "ติ๊ง";
+"Double Ding" = "ติ๊ง ติ๊ง";
+"Metal Ding" = "เสียงเคาะโลหะ";
+"Punch" = "เสียงชกมวย";
+"Referee Whistle" = "เสียงเป่านกหวีด";
+"Siren Horn" = "เสียงไซเรน";
+"Sports Whistle" = "นกหวีดกีฬา";
+"Tone" = "โทนเสียง";
+"Flashlight works only in foreground mode" = "ไฟฉายทำงานเฉพาะในโหมดเบื้องหน้าเท่านั้น";
+"Reduce music volume during alert" = "ลดระดับเสียงเพลงในระหว่างการแจ้งเตือน";
+"Allow the screen to rotate during workout" = "อนุญาตให้หน้าจอหมุนเอียงระหว่างการออกกำลังกาย";
+
+
+// More Tab Bar View Controller
+
+
+"More" = "เพิ่มเติม";
+"Stay connected with VGFIT" = "เชื่อมต่อกับ VGFIT";
+"Rate us" = "ให้คะแนนเรา";
+"Send feedback" = "ส่งข้อเสนอแนะ";
+"Tell a friend" = "บอกเพื่อน";
+"Share on Facebook" = "แชร์บน Facebook";
+"Tweet about us" = "ทวีตเกี่ยวกับเรา";
+"Six Pack Abs by VGFIT" = "Six Pack Abs โดย VGFIT";
+"Fitness & Bodybuilding" = "ฟิตเนสและการเพาะกาย";
+"Female Fitness" = "ฟิตเนสสำหรับผู้หญิง";
+"Yoga by VGFIT" = "โยคะโดย VGFIT";
+"7 Minutes by VGFIT" = "7 นาทีโดย VGFIT";
+"No Mail Accounts" = "ไม่มีบัญชีอีเมล";
+"Please set up a Mail account in order to send email." = "กรุณาตั้งค่าบัญชีอีเมลเพื่อส่งอีเมล";
+"Timer Pro by VGFIT" = " Timer Pro โดย VGFIT ";
+"Device model" = " รุ่นอุปกรณ์ ";
+"iOS Version" = " รุ่น iOS ";
+"Application Version" = " รุ่นแอพพลิเคชัน ";
+"Check out this amazing app for iOS device !" = " เข้ามาดูแอพที่น่าตื่นตาตื่นใจนี้สำหรับอุปกรณ์ iOS ของคุณ ! ";
+"Check out this amazing Timer Pro application for your iOS device !" = " เข้ามาดูแอพพลิเคชัน Timer Pro ที่น่าตื่นตาตื่นใจนี้สำหรับอุปกรณ์ iOS ของคุณ ! ";
+"Notification" = " การแจ้งเตือน";
+"Please login to your Facebook account from your device settings." = " กรุณาเข้าสู่ระบบบัญชี Facebook ของคุณจากการตั้งค่าอุปกรณ์ของคุณ ";
+"OK" = "ตกลง";
+"Oops" = "อุ๊ปส์";
+"The application can't send a tweet at the moment. This is because it cannot reach Twitter or you don't have a Twitter account associated with this device" = " แอพพลิเคชั่นไม่สามารถส่งทวีตได้ในขณะนี้ เพราะมันไม่สามารถเข้าถึงทวิตเตอร์หรือคุณไม่มีบัญชีทวิตเตอร์บนอุปกรณ์นี้";
+
+
+
+
+// Timer Pro New Design
+
+
+"Start" = "เริ่ม";
+"Stop" = "หยุด";
+"Add" = "เพิ่ม";
+"Enter name tabata workout" = "ป้อนชื่อการออกกำลังกายแบบทาบาตะ";
+"Enter name rounds workout" = "ป้อนชื่อรอบการออกกำลังกาย";
+"Enter name stopwatch workout" = "ป้อนชื่อนาฬิกาจับเวลาการออกกำลังกาย";
+"Settings" = "การตั้งค่า";
+"Up next" = "ถัดไป";
+"Workout done" = "เสร็จสิ้นท่ากายบริหาร";
+
+
+// Water Reminder
+
+"Water Reminder" = "เตือนดื่มน้ำ";
+
+// Share app
+
+"Share app" = "แชร์แอพ";
+
+
+// Health Kit
+
+"WARNING!" = "WARNING!";
+"App is not allowed to write data to the Health app. You can turn it on in the Health app" = "App is not allowed to write data to the Health app. You can turn it on in the Health app";
+"Open" = "Open";
+"Workout data is synced with Health app" = "Workout data is synced with Health app";
+

@@ -1,0 +1,195 @@
+/* 
+  Localizable.strings
+  
+
+  Created by Andrei on 10/5/17.
+  
+*/
+
+
+//Main Tabata View Controller:
+
+"Tabata" = "高強度間歇訓練";
+"Prepare" = "準備";
+"Work" = "鍛煉";
+"Rest" = "休息";
+"Rest BC" = "休息 官匹";
+"Rounds left" = "剩餘週期";
+"Cycles left" = "剩餘循環";
+"Play" = "播放";
+"Resume" = "恢復";
+"Pause" = "暫停";
+"Reset" = "重設";
+"Do you want to reset the timer?" = "您是否要重設計時器？";
+"Yes" = "是的";
+
+
+// Main Rounds View Controller:
+
+"Rounds" = "週期";
+
+
+// Main Stopwatch View Controller:
+
+"Stopwatch" = "秒秒錶";
+"Time lap" = "時間回圈";
+
+
+// Tabata Intervals View Controller:
+
+"Cancel" = "取消";
+"Save" = "儲存";
+"Intervals" = "間隔";
+"My workouts" = "我的鍛煉計劃";
+"Cycles" = "循環";
+"Rest between cycles" = "循環之間的休息";
+"Countdown before you start" = "開始前的倒數";
+"Do exercises for this long" = "運動時長";
+"Rest for this long" = "休息時長";
+"One round is work + rest" = "一個週期是鍛煉 + 休息";
+"One cycle is" = "一個循環是";
+"rounds" = "個週期";
+//"One cycle is 2 rounds" = "一個循環是2個週期";
+"Recovery interval" = "間歇恢復";
+"Edit" = "編輯";
+"Delete" = "刪除";
+"Add new timer" = "增加新的計時器";
+"Tabata workout" = "間歇訓練的鍛煉";
+
+// Add New Timer Tabata View Controller:
+
+"Name" = "名稱";
+
+// Rounds Intervals View Controller:
+
+"Rounds workout" = "鍛煉週期";
+
+// Stopwatch Intervals View Controller:
+
+"Stopwatch workout" = "秒錶鍛煉";
+
+// Prepare Time View Controller:
+
+"Done" = "完成";
+"Min" = "分鐘";
+"Sec" = "秒";
+"Default" = "默認";
+"Yellow" = "黃色";
+"Green" = "青色";
+"Blue" = "藍色";
+"Turquoise" = "青綠色";
+"Red" = "紅色";
+
+
+// Rounds Intervals View Controller:
+
+"Work for this long" = "鍛煉時長";
+
+// Stopwatch Intervals View Controller:
+
+"Clock will make a sound at each lap" = "時鐘會在每個迴圈響一次聲";
+
+// Sound Each View Controller:
+
+"Sound each" = "響聲每";
+
+
+// Settings Manager View Controller
+
+"Sound" = "聲響";
+"Sound scheme" = "聲響類型";
+"Voice assist" = "語音協助";
+"Vibration" = "振動";
+"Flashlight" = "閃光";
+"Screen flash" = "閃光燈屏";
+"Ducking" = "閃避";
+"Rotation" = "旋轉";
+"Time format" = "計時器格式";
+"Visual style" = "視覺形式";
+"Light gray" = "淺灰";
+"Gray" = "灰色";
+"Dark gray" = "深灰";
+"Black" = "黑色";
+"Rose" = "玫瑰色";
+"Violet" = "紫羅蘭色";
+"Back" = "返回";
+"Air Horn" = "汽笛";
+"Beep" = "嗶嗶聲";
+"Boxing Bell" = "拳擊鈴聲";
+"Buzzer" = "嗡嗡聲";
+"Censor" = "感應器";
+"Chinese Gong" = "鑼聲";
+"Ding" = "叮叮聲";
+"Double Ding" = "雙叮聲";
+"Metal Ding" = "金屬聲";
+"Punch" = "拳擊聲";
+"Referee Whistle" = "裁判哨聲";
+"Siren Horn" = "警報聲";
+"Sports Whistle" = "運動哨聲";
+"Tone" = "聲調";
+"Flashlight works only in foreground mode" = "閃光只在前台模式中運作";
+"Reduce music volume during alert" = "警示時減低音量";
+"Allow the screen to rotate during workout" = "鍛煉時允許熒幕旋轉";
+
+// More Tab Bar View Controller
+
+
+"More" = "更多";
+"Stay connected with VGFIT" = "時時得到VGFIT的消息";
+"Rate us" = "評價";
+"Send feedback" = "發送意見";
+"Tell a friend" = "告訴朋友";
+"Share on Facebook" = "在Facebook分享";
+"Tweet about us" = "推特我們";
+"Six Pack Abs by VGFIT" = "Six Pack Abs by VGFIT";
+"Fitness & Bodybuilding" = "健身與鍛煉";
+"Female Fitness" = "女性健身";
+"Yoga by VGFIT" = "VGFIT的瑜伽";
+"7 Minutes by VGFIT" = "VGFIT的7分鐘";
+"No Mail Accounts" = "無郵件賬戶";
+"Please set up a Mail account in order to send email." = "請設立一個郵件賬戶以發送電郵。 ";
+"Timer Pro by VGFIT" = " VGFIT的專業計時器 ";
+"Device model" = "設備模型";
+"iOS Version" = " iOS 版本 ";
+"Application Version" = " 應用程序版本";
+"Check out this amazing app for iOS device !" = " 看一看這個iOS設備上的神奇應用程序! ";
+"Check out this amazing Timer Pro application for your iOS device !" = " 看一看這個為您iOS設備而設的專業計時器應用程序! ";
+"Notification" = "通知";
+"Please login to your Facebook account from your device settings." = "請從您的設備設定中登入您的Facebook賬戶。";
+"OK" = "好的";
+"Oops" = "哎呀";
+"The application can't send a tweet at the moment. This is because it cannot reach Twitter or you don't have a Twitter account associated with this device" = "此應用程序尚不能發送推特。這是由於它無法連接推特，或是您沒有連接此設備的推特賬戶。";
+
+
+
+// Timer Pro New Design
+
+
+"Start" = "開始";
+"Stop" = "停止";
+"Add" = "增加";
+"Enter name tabata workout" = "輸入間歇訓練的名稱";
+"Enter name rounds workout" = "輸入周期鍛煉的名稱";
+"Enter name stopwatch workout" = "輸入秒錶鍛煉的名稱";
+"Settings" = "設定";
+"Up next" = "接下來";
+"Workout done" = "鍛煉完成";
+
+
+
+// Water Reminder
+
+"Water Reminder" = "水提醒";
+
+
+// Share app
+
+"Share app" = "分享應用程序";
+
+
+// Health Kit
+
+"WARNING!" = "WARNING!";
+"App is not allowed to write data to the Health app. You can turn it on in the Health app" = "App is not allowed to write data to the Health app. You can turn it on in the Health app";
+"Open" = "Open";
+"Workout data is synced with Health app" = "Workout data is synced with Health app";

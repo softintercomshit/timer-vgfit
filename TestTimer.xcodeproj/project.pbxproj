@@ -1,0 +1,2604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		009836531CB7D3F200616159 /* DatabaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 009836511CB7D3F200616159 /* DatabaseManager.m */; };
+		009836561CB7D40C00616159 /* TimerModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 009836541CB7D40C00616159 /* TimerModel.xcdatamodeld */; };
+		0099C4A81CA176AE00E04B3E /* CustomHeaderTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0099C4A61CA176AE00E04B3E /* CustomHeaderTableViewCell.m */; };
+		0099C4A91CA176AE00E04B3E /* CustomHeaderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0099C4A71CA176AE00E04B3E /* CustomHeaderTableViewCell.xib */; };
+		00A57E321CAD3DF1000D9009 /* CircleTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A57E311CAD3DF1000D9009 /* CircleTimer.m */; };
+		00A810E71C6E0D3800FB7C5D /* AppTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A810E61C6E0D3800FB7C5D /* AppTheme.m */; };
+		00A810EC1C6E145B00FB7C5D /* ColorSchemeCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A810EA1C6E145B00FB7C5D /* ColorSchemeCustomCell.m */; };
+		00A810ED1C6E145B00FB7C5D /* ColorSchemeCustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00A810EB1C6E145B00FB7C5D /* ColorSchemeCustomCell.xib */; };
+		00B1D9E71C33B98F009415EB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B1D9E61C33B98F009415EB /* main.m */; };
+		00CE8DDC1C7C83CC00E71A7F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00CE8DDA1C7C83CC00E71A7F /* Main.storyboard */; };
+		00E27C311C9C5B35001698D4 /* CustomIntervalsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E27C2F1C9C5B35001698D4 /* CustomIntervalsTableViewCell.m */; };
+		00E27C321C9C5B35001698D4 /* CustomIntervalsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00E27C301C9C5B35001698D4 /* CustomIntervalsTableViewCell.xib */; };
+		0A8032631FE3071900C21E82 /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8032621FE3071900C21E82 /* MainController.swift */; };
+		0A8032651FE30B2B00C21E82 /* TimerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8032641FE30B2B00C21E82 /* TimerRow.swift */; };
+		0A80326B1FE317D400C21E82 /* TabataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A80326A1FE317D400C21E82 /* TabataController.swift */; };
+		0A80326D1FE3180200C21E82 /* RoundsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A80326C1FE3180200C21E82 /* RoundsController.swift */; };
+		0A80326F1FE3180E00C21E82 /* StopWatchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A80326E1FE3180E00C21E82 /* StopWatchController.swift */; };
+		0A8032711FE31A7900C21E82 /* TabataRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8032701FE31A7900C21E82 /* TabataRow.swift */; };
+		0A8032751FE31E8800C21E82 /* StopWatchRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8032741FE31E8800C21E82 /* StopWatchRow.swift */; };
+		0A80327A1FE3329400C21E82 /* NSNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8032791FE3329400C21E82 /* NSNumber.swift */; };
+		75012C681F82225100D23242 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 75012C671F82223700D23242 /* AppDelegate.m */; };
+		75025D5C202B09B100440457 /* HeaderTabataRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75025D5B202B09B100440457 /* HeaderTabataRow.swift */; };
+		750875FF1FC2FA440049B446 /* SettingsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 750875F21FC2FA430049B446 /* SettingsManager.m */; };
+		750876001FC2FA440049B446 /* SettingsManagerTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 750875F51FC2FA430049B446 /* SettingsManagerTableViewCell.m */; };
+		750876011FC2FA440049B446 /* SettingsManagerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 750875F61FC2FA430049B446 /* SettingsManagerTableViewCell.xib */; };
+		750876031FC2FA440049B446 /* SoundPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 750875FB1FC2FA430049B446 /* SoundPickerViewController.m */; };
+		750876041FC2FA440049B446 /* TimeFormatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 750875FE1FC2FA430049B446 /* TimeFormatViewController.m */; };
+		7508760A1FC2FABF0049B446 /* SettingsManagerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 750876091FC2FABF0049B446 /* SettingsManagerViewController.m */; };
+		7508760E1FC2FCEE0049B446 /* SettingsManagerImplementation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7508760D1FC2FCEE0049B446 /* SettingsManagerImplementation.m */; };
+		751B6AD31FCD484C002B3DC7 /* NSLayoutConstraint+Multiplier.m in Sources */ = {isa = PBXBuildFile; fileRef = 751B6AD21FCD484C002B3DC7 /* NSLayoutConstraint+Multiplier.m */; };
+		751D1429200F34BF001158A1 /* RoundsTimerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751D1428200F34BF001158A1 /* RoundsTimerController.swift */; };
+		751D142B200F3514001158A1 /* RoundsNextUpDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751D142A200F3514001158A1 /* RoundsNextUpDataModel.swift */; };
+		751D142D200F354E001158A1 /* StopwatchTimerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751D142C200F354E001158A1 /* StopwatchTimerController.swift */; };
+		75241E0F1FE1910200CF21EE /* TestTimerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75241E0E1FE1910200CF21EE /* TestTimerUITests.swift */; };
+		75241E171FE1915A00CF21EE /* SnapshotHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75241E161FE1915A00CF21EE /* SnapshotHelper.swift */; };
+		752451AA1FF7A2EF00C673FF /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2CFCF91DD99DF9007036A6 /* Constants.m */; };
+		752451AB1FF7CA8000C673FF /* TabatasWorkouts.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9F1E441CF734180007DC5B /* TabatasWorkouts.m */; };
+		75258DB4205BB02F005D4FB2 /* TabataWorkout.m in Sources */ = {isa = PBXBuildFile; fileRef = 75258DB3205BB02F005D4FB2 /* TabataWorkout.m */; };
+		75258DB7205BB4C3005D4FB2 /* WorkoutSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 75258DB6205BB4C3005D4FB2 /* WorkoutSession.m */; };
+		75258DBA205BC086005D4FB2 /* WorkoutDataStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 75258DB9205BC086005D4FB2 /* WorkoutDataStore.m */; };
+		75258DBB205C1F61005D4FB2 /* HealthKitSetupAssistant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759475F2205A7FF400AE2D4A /* HealthKitSetupAssistant.swift */; };
+		75262AE71FE7F78C00F95D0F /* ConnectivityHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75262AE61FE7F78C00F95D0F /* ConnectivityHandler.swift */; };
+		752BEE7B1FE2CA85001523E8 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 752BEE791FE2CA84001523E8 /* Interface.storyboard */; };
+		752BEE7D1FE2CA85001523E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 752BEE7C1FE2CA85001523E8 /* Assets.xcassets */; };
+		752BEE841FE2CA85001523E8 /* TestTimerWatch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 752BEE831FE2CA85001523E8 /* TestTimerWatch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		752BEE8B1FE2CA85001523E8 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752BEE8A1FE2CA85001523E8 /* ExtensionDelegate.swift */; };
+		752BEE8D1FE2CA85001523E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 752BEE8C1FE2CA85001523E8 /* Assets.xcassets */; };
+		752BEE911FE2CA85001523E8 /* TestTimerWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 752BEE771FE2CA84001523E8 /* TestTimerWatch.app */; };
+		753127971FE01F7C003E83FA /* UIDevice+Hardware.m in Sources */ = {isa = PBXBuildFile; fileRef = 753127961FE01F7C003E83FA /* UIDevice+Hardware.m */; };
+		7531279C1FE01FD1003E83FA /* RateUsButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7531279B1FE01FD1003E83FA /* RateUsButton.m */; };
+		7531279F1FE02007003E83FA /* AppDelegate+RateButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7531279E1FE02006003E83FA /* AppDelegate+RateButton.m */; };
+		75358E2F1FC6B632000042CD /* RoundsObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 75358E2E1FC6B632000042CD /* RoundsObject.m */; };
+		75358E331FC6C130000042CD /* RoundsIntervalsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75358E311FC6C12F000042CD /* RoundsIntervalsViewController.m */; };
+		75358E371FC6FFB9000042CD /* RoundsUpNextDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 75358E361FC6FFB9000042CD /* RoundsUpNextDataModel.m */; };
+		7538DA5C1FB05088007C59B6 /* RoundsTimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7538DA5B1FB05088007C59B6 /* RoundsTimerViewController.m */; };
+		7538DA601FB0511C007C59B6 /* RoundsPortraitView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7538DA5F1FB0511C007C59B6 /* RoundsPortraitView.m */; };
+		7538DA661FB056C6007C59B6 /* CircleRoundsTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7538DA651FB056C6007C59B6 /* CircleRoundsTimer.m */; };
+		7538DA691FB056DA007C59B6 /* CircleRoundsCount.m in Sources */ = {isa = PBXBuildFile; fileRef = 7538DA681FB056DA007C59B6 /* CircleRoundsCount.m */; };
+		7538DA6C1FB056F5007C59B6 /* RoundsLandscapeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7538DA6B1FB056F5007C59B6 /* RoundsLandscapeView.m */; };
+		7538DA721FB05FD9007C59B6 /* CircleCyclesEnumerate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7538DA711FB05FD9007C59B6 /* CircleCyclesEnumerate.m */; };
+		7538DA751FB05FF3007C59B6 /* CircleRoundsEnumerate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7538DA741FB05FF3007C59B6 /* CircleRoundsEnumerate.m */; };
+		7538DA781FB06006007C59B6 /* CircleTabataTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7538DA771FB06006007C59B6 /* CircleTabataTimer.m */; };
+		7538DA7F1FB06790007C59B6 /* StopwatchTimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7538DA7E1FB06790007C59B6 /* StopwatchTimerViewController.m */; };
+		7538DA821FB067E7007C59B6 /* StopwatchPortraitView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7538DA811FB067E7007C59B6 /* StopwatchPortraitView.m */; };
+		7538DA851FB067FC007C59B6 /* StopwatchLandscapeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7538DA841FB067FC007C59B6 /* StopwatchLandscapeView.m */; };
+		7538DA881FB0684B007C59B6 /* CircleStopwatchTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7538DA871FB0684B007C59B6 /* CircleStopwatchTimer.m */; };
+		754273212022FD6E001C4D2A /* SKColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7542731E2022FD6E001C4D2A /* SKColor.swift */; };
+		754273222022FD6E001C4D2A /* CGFloat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7542731F2022FD6E001C4D2A /* CGFloat.swift */; };
+		754273232022FD6E001C4D2A /* SKRingNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754273202022FD6E001C4D2A /* SKRingNode.swift */; };
+		75427331202300D1001C4D2A /* SKAction+SpecialEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75427325202300CE001C4D2A /* SKAction+SpecialEffects.swift */; };
+		75427332202300D1001C4D2A /* SKNode+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75427326202300CF001C4D2A /* SKNode+Extensions.swift */; };
+		75427333202300D1001C4D2A /* SKTAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75427327202300CF001C4D2A /* SKTAudio.swift */; };
+		75427334202300D1001C4D2A /* CGPoint+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75427328202300CF001C4D2A /* CGPoint+Extensions.swift */; };
+		75427335202300D1001C4D2A /* CGFloat+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75427329202300D0001C4D2A /* CGFloat+Extensions.swift */; };
+		75427336202300D1001C4D2A /* SKAction+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7542732A202300D0001C4D2A /* SKAction+Extensions.swift */; };
+		75427337202300D1001C4D2A /* SKTTimingFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7542732B202300D0001C4D2A /* SKTTimingFunctions.swift */; };
+		75427338202300D1001C4D2A /* CGVector+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7542732C202300D1001C4D2A /* CGVector+Extensions.swift */; };
+		75427339202300D1001C4D2A /* SKColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7542732D202300D1001C4D2A /* SKColor+Extensions.swift */; };
+		7542733A202300D1001C4D2A /* SKTEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7542732E202300D1001C4D2A /* SKTEffects.swift */; };
+		7542733B202300D1001C4D2A /* Int+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7542732F202300D1001C4D2A /* Int+Extensions.swift */; };
+		7542733C202300D1001C4D2A /* Vector3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75427330202300D1001C4D2A /* Vector3.swift */; };
+		754A92252020A474009FBB09 /* CircleScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754A92242020A474009FBB09 /* CircleScene.swift */; };
+		754A92272020A529009FBB09 /* CircleType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754A92262020A529009FBB09 /* CircleType.swift */; };
+		754BDAB22036BF2A00CDD811 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 754BDAB12036BF2A00CDD811 /* HealthKit.framework */; };
+		754BDAB52036C61400CDD811 /* HealthKitBackgroundManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754BDAB42036C61400CDD811 /* HealthKitBackgroundManager.swift */; };
+		754FD0BD2061027800566384 /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754FD0BC2061027800566384 /* Workout.swift */; };
+		754FD0BF2061031E00566384 /* WatchWorkoutSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754FD0BE2061031E00566384 /* WatchWorkoutSession.swift */; };
+		754FD0C1206103A700566384 /* WatchWorkoutDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754FD0C0206103A700566384 /* WatchWorkoutDataStore.swift */; };
+		7552993C20244F8A0079842C /* DispatchQueue+Once.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7552993B20244F890079842C /* DispatchQueue+Once.swift */; };
+		755C6D872057DAF00010BEF3 /* BundleImageLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 755C6D862057DAF00010BEF3 /* BundleImageLoader.m */; };
+		755E15741FB349DD003BE434 /* TimerObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 755E15731FB349DC003BE434 /* TimerObject.m */; };
+		755E15791FB35295003BE434 /* TabataObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 755E15781FB35295003BE434 /* TabataObject.m */; };
+		7562DEAC1FE94170008780DE /* AppleWatchClassesHandlers.m in Sources */ = {isa = PBXBuildFile; fileRef = 7562DEAB1FE94170008780DE /* AppleWatchClassesHandlers.m */; };
+		756ABDA320109EE1004836C5 /* StopwatchNextUpDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756ABDA220109EE1004836C5 /* StopwatchNextUpDataModel.swift */; };
+		756DC41F2032D9C3004EE99E /* HeaderRoundsRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756DC41E2032D9C3004EE99E /* HeaderRoundsRow.swift */; };
+		756DC4212032F1BD004EE99E /* HeaderStopwatchRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756DC4202032F1BD004EE99E /* HeaderStopwatchRow.swift */; };
+		7571D8A52031EFFA000086A3 /* AvenirNextLTPro-It.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7571D8A42031EFFA000086A3 /* AvenirNextLTPro-It.otf */; };
+		7571D8A62031EFFA000086A3 /* AvenirNextLTPro-It.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7571D8A42031EFFA000086A3 /* AvenirNextLTPro-It.otf */; };
+		7571D8A72031EFFA000086A3 /* AvenirNextLTPro-It.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7571D8A42031EFFA000086A3 /* AvenirNextLTPro-It.otf */; };
+		7571D8A92031F10B000086A3 /* AvenirNextLTPro-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7571D8A82031F10B000086A3 /* AvenirNextLTPro-Bold.otf */; };
+		7571D8AA2031F10B000086A3 /* AvenirNextLTPro-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7571D8A82031F10B000086A3 /* AvenirNextLTPro-Bold.otf */; };
+		7571D8AB2031F10B000086A3 /* AvenirNextLTPro-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7571D8A82031F10B000086A3 /* AvenirNextLTPro-Bold.otf */; };
+		7571D8AD2031F113000086A3 /* AvenirNextLTPro-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7571D8AC2031F112000086A3 /* AvenirNextLTPro-Regular.otf */; };
+		7571D8AE2031F113000086A3 /* AvenirNextLTPro-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7571D8AC2031F112000086A3 /* AvenirNextLTPro-Regular.otf */; };
+		7571D8AF2031F113000086A3 /* AvenirNextLTPro-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7571D8AC2031F112000086A3 /* AvenirNextLTPro-Regular.otf */; };
+		75740F79204FEEB80056FCA0 /* HeaderTimerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75740F78204FEEB80056FCA0 /* HeaderTimerRow.swift */; };
+		7575767D1FF2402A00CCD1C5 /* TimerObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7575767C1FF2402A00CCD1C5 /* TimerObject.swift */; };
+		757A0B9E1FB3158400B3FF44 /* MainIpadStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 757A0B9D1FB3158400B3FF44 /* MainIpadStoryboard.storyboard */; };
+		757A9211205A9BB8006BC195 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 757A9210205A9BB8006BC195 /* HealthKit.framework */; };
+		757C4AC01FEAB45D00C4BF71 /* RoundsRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757C4ABF1FEAB45D00C4BF71 /* RoundsRow.swift */; };
+		758468F62028431900BDBC36 /* TimerColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758468F52028431900BDBC36 /* TimerColor.swift */; };
+		758BA7211FC32E63007BFA26 /* AppColorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 758BA7201FC32E63007BFA26 /* AppColorManager.m */; };
+		75915A381F9F5B6F00067C6A /* TabataTimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75915A371F9F5B6F00067C6A /* TabataTimerViewController.m */; };
+		75915A3D1F9F5C9300067C6A /* TabataPortraitView.m in Sources */ = {isa = PBXBuildFile; fileRef = 75915A3C1F9F5C9300067C6A /* TabataPortraitView.m */; };
+		75915A401F9F5CB200067C6A /* TabataLandscapeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 75915A3F1F9F5CB200067C6A /* TabataLandscapeView.m */; };
+		759475F3205A7FF400AE2D4A /* HealthKitSetupAssistant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759475F2205A7FF400AE2D4A /* HealthKitSetupAssistant.swift */; };
+		7599D6411F90D5ED00BB4CEB /* UITabBarController+Transpareable.m in Sources */ = {isa = PBXBuildFile; fileRef = 7599D6401F90D5ED00BB4CEB /* UITabBarController+Transpareable.m */; };
+		75A655111FD547F70067625C /* BeepSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 75A655101FD547F50067625C /* BeepSound.wav */; };
+		75B284721FED49B10013B013 /* TabataTimerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B284711FED49B10013B013 /* TabataTimerController.swift */; };
+		75B57ED01FD923840041A39A /* CustomNavigationBarUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B57ECF1FD923840041A39A /* CustomNavigationBarUIView.m */; };
+		75B57ED81FD949530041A39A /* AddNewTimerTabataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B57ED71FD949530041A39A /* AddNewTimerTabataViewController.m */; };
+		75B57EDC1FD9499C0041A39A /* AddNewTimerRoundsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B57EDB1FD9499C0041A39A /* AddNewTimerRoundsViewController.m */; };
+		75B57EE01FD949F70041A39A /* AddNewTimerStopWatchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B57EDF1FD949F70041A39A /* AddNewTimerStopWatchViewController.m */; };
+		75C2629C1F86784300EF9B9E /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C262981F86784100EF9B9E /* Extensions.swift */; };
+		75C2629D1F86784300EF9B9E /* NSString+Localization.m in Sources */ = {isa = PBXBuildFile; fileRef = 75C2629A1F86784200EF9B9E /* NSString+Localization.m */; };
+		75C2629E1F86784300EF9B9E /* Inspectable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C2629B1F86784200EF9B9E /* Inspectable.swift */; };
+		75C2E67D1FBC3D0C00DAA05C /* TabataIntervalsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75C2E67C1FBC3D0C00DAA05C /* TabataIntervalsViewController.m */; };
+		75C787131FE42CCA000866ED /* TestTimer-Bridging-Header.h in Sources */ = {isa = PBXBuildFile; fileRef = 75C787111FE42B3E000866ED /* TestTimer-Bridging-Header.h */; };
+		75C787141FE42E1C000866ED /* TestTimer-Bridging-Header.h in Sources */ = {isa = PBXBuildFile; fileRef = 75C787111FE42B3E000866ED /* TestTimer-Bridging-Header.h */; };
+		75D08C6D1FC85A0300478BB6 /* StopwatchUpNextDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D08C6C1FC85A0300478BB6 /* StopwatchUpNextDataModel.m */; };
+		75D08C701FC85A1100478BB6 /* StopwatchObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D08C6F1FC85A1100478BB6 /* StopwatchObject.m */; };
+		75D08C781FC85E5D00478BB6 /* StopWatchIntervalsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D08C761FC85E5D00478BB6 /* StopWatchIntervalsViewController.m */; };
+		75D994231FBAFDB0000FDD65 /* UpNextDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D994221FBAFDB0000FDD65 /* UpNextDataModel.m */; };
+		75D994261FBB50D7000FDD65 /* UINavigationController+Transparent.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D994251FBB50D7000FDD65 /* UINavigationController+Transparent.m */; };
+		75E7D1FD2004AD1A006177A9 /* NextUpDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E7D1FC2004AD19006177A9 /* NextUpDataModel.swift */; };
+		75EF030E1F8F59F6009B4CBA /* UIButton+Clipping.m in Sources */ = {isa = PBXBuildFile; fileRef = 75EF030D1F8F58E8009B4CBA /* UIButton+Clipping.m */; };
+		75FB871A1F87644E009D72D1 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 75C262871F86738100EF9B9E /* Localizable.strings */; };
+		C2D750EE3D5F54875F627FC4 /* libPods-TestTimer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A00DDD84206B04E8FCA8084 /* libPods-TestTimer.a */; };
+		CE00B2441DC724B100126DF4 /* CustomWorkoutTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE00B2421DC724B100126DF4 /* CustomWorkoutTableViewCell.m */; };
+		CE00B2451DC724B100126DF4 /* CustomWorkoutTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE00B2431DC724B100126DF4 /* CustomWorkoutTableViewCell.xib */; };
+		CE01C7511DB9128D00358266 /* MainAppConnectivity.m in Sources */ = {isa = PBXBuildFile; fileRef = CE01C7501DB9128D00358266 /* MainAppConnectivity.m */; };
+		CE09B94B1DB63910000E3A58 /* CyclesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE09B9351DB63910000E3A58 /* CyclesViewController.m */; };
+		CE09B94C1DB63910000E3A58 /* PrepareTimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE09B9381DB63910000E3A58 /* PrepareTimeViewController.m */; };
+		CE09B94D1DB63910000E3A58 /* RestBetweenCyclesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE09B93B1DB63910000E3A58 /* RestBetweenCyclesViewController.m */; };
+		CE09B94E1DB63910000E3A58 /* RestTimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE09B93E1DB63910000E3A58 /* RestTimeViewController.m */; };
+		CE09B94F1DB63910000E3A58 /* RoundsTimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE09B9411DB63910000E3A58 /* RoundsTimeViewController.m */; };
+		CE09B9501DB63910000E3A58 /* RoundsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE09B9441DB63910000E3A58 /* RoundsViewController.m */; };
+		CE09B9511DB63910000E3A58 /* SoundEachViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE09B9471DB63910000E3A58 /* SoundEachViewController.m */; };
+		CE09B9521DB63910000E3A58 /* WorkTimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE09B94A1DB63910000E3A58 /* WorkTimeViewController.m */; };
+		CE09B96C1DB63B1E000E3A58 /* SettingsManagerThemeCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE09B95C1DB63B1E000E3A58 /* SettingsManagerThemeCollectionViewCell.m */; };
+		CE09B96D1DB63B1E000E3A58 /* SettingsManagerThemeCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE09B95D1DB63B1E000E3A58 /* SettingsManagerThemeCollectionViewCell.xib */; };
+		CE09B96F1DB63B1E000E3A58 /* ShowSplashScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = CE09B9631DB63B1E000E3A58 /* ShowSplashScreen.m */; };
+		CE09B9761DB63C40000E3A58 /* NewCustomHeaderTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE09B9741DB63C40000E3A58 /* NewCustomHeaderTableViewCell.m */; };
+		CE09B9771DB63C40000E3A58 /* NewCustomHeaderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE09B9751DB63C40000E3A58 /* NewCustomHeaderTableViewCell.xib */; };
+		CE12F6311D9A84E6001A4099 /* MainUITabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE12F6301D9A84E6001A4099 /* MainUITabbarController.m */; };
+		CE2CFCFD1DD99DF9007036A6 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2CFCF91DD99DF9007036A6 /* Constants.m */; };
+		CE2CFCFE1DD99DF9007036A6 /* Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2CFCFC1DD99DF9007036A6 /* Utilities.m */; };
+		CE34F8491CFC4BED005527F8 /* RoundsWorkouts+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = CE34F8461CFC4BED005527F8 /* RoundsWorkouts+CoreDataProperties.m */; };
+		CE34F84A1CFC4BED005527F8 /* RoundsWorkouts.m in Sources */ = {isa = PBXBuildFile; fileRef = CE34F8481CFC4BED005527F8 /* RoundsWorkouts.m */; };
+		CE34F84F1CFC4C06005527F8 /* StopwatchWorkouts+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = CE34F84C1CFC4C06005527F8 /* StopwatchWorkouts+CoreDataProperties.m */; };
+		CE34F8501CFC4C06005527F8 /* StopwatchWorkouts.m in Sources */ = {isa = PBXBuildFile; fileRef = CE34F84E1CFC4C06005527F8 /* StopwatchWorkouts.m */; };
+		CE38FE281D99060600D806E7 /* AppInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = CE38FE271D99060600D806E7 /* AppInfo.m */; };
+		CE8C695E1D3CB2E10063202B /* Air Horn.wav in Resources */ = {isa = PBXBuildFile; fileRef = CE8C69501D3CB2E10063202B /* Air Horn.wav */; };
+		CE8C695F1D3CB2E10063202B /* Beep.wav in Resources */ = {isa = PBXBuildFile; fileRef = CE8C69511D3CB2E10063202B /* Beep.wav */; };
+		CE8C69601D3CB2E10063202B /* Boxing Bell.wav in Resources */ = {isa = PBXBuildFile; fileRef = CE8C69521D3CB2E10063202B /* Boxing Bell.wav */; };
+		CE8C69611D3CB2E10063202B /* Buzzer.wav in Resources */ = {isa = PBXBuildFile; fileRef = CE8C69531D3CB2E10063202B /* Buzzer.wav */; };
+		CE8C69621D3CB2E10063202B /* Censor.wav in Resources */ = {isa = PBXBuildFile; fileRef = CE8C69541D3CB2E10063202B /* Censor.wav */; };
+		CE8C69631D3CB2E10063202B /* Chinese Gong.wav in Resources */ = {isa = PBXBuildFile; fileRef = CE8C69551D3CB2E10063202B /* Chinese Gong.wav */; };
+		CE8C69641D3CB2E10063202B /* Ding.wav in Resources */ = {isa = PBXBuildFile; fileRef = CE8C69561D3CB2E10063202B /* Ding.wav */; };
+		CE8C69651D3CB2E10063202B /* Double Ding.wav in Resources */ = {isa = PBXBuildFile; fileRef = CE8C69571D3CB2E10063202B /* Double Ding.wav */; };
+		CE8C69661D3CB2E10063202B /* Metal Ding.wav in Resources */ = {isa = PBXBuildFile; fileRef = CE8C69581D3CB2E10063202B /* Metal Ding.wav */; };
+		CE8C69671D3CB2E10063202B /* Punch.wav in Resources */ = {isa = PBXBuildFile; fileRef = CE8C69591D3CB2E10063202B /* Punch.wav */; };
+		CE8C69681D3CB2E10063202B /* Referee Whistle.wav in Resources */ = {isa = PBXBuildFile; fileRef = CE8C695A1D3CB2E10063202B /* Referee Whistle.wav */; };
+		CE8C69691D3CB2E10063202B /* Siren Horn.wav in Resources */ = {isa = PBXBuildFile; fileRef = CE8C695B1D3CB2E10063202B /* Siren Horn.wav */; };
+		CE8C696A1D3CB2E10063202B /* Sports Whistle.wav in Resources */ = {isa = PBXBuildFile; fileRef = CE8C695C1D3CB2E10063202B /* Sports Whistle.wav */; };
+		CE8C696B1D3CB2E10063202B /* Tone.wav in Resources */ = {isa = PBXBuildFile; fileRef = CE8C695D1D3CB2E10063202B /* Tone.wav */; };
+		CE9F1E451CF734180007DC5B /* TabatasWorkouts+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9F1E421CF734180007DC5B /* TabatasWorkouts+CoreDataProperties.m */; };
+		CE9F1E461CF734180007DC5B /* TabatasWorkouts.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9F1E441CF734180007DC5B /* TabatasWorkouts.m */; };
+		CEA1CED41D48B379005E11AD /* MoreTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA1CED21D48B379005E11AD /* MoreTableViewCell.m */; };
+		CEA1CED51D48B379005E11AD /* MoreTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEA1CED31D48B379005E11AD /* MoreTableViewCell.xib */; };
+		CEA46E301DD9BFCA005FF654 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEA46E2F1DD9BFCA005FF654 /* CoreData.framework */; };
+		CEA7DE7D1D5CA41F0035D373 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEA7DE7C1D5CA41F0035D373 /* LaunchScreen.storyboard */; };
+		CEC0F4EA1D53184D003ABE48 /* ColorSchemeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC0F4E91D53184D003ABE48 /* ColorSchemeViewController.m */; };
+		CECF9C581D477A740002C392 /* MoreTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CECF9C571D477A740002C392 /* MoreTabBarViewController.m */; };
+		CEE1FAB91D93B4B000DEB0F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00B1D9F11C33B98F009415EB /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		75241E111FE1910200CF21EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00B1D9DA1C33B98F009415EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00B1D9E11C33B98F009415EB;
+			remoteInfo = TestTimer;
+		};
+		752BEE851FE2CA85001523E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00B1D9DA1C33B98F009415EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 752BEE821FE2CA85001523E8;
+			remoteInfo = "TestTimerWatch Extension";
+		};
+		752BEE8F1FE2CA85001523E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00B1D9DA1C33B98F009415EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 752BEE761FE2CA84001523E8;
+			remoteInfo = TestTimerWatch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		752BEE951FE2CA85001523E8 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				752BEE841FE2CA85001523E8 /* TestTimerWatch Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE01C74D1DB911B900358266 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				752BEE911FE2CA85001523E8 /* TestTimerWatch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		009836501CB7D3F200616159 /* DatabaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatabaseManager.h; sourceTree = "<group>"; };
+		009836511CB7D3F200616159 /* DatabaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatabaseManager.m; sourceTree = "<group>"; };
+		009836551CB7D40C00616159 /* TimerModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TimerModel.xcdatamodel; sourceTree = "<group>"; };
+		0099C4A51CA176AE00E04B3E /* CustomHeaderTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomHeaderTableViewCell.h; sourceTree = "<group>"; };
+		0099C4A61CA176AE00E04B3E /* CustomHeaderTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomHeaderTableViewCell.m; sourceTree = "<group>"; };
+		0099C4A71CA176AE00E04B3E /* CustomHeaderTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomHeaderTableViewCell.xib; sourceTree = "<group>"; };
+		00A57E301CAD3DF1000D9009 /* CircleTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleTimer.h; sourceTree = "<group>"; };
+		00A57E311CAD3DF1000D9009 /* CircleTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleTimer.m; sourceTree = "<group>"; };
+		00A810E51C6E0D3800FB7C5D /* AppTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppTheme.h; sourceTree = "<group>"; };
+		00A810E61C6E0D3800FB7C5D /* AppTheme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppTheme.m; sourceTree = "<group>"; };
+		00A810E91C6E145B00FB7C5D /* ColorSchemeCustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorSchemeCustomCell.h; sourceTree = "<group>"; };
+		00A810EA1C6E145B00FB7C5D /* ColorSchemeCustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorSchemeCustomCell.m; sourceTree = "<group>"; };
+		00A810EB1C6E145B00FB7C5D /* ColorSchemeCustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ColorSchemeCustomCell.xib; sourceTree = "<group>"; };
+		00B1D9E21C33B98F009415EB /* TestTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		00B1D9E61C33B98F009415EB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		00B1D9F11C33B98F009415EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		00B1D9F61C33B98F009415EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00CE8DDB1C7C83CC00E71A7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		00E27C2E1C9C5B35001698D4 /* CustomIntervalsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomIntervalsTableViewCell.h; sourceTree = "<group>"; };
+		00E27C2F1C9C5B35001698D4 /* CustomIntervalsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomIntervalsTableViewCell.m; sourceTree = "<group>"; };
+		00E27C301C9C5B35001698D4 /* CustomIntervalsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomIntervalsTableViewCell.xib; sourceTree = "<group>"; };
+		0A8032621FE3071900C21E82 /* MainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
+		0A8032641FE30B2B00C21E82 /* TimerRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerRow.swift; sourceTree = "<group>"; };
+		0A80326A1FE317D400C21E82 /* TabataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabataController.swift; sourceTree = "<group>"; };
+		0A80326C1FE3180200C21E82 /* RoundsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundsController.swift; sourceTree = "<group>"; };
+		0A80326E1FE3180E00C21E82 /* StopWatchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopWatchController.swift; sourceTree = "<group>"; };
+		0A8032701FE31A7900C21E82 /* TabataRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabataRow.swift; sourceTree = "<group>"; };
+		0A8032741FE31E8800C21E82 /* StopWatchRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopWatchRow.swift; sourceTree = "<group>"; };
+		0A8032791FE3329400C21E82 /* NSNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSNumber.swift; sourceTree = "<group>"; };
+		75012C661F82223700D23242 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		75012C671F82223700D23242 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		75025D5B202B09B100440457 /* HeaderTabataRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderTabataRow.swift; sourceTree = "<group>"; };
+		750875F11FC2FA430049B446 /* SettingsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsManager.h; sourceTree = "<group>"; };
+		750875F21FC2FA430049B446 /* SettingsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsManager.m; sourceTree = "<group>"; };
+		750875F41FC2FA430049B446 /* SettingsManagerTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsManagerTableViewCell.h; sourceTree = "<group>"; };
+		750875F51FC2FA430049B446 /* SettingsManagerTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsManagerTableViewCell.m; sourceTree = "<group>"; };
+		750875F61FC2FA430049B446 /* SettingsManagerTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsManagerTableViewCell.xib; sourceTree = "<group>"; };
+		750875FA1FC2FA430049B446 /* SoundPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundPickerViewController.h; sourceTree = "<group>"; };
+		750875FB1FC2FA430049B446 /* SoundPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoundPickerViewController.m; sourceTree = "<group>"; };
+		750875FD1FC2FA430049B446 /* TimeFormatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeFormatViewController.h; sourceTree = "<group>"; };
+		750875FE1FC2FA430049B446 /* TimeFormatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeFormatViewController.m; sourceTree = "<group>"; };
+		750876081FC2FABF0049B446 /* SettingsManagerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsManagerViewController.h; sourceTree = "<group>"; };
+		750876091FC2FABF0049B446 /* SettingsManagerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsManagerViewController.m; sourceTree = "<group>"; };
+		7508760C1FC2FCEE0049B446 /* SettingsManagerImplementation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingsManagerImplementation.h; sourceTree = "<group>"; };
+		7508760D1FC2FCEE0049B446 /* SettingsManagerImplementation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingsManagerImplementation.m; sourceTree = "<group>"; };
+		750876171FC302D80049B446 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		750876181FC302E90049B446 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		750876191FC303010049B446 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		7508761A1FC303170049B446 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		751B6AD11FCD484C002B3DC7 /* NSLayoutConstraint+Multiplier.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+Multiplier.h"; sourceTree = "<group>"; };
+		751B6AD21FCD484C002B3DC7 /* NSLayoutConstraint+Multiplier.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+Multiplier.m"; sourceTree = "<group>"; };
+		751D1428200F34BF001158A1 /* RoundsTimerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundsTimerController.swift; sourceTree = "<group>"; };
+		751D142A200F3514001158A1 /* RoundsNextUpDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundsNextUpDataModel.swift; sourceTree = "<group>"; };
+		751D142C200F354E001158A1 /* StopwatchTimerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopwatchTimerController.swift; sourceTree = "<group>"; };
+		75241E0C1FE1910200CF21EE /* TestTimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestTimerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		75241E0E1FE1910200CF21EE /* TestTimerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTimerUITests.swift; sourceTree = "<group>"; };
+		75241E101FE1910200CF21EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75241E161FE1915A00CF21EE /* SnapshotHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SnapshotHelper.swift; path = fastlane/SnapshotHelper.swift; sourceTree = SOURCE_ROOT; };
+		75258DB2205BB02F005D4FB2 /* TabataWorkout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabataWorkout.h; sourceTree = "<group>"; };
+		75258DB3205BB02F005D4FB2 /* TabataWorkout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabataWorkout.m; sourceTree = "<group>"; };
+		75258DB5205BB4C3005D4FB2 /* WorkoutSession.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WorkoutSession.h; sourceTree = "<group>"; };
+		75258DB6205BB4C3005D4FB2 /* WorkoutSession.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WorkoutSession.m; sourceTree = "<group>"; };
+		75258DB8205BC086005D4FB2 /* WorkoutDataStore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WorkoutDataStore.h; sourceTree = "<group>"; };
+		75258DB9205BC086005D4FB2 /* WorkoutDataStore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WorkoutDataStore.m; sourceTree = "<group>"; };
+		75262AE61FE7F78C00F95D0F /* ConnectivityHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectivityHandler.swift; sourceTree = "<group>"; };
+		752BEE771FE2CA84001523E8 /* TestTimerWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestTimerWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		752BEE7A1FE2CA84001523E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		752BEE7C1FE2CA85001523E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		752BEE7E1FE2CA85001523E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		752BEE831FE2CA85001523E8 /* TestTimerWatch Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "TestTimerWatch Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		752BEE8A1FE2CA85001523E8 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		752BEE8C1FE2CA85001523E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		752BEE8E1FE2CA85001523E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		753127951FE01F7C003E83FA /* UIDevice+Hardware.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+Hardware.h"; sourceTree = "<group>"; };
+		753127961FE01F7C003E83FA /* UIDevice+Hardware.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+Hardware.m"; sourceTree = "<group>"; };
+		7531279A1FE01FD1003E83FA /* RateUsButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RateUsButton.h; sourceTree = "<group>"; };
+		7531279B1FE01FD1003E83FA /* RateUsButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RateUsButton.m; sourceTree = "<group>"; };
+		7531279D1FE02006003E83FA /* AppDelegate+RateButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+RateButton.h"; sourceTree = "<group>"; };
+		7531279E1FE02006003E83FA /* AppDelegate+RateButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+RateButton.m"; sourceTree = "<group>"; };
+		753127A01FE02365003E83FA /* TestTimer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TestTimer.entitlements; sourceTree = "<group>"; };
+		75358E2D1FC6B632000042CD /* RoundsObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RoundsObject.h; sourceTree = "<group>"; };
+		75358E2E1FC6B632000042CD /* RoundsObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RoundsObject.m; sourceTree = "<group>"; };
+		75358E311FC6C12F000042CD /* RoundsIntervalsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoundsIntervalsViewController.m; sourceTree = "<group>"; };
+		75358E321FC6C130000042CD /* RoundsIntervalsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoundsIntervalsViewController.h; sourceTree = "<group>"; };
+		75358E351FC6FFB9000042CD /* RoundsUpNextDataModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RoundsUpNextDataModel.h; sourceTree = "<group>"; };
+		75358E361FC6FFB9000042CD /* RoundsUpNextDataModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RoundsUpNextDataModel.m; sourceTree = "<group>"; };
+		7538DA5A1FB05088007C59B6 /* RoundsTimerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RoundsTimerViewController.h; sourceTree = "<group>"; };
+		7538DA5B1FB05088007C59B6 /* RoundsTimerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RoundsTimerViewController.m; sourceTree = "<group>"; };
+		7538DA5E1FB0511C007C59B6 /* RoundsPortraitView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RoundsPortraitView.h; sourceTree = "<group>"; };
+		7538DA5F1FB0511C007C59B6 /* RoundsPortraitView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RoundsPortraitView.m; sourceTree = "<group>"; };
+		7538DA641FB056C6007C59B6 /* CircleRoundsTimer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CircleRoundsTimer.h; sourceTree = "<group>"; };
+		7538DA651FB056C6007C59B6 /* CircleRoundsTimer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CircleRoundsTimer.m; sourceTree = "<group>"; };
+		7538DA671FB056DA007C59B6 /* CircleRoundsCount.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CircleRoundsCount.h; sourceTree = "<group>"; };
+		7538DA681FB056DA007C59B6 /* CircleRoundsCount.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CircleRoundsCount.m; sourceTree = "<group>"; };
+		7538DA6A1FB056F5007C59B6 /* RoundsLandscapeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RoundsLandscapeView.h; sourceTree = "<group>"; };
+		7538DA6B1FB056F5007C59B6 /* RoundsLandscapeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RoundsLandscapeView.m; sourceTree = "<group>"; };
+		7538DA701FB05FD9007C59B6 /* CircleCyclesEnumerate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CircleCyclesEnumerate.h; sourceTree = "<group>"; };
+		7538DA711FB05FD9007C59B6 /* CircleCyclesEnumerate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CircleCyclesEnumerate.m; sourceTree = "<group>"; };
+		7538DA731FB05FF3007C59B6 /* CircleRoundsEnumerate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CircleRoundsEnumerate.h; sourceTree = "<group>"; };
+		7538DA741FB05FF3007C59B6 /* CircleRoundsEnumerate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CircleRoundsEnumerate.m; sourceTree = "<group>"; };
+		7538DA761FB06006007C59B6 /* CircleTabataTimer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CircleTabataTimer.h; sourceTree = "<group>"; };
+		7538DA771FB06006007C59B6 /* CircleTabataTimer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CircleTabataTimer.m; sourceTree = "<group>"; };
+		7538DA7D1FB06790007C59B6 /* StopwatchTimerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StopwatchTimerViewController.h; sourceTree = "<group>"; };
+		7538DA7E1FB06790007C59B6 /* StopwatchTimerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StopwatchTimerViewController.m; sourceTree = "<group>"; };
+		7538DA801FB067E7007C59B6 /* StopwatchPortraitView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StopwatchPortraitView.h; sourceTree = "<group>"; };
+		7538DA811FB067E7007C59B6 /* StopwatchPortraitView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StopwatchPortraitView.m; sourceTree = "<group>"; };
+		7538DA831FB067FC007C59B6 /* StopwatchLandscapeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StopwatchLandscapeView.h; sourceTree = "<group>"; };
+		7538DA841FB067FC007C59B6 /* StopwatchLandscapeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StopwatchLandscapeView.m; sourceTree = "<group>"; };
+		7538DA861FB0684B007C59B6 /* CircleStopwatchTimer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CircleStopwatchTimer.h; sourceTree = "<group>"; };
+		7538DA871FB0684B007C59B6 /* CircleStopwatchTimer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CircleStopwatchTimer.m; sourceTree = "<group>"; };
+		7542731E2022FD6E001C4D2A /* SKColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKColor.swift; sourceTree = "<group>"; };
+		7542731F2022FD6E001C4D2A /* CGFloat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGFloat.swift; sourceTree = "<group>"; };
+		754273202022FD6E001C4D2A /* SKRingNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKRingNode.swift; sourceTree = "<group>"; };
+		75427325202300CE001C4D2A /* SKAction+SpecialEffects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKAction+SpecialEffects.swift"; sourceTree = "<group>"; };
+		75427326202300CF001C4D2A /* SKNode+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKNode+Extensions.swift"; sourceTree = "<group>"; };
+		75427327202300CF001C4D2A /* SKTAudio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKTAudio.swift; sourceTree = "<group>"; };
+		75427328202300CF001C4D2A /* CGPoint+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGPoint+Extensions.swift"; sourceTree = "<group>"; };
+		75427329202300D0001C4D2A /* CGFloat+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGFloat+Extensions.swift"; sourceTree = "<group>"; };
+		7542732A202300D0001C4D2A /* SKAction+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKAction+Extensions.swift"; sourceTree = "<group>"; };
+		7542732B202300D0001C4D2A /* SKTTimingFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKTTimingFunctions.swift; sourceTree = "<group>"; };
+		7542732C202300D1001C4D2A /* CGVector+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGVector+Extensions.swift"; sourceTree = "<group>"; };
+		7542732D202300D1001C4D2A /* SKColor+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKColor+Extensions.swift"; sourceTree = "<group>"; };
+		7542732E202300D1001C4D2A /* SKTEffects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKTEffects.swift; sourceTree = "<group>"; };
+		7542732F202300D1001C4D2A /* Int+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Int+Extensions.swift"; sourceTree = "<group>"; };
+		75427330202300D1001C4D2A /* Vector3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vector3.swift; sourceTree = "<group>"; };
+		754A92242020A474009FBB09 /* CircleScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleScene.swift; sourceTree = "<group>"; };
+		754A92262020A529009FBB09 /* CircleType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleType.swift; sourceTree = "<group>"; };
+		754BDAB02036BF2A00CDD811 /* TestTimerWatch Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "TestTimerWatch Extension.entitlements"; sourceTree = "<group>"; };
+		754BDAB12036BF2A00CDD811 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS4.2.sdk/System/Library/Frameworks/HealthKit.framework; sourceTree = DEVELOPER_DIR; };
+		754BDAB42036C61400CDD811 /* HealthKitBackgroundManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitBackgroundManager.swift; sourceTree = "<group>"; };
+		754FD0BC2061027800566384 /* Workout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
+		754FD0BE2061031E00566384 /* WatchWorkoutSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchWorkoutSession.swift; sourceTree = "<group>"; };
+		754FD0C0206103A700566384 /* WatchWorkoutDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchWorkoutDataStore.swift; sourceTree = "<group>"; };
+		7552993B20244F890079842C /* DispatchQueue+Once.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DispatchQueue+Once.swift"; sourceTree = "<group>"; };
+		755C6D852057DAEF0010BEF3 /* BundleImageLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BundleImageLoader.h; sourceTree = "<group>"; };
+		755C6D862057DAF00010BEF3 /* BundleImageLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BundleImageLoader.m; sourceTree = "<group>"; };
+		755E15721FB349DC003BE434 /* TimerObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimerObject.h; sourceTree = "<group>"; };
+		755E15731FB349DC003BE434 /* TimerObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimerObject.m; sourceTree = "<group>"; };
+		755E15751FB34A8A003BE434 /* Enums.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Enums.h; sourceTree = "<group>"; };
+		755E15771FB35295003BE434 /* TabataObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabataObject.h; sourceTree = "<group>"; };
+		755E15781FB35295003BE434 /* TabataObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabataObject.m; sourceTree = "<group>"; };
+		7562DEAA1FE94170008780DE /* AppleWatchClassesHandlers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppleWatchClassesHandlers.h; sourceTree = "<group>"; };
+		7562DEAB1FE94170008780DE /* AppleWatchClassesHandlers.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppleWatchClassesHandlers.m; sourceTree = "<group>"; };
+		756ABDA220109EE1004836C5 /* StopwatchNextUpDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopwatchNextUpDataModel.swift; sourceTree = "<group>"; };
+		756DC41E2032D9C3004EE99E /* HeaderRoundsRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderRoundsRow.swift; sourceTree = "<group>"; };
+		756DC4202032F1BD004EE99E /* HeaderStopwatchRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderStopwatchRow.swift; sourceTree = "<group>"; };
+		7571D8A42031EFFA000086A3 /* AvenirNextLTPro-It.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AvenirNextLTPro-It.otf"; sourceTree = "<group>"; };
+		7571D8A82031F10B000086A3 /* AvenirNextLTPro-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AvenirNextLTPro-Bold.otf"; sourceTree = "<group>"; };
+		7571D8AC2031F112000086A3 /* AvenirNextLTPro-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AvenirNextLTPro-Regular.otf"; sourceTree = "<group>"; };
+		75740F78204FEEB80056FCA0 /* HeaderTimerRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderTimerRow.swift; sourceTree = "<group>"; };
+		7575767C1FF2402A00CCD1C5 /* TimerObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerObject.swift; sourceTree = "<group>"; };
+		757A0B9D1FB3158400B3FF44 /* MainIpadStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainIpadStoryboard.storyboard; sourceTree = "<group>"; };
+		757A9210205A9BB8006BC195 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		757C4ABF1FEAB45D00C4BF71 /* RoundsRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundsRow.swift; sourceTree = "<group>"; };
+		758468F52028431900BDBC36 /* TimerColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerColor.swift; sourceTree = "<group>"; };
+		758BA71F1FC32E63007BFA26 /* AppColorManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppColorManager.h; sourceTree = "<group>"; };
+		758BA7201FC32E63007BFA26 /* AppColorManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppColorManager.m; sourceTree = "<group>"; };
+		75915A361F9F5B6F00067C6A /* TabataTimerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabataTimerViewController.h; sourceTree = "<group>"; };
+		75915A371F9F5B6F00067C6A /* TabataTimerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = TabataTimerViewController.m; path = TestTimer/TabataTimerViewController/TabataTimerViewController.m; sourceTree = SOURCE_ROOT; };
+		75915A3B1F9F5C9300067C6A /* TabataPortraitView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabataPortraitView.h; sourceTree = "<group>"; };
+		75915A3C1F9F5C9300067C6A /* TabataPortraitView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabataPortraitView.m; sourceTree = "<group>"; };
+		75915A3E1F9F5CB200067C6A /* TabataLandscapeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabataLandscapeView.h; sourceTree = "<group>"; };
+		75915A3F1F9F5CB200067C6A /* TabataLandscapeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabataLandscapeView.m; sourceTree = "<group>"; };
+		759475F2205A7FF400AE2D4A /* HealthKitSetupAssistant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitSetupAssistant.swift; sourceTree = "<group>"; };
+		7599D63F1F90D5ED00BB4CEB /* UITabBarController+Transpareable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITabBarController+Transpareable.h"; sourceTree = "<group>"; };
+		7599D6401F90D5ED00BB4CEB /* UITabBarController+Transpareable.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITabBarController+Transpareable.m"; sourceTree = "<group>"; };
+		75A655101FD547F50067625C /* BeepSound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = BeepSound.wav; sourceTree = "<group>"; };
+		75B284711FED49B10013B013 /* TabataTimerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabataTimerController.swift; sourceTree = "<group>"; };
+		75B57ECE1FD923840041A39A /* CustomNavigationBarUIView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomNavigationBarUIView.h; sourceTree = "<group>"; };
+		75B57ECF1FD923840041A39A /* CustomNavigationBarUIView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomNavigationBarUIView.m; sourceTree = "<group>"; };
+		75B57ED61FD949530041A39A /* AddNewTimerTabataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddNewTimerTabataViewController.h; sourceTree = "<group>"; };
+		75B57ED71FD949530041A39A /* AddNewTimerTabataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddNewTimerTabataViewController.m; sourceTree = "<group>"; };
+		75B57EDA1FD9499C0041A39A /* AddNewTimerRoundsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddNewTimerRoundsViewController.h; sourceTree = "<group>"; };
+		75B57EDB1FD9499C0041A39A /* AddNewTimerRoundsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddNewTimerRoundsViewController.m; sourceTree = "<group>"; };
+		75B57EDE1FD949F70041A39A /* AddNewTimerStopWatchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddNewTimerStopWatchViewController.h; sourceTree = "<group>"; };
+		75B57EDF1FD949F70041A39A /* AddNewTimerStopWatchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddNewTimerStopWatchViewController.m; sourceTree = "<group>"; };
+		75C262861F86738100EF9B9E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		75C262881F86739100EF9B9E /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		75C262891F86739400EF9B9E /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		75C2628A1F86739500EF9B9E /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		75C2628B1F86739900EF9B9E /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		75C2628C1F86739A00EF9B9E /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		75C2628D1F86739B00EF9B9E /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		75C2628E1F86739B00EF9B9E /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Localizable.strings; sourceTree = "<group>"; };
+		75C2628F1F86739C00EF9B9E /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/Localizable.strings; sourceTree = "<group>"; };
+		75C262901F86739E00EF9B9E /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Localizable.strings; sourceTree = "<group>"; };
+		75C262911F86739F00EF9B9E /* pt-PT */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-PT"; path = "pt-PT.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		75C262921F8673AF00EF9B9E /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/Localizable.strings; sourceTree = "<group>"; };
+		75C262931F8673B000EF9B9E /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		75C262941F8673B100EF9B9E /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		75C262951F8673B200EF9B9E /* th */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = th; path = th.lproj/Localizable.strings; sourceTree = "<group>"; };
+		75C262961F8673BC00EF9B9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		75C262981F86784100EF9B9E /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		75C262991F86784200EF9B9E /* NSString+Localization.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Localization.h"; sourceTree = "<group>"; };
+		75C2629A1F86784200EF9B9E /* NSString+Localization.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Localization.m"; sourceTree = "<group>"; };
+		75C2629B1F86784200EF9B9E /* Inspectable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inspectable.swift; sourceTree = "<group>"; };
+		75C2E67B1FBC3D0C00DAA05C /* TabataIntervalsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabataIntervalsViewController.h; sourceTree = "<group>"; };
+		75C2E67C1FBC3D0C00DAA05C /* TabataIntervalsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabataIntervalsViewController.m; sourceTree = "<group>"; };
+		75C787111FE42B3E000866ED /* TestTimer-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TestTimer-Bridging-Header.h"; sourceTree = "<group>"; };
+		75D08C6B1FC85A0300478BB6 /* StopwatchUpNextDataModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StopwatchUpNextDataModel.h; sourceTree = "<group>"; };
+		75D08C6C1FC85A0300478BB6 /* StopwatchUpNextDataModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StopwatchUpNextDataModel.m; sourceTree = "<group>"; };
+		75D08C6E1FC85A1100478BB6 /* StopwatchObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StopwatchObject.h; sourceTree = "<group>"; };
+		75D08C6F1FC85A1100478BB6 /* StopwatchObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StopwatchObject.m; sourceTree = "<group>"; };
+		75D08C761FC85E5D00478BB6 /* StopWatchIntervalsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StopWatchIntervalsViewController.m; sourceTree = "<group>"; };
+		75D08C771FC85E5D00478BB6 /* StopWatchIntervalsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StopWatchIntervalsViewController.h; sourceTree = "<group>"; };
+		75D994211FBAFDB0000FDD65 /* UpNextDataModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UpNextDataModel.h; sourceTree = "<group>"; };
+		75D994221FBAFDB0000FDD65 /* UpNextDataModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UpNextDataModel.m; sourceTree = "<group>"; };
+		75D994241FBB50D7000FDD65 /* UINavigationController+Transparent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+Transparent.h"; sourceTree = "<group>"; };
+		75D994251FBB50D7000FDD65 /* UINavigationController+Transparent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+Transparent.m"; sourceTree = "<group>"; };
+		75E7D1FC2004AD19006177A9 /* NextUpDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextUpDataModel.swift; sourceTree = "<group>"; };
+		75EF030C1F8F58E8009B4CBA /* UIButton+Clipping.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+Clipping.h"; sourceTree = "<group>"; };
+		75EF030D1F8F58E8009B4CBA /* UIButton+Clipping.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Clipping.m"; sourceTree = "<group>"; };
+		7A00DDD84206B04E8FCA8084 /* libPods-TestTimer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestTimer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3BC2BC5AB5F3EA8E95B4E9B /* Pods-TestTimer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestTimer.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestTimer/Pods-TestTimer.release.xcconfig"; sourceTree = "<group>"; };
+		C19E958418E13E3DE1AC14C8 /* Pods-TestTimer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestTimer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestTimer/Pods-TestTimer.debug.xcconfig"; sourceTree = "<group>"; };
+		CE00B2411DC724B100126DF4 /* CustomWorkoutTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomWorkoutTableViewCell.h; sourceTree = "<group>"; };
+		CE00B2421DC724B100126DF4 /* CustomWorkoutTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomWorkoutTableViewCell.m; sourceTree = "<group>"; };
+		CE00B2431DC724B100126DF4 /* CustomWorkoutTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomWorkoutTableViewCell.xib; sourceTree = "<group>"; };
+		CE01C74F1DB9128D00358266 /* MainAppConnectivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainAppConnectivity.h; sourceTree = "<group>"; };
+		CE01C7501DB9128D00358266 /* MainAppConnectivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainAppConnectivity.m; sourceTree = "<group>"; };
+		CE09B9341DB63910000E3A58 /* CyclesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CyclesViewController.h; sourceTree = "<group>"; };
+		CE09B9351DB63910000E3A58 /* CyclesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CyclesViewController.m; sourceTree = "<group>"; };
+		CE09B9371DB63910000E3A58 /* PrepareTimeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrepareTimeViewController.h; sourceTree = "<group>"; };
+		CE09B9381DB63910000E3A58 /* PrepareTimeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrepareTimeViewController.m; sourceTree = "<group>"; };
+		CE09B93A1DB63910000E3A58 /* RestBetweenCyclesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestBetweenCyclesViewController.h; sourceTree = "<group>"; };
+		CE09B93B1DB63910000E3A58 /* RestBetweenCyclesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestBetweenCyclesViewController.m; sourceTree = "<group>"; };
+		CE09B93D1DB63910000E3A58 /* RestTimeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestTimeViewController.h; sourceTree = "<group>"; };
+		CE09B93E1DB63910000E3A58 /* RestTimeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestTimeViewController.m; sourceTree = "<group>"; };
+		CE09B9401DB63910000E3A58 /* RoundsTimeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoundsTimeViewController.h; sourceTree = "<group>"; };
+		CE09B9411DB63910000E3A58 /* RoundsTimeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoundsTimeViewController.m; sourceTree = "<group>"; };
+		CE09B9431DB63910000E3A58 /* RoundsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoundsViewController.h; sourceTree = "<group>"; };
+		CE09B9441DB63910000E3A58 /* RoundsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoundsViewController.m; sourceTree = "<group>"; };
+		CE09B9461DB63910000E3A58 /* SoundEachViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundEachViewController.h; sourceTree = "<group>"; };
+		CE09B9471DB63910000E3A58 /* SoundEachViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoundEachViewController.m; sourceTree = "<group>"; };
+		CE09B9491DB63910000E3A58 /* WorkTimeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorkTimeViewController.h; sourceTree = "<group>"; };
+		CE09B94A1DB63910000E3A58 /* WorkTimeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorkTimeViewController.m; sourceTree = "<group>"; };
+		CE09B95B1DB63B1E000E3A58 /* SettingsManagerThemeCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsManagerThemeCollectionViewCell.h; sourceTree = "<group>"; };
+		CE09B95C1DB63B1E000E3A58 /* SettingsManagerThemeCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsManagerThemeCollectionViewCell.m; sourceTree = "<group>"; };
+		CE09B95D1DB63B1E000E3A58 /* SettingsManagerThemeCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsManagerThemeCollectionViewCell.xib; sourceTree = "<group>"; };
+		CE09B9621DB63B1E000E3A58 /* ShowSplashScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowSplashScreen.h; sourceTree = "<group>"; };
+		CE09B9631DB63B1E000E3A58 /* ShowSplashScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowSplashScreen.m; sourceTree = "<group>"; };
+		CE09B9731DB63C40000E3A58 /* NewCustomHeaderTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewCustomHeaderTableViewCell.h; sourceTree = "<group>"; };
+		CE09B9741DB63C40000E3A58 /* NewCustomHeaderTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewCustomHeaderTableViewCell.m; sourceTree = "<group>"; };
+		CE09B9751DB63C40000E3A58 /* NewCustomHeaderTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewCustomHeaderTableViewCell.xib; sourceTree = "<group>"; };
+		CE12F62F1D9A84E6001A4099 /* MainUITabbarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainUITabbarController.h; sourceTree = "<group>"; };
+		CE12F6301D9A84E6001A4099 /* MainUITabbarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainUITabbarController.m; sourceTree = "<group>"; };
+		CE2CFCF81DD99DF9007036A6 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		CE2CFCF91DD99DF9007036A6 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		CE2CFCFB1DD99DF9007036A6 /* Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utilities.h; sourceTree = "<group>"; };
+		CE2CFCFC1DD99DF9007036A6 /* Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utilities.m; sourceTree = "<group>"; };
+		CE2CFCFF1DD99E25007036A6 /* TestTimer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestTimer-Prefix.pch"; sourceTree = "<group>"; };
+		CE34F8451CFC4BED005527F8 /* RoundsWorkouts+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RoundsWorkouts+CoreDataProperties.h"; sourceTree = "<group>"; };
+		CE34F8461CFC4BED005527F8 /* RoundsWorkouts+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RoundsWorkouts+CoreDataProperties.m"; sourceTree = "<group>"; };
+		CE34F8471CFC4BED005527F8 /* RoundsWorkouts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoundsWorkouts.h; sourceTree = "<group>"; };
+		CE34F8481CFC4BED005527F8 /* RoundsWorkouts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoundsWorkouts.m; sourceTree = "<group>"; };
+		CE34F84B1CFC4C06005527F8 /* StopwatchWorkouts+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "StopwatchWorkouts+CoreDataProperties.h"; sourceTree = "<group>"; };
+		CE34F84C1CFC4C06005527F8 /* StopwatchWorkouts+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "StopwatchWorkouts+CoreDataProperties.m"; sourceTree = "<group>"; };
+		CE34F84D1CFC4C06005527F8 /* StopwatchWorkouts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StopwatchWorkouts.h; sourceTree = "<group>"; };
+		CE34F84E1CFC4C06005527F8 /* StopwatchWorkouts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StopwatchWorkouts.m; sourceTree = "<group>"; };
+		CE38FE261D99060600D806E7 /* AppInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppInfo.h; sourceTree = "<group>"; };
+		CE38FE271D99060600D806E7 /* AppInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppInfo.m; sourceTree = "<group>"; };
+		CE8C69501D3CB2E10063202B /* Air Horn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Air Horn.wav"; sourceTree = "<group>"; };
+		CE8C69511D3CB2E10063202B /* Beep.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Beep.wav; sourceTree = "<group>"; };
+		CE8C69521D3CB2E10063202B /* Boxing Bell.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Boxing Bell.wav"; sourceTree = "<group>"; };
+		CE8C69531D3CB2E10063202B /* Buzzer.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Buzzer.wav; sourceTree = "<group>"; };
+		CE8C69541D3CB2E10063202B /* Censor.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Censor.wav; sourceTree = "<group>"; };
+		CE8C69551D3CB2E10063202B /* Chinese Gong.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Chinese Gong.wav"; sourceTree = "<group>"; };
+		CE8C69561D3CB2E10063202B /* Ding.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Ding.wav; sourceTree = "<group>"; };
+		CE8C69571D3CB2E10063202B /* Double Ding.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Double Ding.wav"; sourceTree = "<group>"; };
+		CE8C69581D3CB2E10063202B /* Metal Ding.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Metal Ding.wav"; sourceTree = "<group>"; };
+		CE8C69591D3CB2E10063202B /* Punch.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Punch.wav; sourceTree = "<group>"; };
+		CE8C695A1D3CB2E10063202B /* Referee Whistle.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Referee Whistle.wav"; sourceTree = "<group>"; };
+		CE8C695B1D3CB2E10063202B /* Siren Horn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Siren Horn.wav"; sourceTree = "<group>"; };
+		CE8C695C1D3CB2E10063202B /* Sports Whistle.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Sports Whistle.wav"; sourceTree = "<group>"; };
+		CE8C695D1D3CB2E10063202B /* Tone.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Tone.wav; sourceTree = "<group>"; };
+		CE9F1E411CF734180007DC5B /* TabatasWorkouts+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TabatasWorkouts+CoreDataProperties.h"; sourceTree = "<group>"; };
+		CE9F1E421CF734180007DC5B /* TabatasWorkouts+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TabatasWorkouts+CoreDataProperties.m"; sourceTree = "<group>"; };
+		CE9F1E431CF734180007DC5B /* TabatasWorkouts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabatasWorkouts.h; sourceTree = "<group>"; };
+		CE9F1E441CF734180007DC5B /* TabatasWorkouts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabatasWorkouts.m; sourceTree = "<group>"; };
+		CEA1CED11D48B379005E11AD /* MoreTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreTableViewCell.h; sourceTree = "<group>"; };
+		CEA1CED21D48B379005E11AD /* MoreTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreTableViewCell.m; sourceTree = "<group>"; };
+		CEA1CED31D48B379005E11AD /* MoreTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MoreTableViewCell.xib; sourceTree = "<group>"; };
+		CEA46E2F1DD9BFCA005FF654 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		CEA7DE7C1D5CA41F0035D373 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CEC0F4E81D53184D003ABE48 /* ColorSchemeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ColorSchemeViewController.h; path = ColorSchemeCustomCell/ColorSchemeViewController.h; sourceTree = "<group>"; };
+		CEC0F4E91D53184D003ABE48 /* ColorSchemeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ColorSchemeViewController.m; path = ColorSchemeCustomCell/ColorSchemeViewController.m; sourceTree = "<group>"; };
+		CECF9C561D477A740002C392 /* MoreTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreTabBarViewController.h; sourceTree = "<group>"; };
+		CECF9C571D477A740002C392 /* MoreTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreTabBarViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00B1D9DF1C33B98F009415EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				757A9211205A9BB8006BC195 /* HealthKit.framework in Frameworks */,
+				CEA46E301DD9BFCA005FF654 /* CoreData.framework in Frameworks */,
+				C2D750EE3D5F54875F627FC4 /* libPods-TestTimer.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75241E091FE1910200CF21EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		752BEE801FE2CA85001523E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				754BDAB22036BF2A00CDD811 /* HealthKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3667BD7D72E67BDDC52E4EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		008360FA1C5A2A0C0030C4B1 /* SoundResources */ = {
+			isa = PBXGroup;
+			children = (
+				CE8C69501D3CB2E10063202B /* Air Horn.wav */,
+				75A655101FD547F50067625C /* BeepSound.wav */,
+				CE8C69511D3CB2E10063202B /* Beep.wav */,
+				CE8C69521D3CB2E10063202B /* Boxing Bell.wav */,
+				CE8C69531D3CB2E10063202B /* Buzzer.wav */,
+				CE8C69541D3CB2E10063202B /* Censor.wav */,
+				CE8C69551D3CB2E10063202B /* Chinese Gong.wav */,
+				CE8C69561D3CB2E10063202B /* Ding.wav */,
+				CE8C69571D3CB2E10063202B /* Double Ding.wav */,
+				CE8C69581D3CB2E10063202B /* Metal Ding.wav */,
+				CE8C69591D3CB2E10063202B /* Punch.wav */,
+				CE8C695A1D3CB2E10063202B /* Referee Whistle.wav */,
+				CE8C695B1D3CB2E10063202B /* Siren Horn.wav */,
+				CE8C695C1D3CB2E10063202B /* Sports Whistle.wav */,
+				CE8C695D1D3CB2E10063202B /* Tone.wav */,
+			);
+			path = SoundResources;
+			sourceTree = "<group>";
+		};
+		0098364E1CB7D3C800616159 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				0098364F1CB7D3F200616159 /* DatabaseManager */,
+				009836521CB7D3F200616159 /* Entities */,
+				009836541CB7D40C00616159 /* TimerModel.xcdatamodeld */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		0098364F1CB7D3F200616159 /* DatabaseManager */ = {
+			isa = PBXGroup;
+			children = (
+				009836501CB7D3F200616159 /* DatabaseManager.h */,
+				009836511CB7D3F200616159 /* DatabaseManager.m */,
+			);
+			path = DatabaseManager;
+			sourceTree = "<group>";
+		};
+		009836521CB7D3F200616159 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				CE9F1E411CF734180007DC5B /* TabatasWorkouts+CoreDataProperties.h */,
+				CE9F1E421CF734180007DC5B /* TabatasWorkouts+CoreDataProperties.m */,
+				CE9F1E431CF734180007DC5B /* TabatasWorkouts.h */,
+				CE9F1E441CF734180007DC5B /* TabatasWorkouts.m */,
+				CE34F8451CFC4BED005527F8 /* RoundsWorkouts+CoreDataProperties.h */,
+				CE34F8461CFC4BED005527F8 /* RoundsWorkouts+CoreDataProperties.m */,
+				CE34F8471CFC4BED005527F8 /* RoundsWorkouts.h */,
+				CE34F8481CFC4BED005527F8 /* RoundsWorkouts.m */,
+				CE34F84B1CFC4C06005527F8 /* StopwatchWorkouts+CoreDataProperties.h */,
+				CE34F84C1CFC4C06005527F8 /* StopwatchWorkouts+CoreDataProperties.m */,
+				CE34F84D1CFC4C06005527F8 /* StopwatchWorkouts.h */,
+				CE34F84E1CFC4C06005527F8 /* StopwatchWorkouts.m */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		00A57E2F1CAD3DF1000D9009 /* CircleTimer */ = {
+			isa = PBXGroup;
+			children = (
+				00A57E301CAD3DF1000D9009 /* CircleTimer.h */,
+				00A57E311CAD3DF1000D9009 /* CircleTimer.m */,
+			);
+			path = CircleTimer;
+			sourceTree = "<group>";
+		};
+		00A810E41C6E0D1A00FB7C5D /* AppTheme */ = {
+			isa = PBXGroup;
+			children = (
+				00A810E51C6E0D3800FB7C5D /* AppTheme.h */,
+				00A810E61C6E0D3800FB7C5D /* AppTheme.m */,
+			);
+			path = AppTheme;
+			sourceTree = "<group>";
+		};
+		00A810E81C6E144300FB7C5D /* ColorSchemeCustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				00A810E91C6E145B00FB7C5D /* ColorSchemeCustomCell.h */,
+				00A810EA1C6E145B00FB7C5D /* ColorSchemeCustomCell.m */,
+				00A810EB1C6E145B00FB7C5D /* ColorSchemeCustomCell.xib */,
+			);
+			path = ColorSchemeCustomCell;
+			sourceTree = "<group>";
+		};
+		00B1D9D91C33B98F009415EB = {
+			isa = PBXGroup;
+			children = (
+				00B1D9E41C33B98F009415EB /* TestTimer */,
+				75241E0D1FE1910200CF21EE /* TestTimerUITests */,
+				752BEE781FE2CA84001523E8 /* TestTimerWatch */,
+				752BEE871FE2CA85001523E8 /* TestTimerWatch Extension */,
+				00B1D9E31C33B98F009415EB /* Products */,
+				B13CE74AD9CDF632665FB3CF /* Pods */,
+				046E97D1695D180BCAE11167 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		00B1D9E31C33B98F009415EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00B1D9E21C33B98F009415EB /* TestTimer.app */,
+				75241E0C1FE1910200CF21EE /* TestTimerUITests.xctest */,
+				752BEE771FE2CA84001523E8 /* TestTimerWatch.app */,
+				752BEE831FE2CA85001523E8 /* TestTimerWatch Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00B1D9E41C33B98F009415EB /* TestTimer */ = {
+			isa = PBXGroup;
+			children = (
+				753127A01FE02365003E83FA /* TestTimer.entitlements */,
+				757A9212205AA1DE006BC195 /* WorkoutHealthModels */,
+				759475F1205A7FA300AE2D4A /* HealthKitAssistant */,
+				7562DEA91FE9412B008780DE /* AppleWatchClassesHandlers */,
+				75012C651F82223700D23242 /* AppDelegate */,
+				75915A351F9F5B2E00067C6A /* TabataTimerViewController */,
+				7538DA591FB05067007C59B6 /* RoundsTimerViewController */,
+				7538DA791FB0668A007C59B6 /* StopwatchTimerViewController */,
+				CECF9C551D4768DC0002C392 /* MoreTabBarViewController */,
+				755C6D842057DACB0010BEF3 /* BundleImageLoader */,
+				755E15711FB349DC003BE434 /* TimerObj */,
+				750875EF1FC2FA430049B446 /* SettingsManagerViewController */,
+				758BA71E1FC32E56007BFA26 /* AppColorManager */,
+				CE38FE251D99060600D806E7 /* AppInfo */,
+				CE2CFCF61DD99DF9007036A6 /* AppUtilities */,
+				00A810E41C6E0D1A00FB7C5D /* AppTheme */,
+				75B57ECD1FD9236B0041A39A /* CustomNavigationBarUIView */,
+				00C713201C6103F9002210CE /* ColorSchemeViewController */,
+				CE01C74E1DB9128D00358266 /* MainAppConnectivity */,
+				0098364E1CB7D3C800616159 /* Database */,
+				75EF030B1F8F58E8009B4CBA /* Categories */,
+				00A57E2F1CAD3DF1000D9009 /* CircleTimer */,
+				CE09B9321DB63910000E3A58 /* TimerPickers */,
+				CE09B9531DB63B1E000E3A58 /* UIClasses */,
+				753127981FE01FB0003E83FA /* Subclasses */,
+				00E27C2D1C9C5B35001698D4 /* CustomIntervalsTableViewCell */,
+				00E27C291C9C5B2C001698D4 /* CustomHeaderTableViewCell */,
+				CE12F62E1D9A84C6001A4099 /* MainUITabbarController */,
+				00B1D9E61C33B98F009415EB /* main.m */,
+				00B1D9F11C33B98F009415EB /* Assets.xcassets */,
+				00CE8DDA1C7C83CC00E71A7F /* Main.storyboard */,
+				757A0B9D1FB3158400B3FF44 /* MainIpadStoryboard.storyboard */,
+				CEA7DE7C1D5CA41F0035D373 /* LaunchScreen.storyboard */,
+				00B1D9F61C33B98F009415EB /* Info.plist */,
+				CE2CFCFF1DD99E25007036A6 /* TestTimer-Prefix.pch */,
+				00B1D9E51C33B98F009415EB /* Supporting Files */,
+			);
+			path = TestTimer;
+			sourceTree = "<group>";
+		};
+		00B1D9E51C33B98F009415EB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7571D89F2031EDD4000086A3 /* Fonts */,
+				75C262871F86738100EF9B9E /* Localizable.strings */,
+				008360FA1C5A2A0C0030C4B1 /* SoundResources */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		00C713201C6103F9002210CE /* ColorSchemeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				00A810E81C6E144300FB7C5D /* ColorSchemeCustomCell */,
+				CEC0F4E81D53184D003ABE48 /* ColorSchemeViewController.h */,
+				CEC0F4E91D53184D003ABE48 /* ColorSchemeViewController.m */,
+			);
+			name = ColorSchemeViewController;
+			path = ColorSchemeTableViewController;
+			sourceTree = "<group>";
+		};
+		00E27C291C9C5B2C001698D4 /* CustomHeaderTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				CE09B9721DB63C40000E3A58 /* NewCustomHeaderTableViewCell */,
+				0099C4A51CA176AE00E04B3E /* CustomHeaderTableViewCell.h */,
+				0099C4A61CA176AE00E04B3E /* CustomHeaderTableViewCell.m */,
+				0099C4A71CA176AE00E04B3E /* CustomHeaderTableViewCell.xib */,
+			);
+			path = CustomHeaderTableViewCell;
+			sourceTree = "<group>";
+		};
+		00E27C2D1C9C5B35001698D4 /* CustomIntervalsTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				00E27C2E1C9C5B35001698D4 /* CustomIntervalsTableViewCell.h */,
+				00E27C2F1C9C5B35001698D4 /* CustomIntervalsTableViewCell.m */,
+				00E27C301C9C5B35001698D4 /* CustomIntervalsTableViewCell.xib */,
+				CE00B2411DC724B100126DF4 /* CustomWorkoutTableViewCell.h */,
+				CE00B2421DC724B100126DF4 /* CustomWorkoutTableViewCell.m */,
+				CE00B2431DC724B100126DF4 /* CustomWorkoutTableViewCell.xib */,
+			);
+			path = CustomIntervalsTableViewCell;
+			sourceTree = "<group>";
+		};
+		046E97D1695D180BCAE11167 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				757A9210205A9BB8006BC195 /* HealthKit.framework */,
+				754BDAB12036BF2A00CDD811 /* HealthKit.framework */,
+				7508761A1FC303170049B446 /* Foundation.framework */,
+				750876191FC303010049B446 /* MediaPlayer.framework */,
+				750876181FC302E90049B446 /* AudioToolbox.framework */,
+				750876171FC302D80049B446 /* AVFoundation.framework */,
+				CEA46E2F1DD9BFCA005FF654 /* CoreData.framework */,
+				7A00DDD84206B04E8FCA8084 /* libPods-TestTimer.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0A8032611FE306D100C21E82 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				0A8032661FE3171C00C21E82 /* TimerController */,
+				0A8032691FE3175F00C21E82 /* TabataController */,
+				0A8032681FE3175B00C21E82 /* RoundsController */,
+				0A8032671FE3175800C21E82 /* StopWatchController */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		0A8032661FE3171C00C21E82 /* TimerController */ = {
+			isa = PBXGroup;
+			children = (
+				0A8032621FE3071900C21E82 /* MainController.swift */,
+				0A8032641FE30B2B00C21E82 /* TimerRow.swift */,
+				75740F78204FEEB80056FCA0 /* HeaderTimerRow.swift */,
+			);
+			path = TimerController;
+			sourceTree = "<group>";
+		};
+		0A8032671FE3175800C21E82 /* StopWatchController */ = {
+			isa = PBXGroup;
+			children = (
+				0A80326E1FE3180E00C21E82 /* StopWatchController.swift */,
+				0A8032741FE31E8800C21E82 /* StopWatchRow.swift */,
+				751D142C200F354E001158A1 /* StopwatchTimerController.swift */,
+				756ABDA220109EE1004836C5 /* StopwatchNextUpDataModel.swift */,
+				756DC4202032F1BD004EE99E /* HeaderStopwatchRow.swift */,
+			);
+			path = StopWatchController;
+			sourceTree = "<group>";
+		};
+		0A8032681FE3175B00C21E82 /* RoundsController */ = {
+			isa = PBXGroup;
+			children = (
+				0A80326C1FE3180200C21E82 /* RoundsController.swift */,
+				757C4ABF1FEAB45D00C4BF71 /* RoundsRow.swift */,
+				751D1428200F34BF001158A1 /* RoundsTimerController.swift */,
+				751D142A200F3514001158A1 /* RoundsNextUpDataModel.swift */,
+				756DC41E2032D9C3004EE99E /* HeaderRoundsRow.swift */,
+			);
+			path = RoundsController;
+			sourceTree = "<group>";
+		};
+		0A8032691FE3175F00C21E82 /* TabataController */ = {
+			isa = PBXGroup;
+			children = (
+				0A80326A1FE317D400C21E82 /* TabataController.swift */,
+				0A8032701FE31A7900C21E82 /* TabataRow.swift */,
+				75B284711FED49B10013B013 /* TabataTimerController.swift */,
+				75E7D1FC2004AD19006177A9 /* NextUpDataModel.swift */,
+				75025D5B202B09B100440457 /* HeaderTabataRow.swift */,
+			);
+			path = TabataController;
+			sourceTree = "<group>";
+		};
+		0A8032781FE3327100C21E82 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				7552993B20244F890079842C /* DispatchQueue+Once.swift */,
+				0A8032791FE3329400C21E82 /* NSNumber.swift */,
+				758468F52028431900BDBC36 /* TimerColor.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		75012C651F82223700D23242 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				75012C661F82223700D23242 /* AppDelegate.h */,
+				75012C671F82223700D23242 /* AppDelegate.m */,
+				7531279D1FE02006003E83FA /* AppDelegate+RateButton.h */,
+				7531279E1FE02006003E83FA /* AppDelegate+RateButton.m */,
+				75262AE61FE7F78C00F95D0F /* ConnectivityHandler.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		750875EF1FC2FA430049B446 /* SettingsManagerViewController */ = {
+			isa = PBXGroup;
+			children = (
+				750876081FC2FABF0049B446 /* SettingsManagerViewController.h */,
+				750876091FC2FABF0049B446 /* SettingsManagerViewController.m */,
+				750875F01FC2FA430049B446 /* SettingsManager */,
+				750875F31FC2FA430049B446 /* SettingsManagerTableViewCell */,
+				750875F91FC2FA430049B446 /* SoundPickerViewController */,
+				7508760B1FC2FCDA0049B446 /* SettingsManagerImplementation */,
+				750875FC1FC2FA430049B446 /* TimeFormatViewController */,
+			);
+			path = SettingsManagerViewController;
+			sourceTree = "<group>";
+		};
+		750875F01FC2FA430049B446 /* SettingsManager */ = {
+			isa = PBXGroup;
+			children = (
+				750875F11FC2FA430049B446 /* SettingsManager.h */,
+				750875F21FC2FA430049B446 /* SettingsManager.m */,
+			);
+			path = SettingsManager;
+			sourceTree = "<group>";
+		};
+		750875F31FC2FA430049B446 /* SettingsManagerTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				750875F41FC2FA430049B446 /* SettingsManagerTableViewCell.h */,
+				750875F51FC2FA430049B446 /* SettingsManagerTableViewCell.m */,
+				750875F61FC2FA430049B446 /* SettingsManagerTableViewCell.xib */,
+			);
+			path = SettingsManagerTableViewCell;
+			sourceTree = "<group>";
+		};
+		750875F91FC2FA430049B446 /* SoundPickerViewController */ = {
+			isa = PBXGroup;
+			children = (
+				750875FA1FC2FA430049B446 /* SoundPickerViewController.h */,
+				750875FB1FC2FA430049B446 /* SoundPickerViewController.m */,
+			);
+			path = SoundPickerViewController;
+			sourceTree = "<group>";
+		};
+		750875FC1FC2FA430049B446 /* TimeFormatViewController */ = {
+			isa = PBXGroup;
+			children = (
+				750875FD1FC2FA430049B446 /* TimeFormatViewController.h */,
+				750875FE1FC2FA430049B446 /* TimeFormatViewController.m */,
+			);
+			path = TimeFormatViewController;
+			sourceTree = "<group>";
+		};
+		7508760B1FC2FCDA0049B446 /* SettingsManagerImplementation */ = {
+			isa = PBXGroup;
+			children = (
+				7508760C1FC2FCEE0049B446 /* SettingsManagerImplementation.h */,
+				7508760D1FC2FCEE0049B446 /* SettingsManagerImplementation.m */,
+			);
+			path = SettingsManagerImplementation;
+			sourceTree = "<group>";
+		};
+		75241E0D1FE1910200CF21EE /* TestTimerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				75241E161FE1915A00CF21EE /* SnapshotHelper.swift */,
+				75241E0E1FE1910200CF21EE /* TestTimerUITests.swift */,
+				75241E101FE1910200CF21EE /* Info.plist */,
+			);
+			path = TestTimerUITests;
+			sourceTree = "<group>";
+		};
+		752BEE781FE2CA84001523E8 /* TestTimerWatch */ = {
+			isa = PBXGroup;
+			children = (
+				752BEE791FE2CA84001523E8 /* Interface.storyboard */,
+				752BEE7C1FE2CA85001523E8 /* Assets.xcassets */,
+				752BEE7E1FE2CA85001523E8 /* Info.plist */,
+			);
+			path = TestTimerWatch;
+			sourceTree = "<group>";
+		};
+		752BEE871FE2CA85001523E8 /* TestTimerWatch Extension */ = {
+			isa = PBXGroup;
+			children = (
+				754FD0BB2061022800566384 /* WatchHealthModels */,
+				754BDAB32036C59400CDD811 /* HealthKit */,
+				754BDAB02036BF2A00CDD811 /* TestTimerWatch Extension.entitlements */,
+				75427324202300B8001C4D2A /* SKTUtils */,
+				7542731D2022FD2F001C4D2A /* SKTRing */,
+				754A92232020A435009FBB09 /* CircleScene */,
+				7575767B1FF23FF700CCD1C5 /* TimerObject */,
+				0A8032781FE3327100C21E82 /* Extensions */,
+				0A8032611FE306D100C21E82 /* Modules */,
+				752BEE8A1FE2CA85001523E8 /* ExtensionDelegate.swift */,
+				752BEE8C1FE2CA85001523E8 /* Assets.xcassets */,
+				752BEE8E1FE2CA85001523E8 /* Info.plist */,
+			);
+			path = "TestTimerWatch Extension";
+			sourceTree = "<group>";
+		};
+		753127941FE01F7C003E83FA /* UIDevice */ = {
+			isa = PBXGroup;
+			children = (
+				753127951FE01F7C003E83FA /* UIDevice+Hardware.h */,
+				753127961FE01F7C003E83FA /* UIDevice+Hardware.m */,
+			);
+			path = UIDevice;
+			sourceTree = "<group>";
+		};
+		753127981FE01FB0003E83FA /* Subclasses */ = {
+			isa = PBXGroup;
+			children = (
+				753127991FE01FD1003E83FA /* RateUsButton */,
+			);
+			path = Subclasses;
+			sourceTree = "<group>";
+		};
+		753127991FE01FD1003E83FA /* RateUsButton */ = {
+			isa = PBXGroup;
+			children = (
+				7531279A1FE01FD1003E83FA /* RateUsButton.h */,
+				7531279B1FE01FD1003E83FA /* RateUsButton.m */,
+			);
+			path = RateUsButton;
+			sourceTree = "<group>";
+		};
+		75358E2C1FC6B618000042CD /* RoundsObject */ = {
+			isa = PBXGroup;
+			children = (
+				75358E2D1FC6B632000042CD /* RoundsObject.h */,
+				75358E2E1FC6B632000042CD /* RoundsObject.m */,
+			);
+			path = RoundsObject;
+			sourceTree = "<group>";
+		};
+		75358E301FC6C127000042CD /* RoundsIntervalsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				75358E321FC6C130000042CD /* RoundsIntervalsViewController.h */,
+				75358E311FC6C12F000042CD /* RoundsIntervalsViewController.m */,
+			);
+			path = RoundsIntervalsViewController;
+			sourceTree = "<group>";
+		};
+		75358E341FC6FF9D000042CD /* RoundsUpNextDataModel */ = {
+			isa = PBXGroup;
+			children = (
+				75358E351FC6FFB9000042CD /* RoundsUpNextDataModel.h */,
+				75358E361FC6FFB9000042CD /* RoundsUpNextDataModel.m */,
+			);
+			path = RoundsUpNextDataModel;
+			sourceTree = "<group>";
+		};
+		7538DA591FB05067007C59B6 /* RoundsTimerViewController */ = {
+			isa = PBXGroup;
+			children = (
+				75358E301FC6C127000042CD /* RoundsIntervalsViewController */,
+				75B57ED91FD9499C0041A39A /* AddNewTimerRoundsTableViewController */,
+				75358E341FC6FF9D000042CD /* RoundsUpNextDataModel */,
+				75358E2C1FC6B618000042CD /* RoundsObject */,
+				7538DA621FB056B0007C59B6 /* CircleRoundsCount */,
+				7538DA631FB056B0007C59B6 /* CircleRoundsTimer */,
+				7538DA611FB05594007C59B6 /* RoundsLandscapeView */,
+				7538DA5D1FB050F9007C59B6 /* RoundsPortraitView */,
+				7538DA5A1FB05088007C59B6 /* RoundsTimerViewController.h */,
+				7538DA5B1FB05088007C59B6 /* RoundsTimerViewController.m */,
+			);
+			path = RoundsTimerViewController;
+			sourceTree = "<group>";
+		};
+		7538DA5D1FB050F9007C59B6 /* RoundsPortraitView */ = {
+			isa = PBXGroup;
+			children = (
+				7538DA5E1FB0511C007C59B6 /* RoundsPortraitView.h */,
+				7538DA5F1FB0511C007C59B6 /* RoundsPortraitView.m */,
+			);
+			path = RoundsPortraitView;
+			sourceTree = "<group>";
+		};
+		7538DA611FB05594007C59B6 /* RoundsLandscapeView */ = {
+			isa = PBXGroup;
+			children = (
+				7538DA6A1FB056F5007C59B6 /* RoundsLandscapeView.h */,
+				7538DA6B1FB056F5007C59B6 /* RoundsLandscapeView.m */,
+			);
+			path = RoundsLandscapeView;
+			sourceTree = "<group>";
+		};
+		7538DA621FB056B0007C59B6 /* CircleRoundsCount */ = {
+			isa = PBXGroup;
+			children = (
+				7538DA671FB056DA007C59B6 /* CircleRoundsCount.h */,
+				7538DA681FB056DA007C59B6 /* CircleRoundsCount.m */,
+			);
+			path = CircleRoundsCount;
+			sourceTree = "<group>";
+		};
+		7538DA631FB056B0007C59B6 /* CircleRoundsTimer */ = {
+			isa = PBXGroup;
+			children = (
+				7538DA641FB056C6007C59B6 /* CircleRoundsTimer.h */,
+				7538DA651FB056C6007C59B6 /* CircleRoundsTimer.m */,
+			);
+			path = CircleRoundsTimer;
+			sourceTree = "<group>";
+		};
+		7538DA6D1FB05E96007C59B6 /* CircleCyclesEnumerate */ = {
+			isa = PBXGroup;
+			children = (
+				7538DA701FB05FD9007C59B6 /* CircleCyclesEnumerate.h */,
+				7538DA711FB05FD9007C59B6 /* CircleCyclesEnumerate.m */,
+			);
+			path = CircleCyclesEnumerate;
+			sourceTree = "<group>";
+		};
+		7538DA6E1FB05E96007C59B6 /* CircleRoundsEnumerate */ = {
+			isa = PBXGroup;
+			children = (
+				7538DA731FB05FF3007C59B6 /* CircleRoundsEnumerate.h */,
+				7538DA741FB05FF3007C59B6 /* CircleRoundsEnumerate.m */,
+			);
+			path = CircleRoundsEnumerate;
+			sourceTree = "<group>";
+		};
+		7538DA6F1FB05E96007C59B6 /* CircleTabataTimer */ = {
+			isa = PBXGroup;
+			children = (
+				7538DA761FB06006007C59B6 /* CircleTabataTimer.h */,
+				7538DA771FB06006007C59B6 /* CircleTabataTimer.m */,
+			);
+			path = CircleTabataTimer;
+			sourceTree = "<group>";
+		};
+		7538DA791FB0668A007C59B6 /* StopwatchTimerViewController */ = {
+			isa = PBXGroup;
+			children = (
+				75B57EDD1FD949F70041A39A /* AddNewTimerStopWatchTableViewController */,
+				75D08C751FC85E3100478BB6 /* StopWatchIntervalsViewController */,
+				75D08C6A1FC859F700478BB6 /* StopwatchUpNextDataModel */,
+				75D08C691FC859DD00478BB6 /* StopwatchObject */,
+				7538DA7C1FB06770007C59B6 /* CircleStopwatchTimer */,
+				7538DA7A1FB06770007C59B6 /* StopwatchLandscapeView */,
+				7538DA7B1FB06770007C59B6 /* StopwatchPortraitView */,
+				7538DA7D1FB06790007C59B6 /* StopwatchTimerViewController.h */,
+				7538DA7E1FB06790007C59B6 /* StopwatchTimerViewController.m */,
+			);
+			path = StopwatchTimerViewController;
+			sourceTree = "<group>";
+		};
+		7538DA7A1FB06770007C59B6 /* StopwatchLandscapeView */ = {
+			isa = PBXGroup;
+			children = (
+				7538DA831FB067FC007C59B6 /* StopwatchLandscapeView.h */,
+				7538DA841FB067FC007C59B6 /* StopwatchLandscapeView.m */,
+			);
+			path = StopwatchLandscapeView;
+			sourceTree = "<group>";
+		};
+		7538DA7B1FB06770007C59B6 /* StopwatchPortraitView */ = {
+			isa = PBXGroup;
+			children = (
+				7538DA801FB067E7007C59B6 /* StopwatchPortraitView.h */,
+				7538DA811FB067E7007C59B6 /* StopwatchPortraitView.m */,
+			);
+			path = StopwatchPortraitView;
+			sourceTree = "<group>";
+		};
+		7538DA7C1FB06770007C59B6 /* CircleStopwatchTimer */ = {
+			isa = PBXGroup;
+			children = (
+				7538DA861FB0684B007C59B6 /* CircleStopwatchTimer.h */,
+				7538DA871FB0684B007C59B6 /* CircleStopwatchTimer.m */,
+			);
+			path = CircleStopwatchTimer;
+			sourceTree = "<group>";
+		};
+		7542731D2022FD2F001C4D2A /* SKTRing */ = {
+			isa = PBXGroup;
+			children = (
+				7542731F2022FD6E001C4D2A /* CGFloat.swift */,
+				7542731E2022FD6E001C4D2A /* SKColor.swift */,
+				754273202022FD6E001C4D2A /* SKRingNode.swift */,
+			);
+			path = SKTRing;
+			sourceTree = "<group>";
+		};
+		75427324202300B8001C4D2A /* SKTUtils */ = {
+			isa = PBXGroup;
+			children = (
+				75427329202300D0001C4D2A /* CGFloat+Extensions.swift */,
+				75427328202300CF001C4D2A /* CGPoint+Extensions.swift */,
+				7542732C202300D1001C4D2A /* CGVector+Extensions.swift */,
+				7542732F202300D1001C4D2A /* Int+Extensions.swift */,
+				7542732A202300D0001C4D2A /* SKAction+Extensions.swift */,
+				75427325202300CE001C4D2A /* SKAction+SpecialEffects.swift */,
+				7542732D202300D1001C4D2A /* SKColor+Extensions.swift */,
+				75427326202300CF001C4D2A /* SKNode+Extensions.swift */,
+				75427327202300CF001C4D2A /* SKTAudio.swift */,
+				7542732E202300D1001C4D2A /* SKTEffects.swift */,
+				7542732B202300D0001C4D2A /* SKTTimingFunctions.swift */,
+				75427330202300D1001C4D2A /* Vector3.swift */,
+			);
+			path = SKTUtils;
+			sourceTree = "<group>";
+		};
+		754A92232020A435009FBB09 /* CircleScene */ = {
+			isa = PBXGroup;
+			children = (
+				754A92242020A474009FBB09 /* CircleScene.swift */,
+				754A92262020A529009FBB09 /* CircleType.swift */,
+			);
+			path = CircleScene;
+			sourceTree = "<group>";
+		};
+		754BDAB32036C59400CDD811 /* HealthKit */ = {
+			isa = PBXGroup;
+			children = (
+				754BDAB42036C61400CDD811 /* HealthKitBackgroundManager.swift */,
+			);
+			path = HealthKit;
+			sourceTree = "<group>";
+		};
+		754FD0BB2061022800566384 /* WatchHealthModels */ = {
+			isa = PBXGroup;
+			children = (
+				754FD0BC2061027800566384 /* Workout.swift */,
+				754FD0BE2061031E00566384 /* WatchWorkoutSession.swift */,
+				754FD0C0206103A700566384 /* WatchWorkoutDataStore.swift */,
+			);
+			path = WatchHealthModels;
+			sourceTree = "<group>";
+		};
+		755C6D842057DACB0010BEF3 /* BundleImageLoader */ = {
+			isa = PBXGroup;
+			children = (
+				755C6D852057DAEF0010BEF3 /* BundleImageLoader.h */,
+				755C6D862057DAF00010BEF3 /* BundleImageLoader.m */,
+			);
+			path = BundleImageLoader;
+			sourceTree = "<group>";
+		};
+		755E15711FB349DC003BE434 /* TimerObj */ = {
+			isa = PBXGroup;
+			children = (
+				755E15721FB349DC003BE434 /* TimerObject.h */,
+				755E15731FB349DC003BE434 /* TimerObject.m */,
+			);
+			path = TimerObj;
+			sourceTree = "<group>";
+		};
+		755E15761FB35284003BE434 /* TabataObject */ = {
+			isa = PBXGroup;
+			children = (
+				755E15771FB35295003BE434 /* TabataObject.h */,
+				755E15781FB35295003BE434 /* TabataObject.m */,
+			);
+			path = TabataObject;
+			sourceTree = "<group>";
+		};
+		7562DEA91FE9412B008780DE /* AppleWatchClassesHandlers */ = {
+			isa = PBXGroup;
+			children = (
+				7562DEAA1FE94170008780DE /* AppleWatchClassesHandlers.h */,
+				7562DEAB1FE94170008780DE /* AppleWatchClassesHandlers.m */,
+			);
+			path = AppleWatchClassesHandlers;
+			sourceTree = "<group>";
+		};
+		7571D89F2031EDD4000086A3 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				7571D8AC2031F112000086A3 /* AvenirNextLTPro-Regular.otf */,
+				7571D8A42031EFFA000086A3 /* AvenirNextLTPro-It.otf */,
+				7571D8A82031F10B000086A3 /* AvenirNextLTPro-Bold.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		7575767B1FF23FF700CCD1C5 /* TimerObject */ = {
+			isa = PBXGroup;
+			children = (
+				7575767C1FF2402A00CCD1C5 /* TimerObject.swift */,
+			);
+			path = TimerObject;
+			sourceTree = "<group>";
+		};
+		757A9212205AA1DE006BC195 /* WorkoutHealthModels */ = {
+			isa = PBXGroup;
+			children = (
+				75258DB2205BB02F005D4FB2 /* TabataWorkout.h */,
+				75258DB3205BB02F005D4FB2 /* TabataWorkout.m */,
+				75258DB5205BB4C3005D4FB2 /* WorkoutSession.h */,
+				75258DB6205BB4C3005D4FB2 /* WorkoutSession.m */,
+				75258DB8205BC086005D4FB2 /* WorkoutDataStore.h */,
+				75258DB9205BC086005D4FB2 /* WorkoutDataStore.m */,
+			);
+			path = WorkoutHealthModels;
+			sourceTree = "<group>";
+		};
+		758BA71E1FC32E56007BFA26 /* AppColorManager */ = {
+			isa = PBXGroup;
+			children = (
+				758BA71F1FC32E63007BFA26 /* AppColorManager.h */,
+				758BA7201FC32E63007BFA26 /* AppColorManager.m */,
+			);
+			path = AppColorManager;
+			sourceTree = "<group>";
+		};
+		75915A351F9F5B2E00067C6A /* TabataTimerViewController */ = {
+			isa = PBXGroup;
+			children = (
+				75B57ED51FD949530041A39A /* AddNewTimerTabataTableViewController */,
+				75C2E67A1FBC3D0C00DAA05C /* TabataIntervalsTableViewController */,
+				75D994201FBAFD9C000FDD65 /* UpNextDataModel */,
+				755E15761FB35284003BE434 /* TabataObject */,
+				7538DA6D1FB05E96007C59B6 /* CircleCyclesEnumerate */,
+				7538DA6E1FB05E96007C59B6 /* CircleRoundsEnumerate */,
+				7538DA6F1FB05E96007C59B6 /* CircleTabataTimer */,
+				75915A3A1F9F5C7300067C6A /* TabataLandscapeView */,
+				75915A391F9F5C7300067C6A /* TabataPortraitView */,
+				75915A361F9F5B6F00067C6A /* TabataTimerViewController.h */,
+				75915A371F9F5B6F00067C6A /* TabataTimerViewController.m */,
+			);
+			path = TabataTimerViewController;
+			sourceTree = "<group>";
+		};
+		75915A391F9F5C7300067C6A /* TabataPortraitView */ = {
+			isa = PBXGroup;
+			children = (
+				75915A3B1F9F5C9300067C6A /* TabataPortraitView.h */,
+				75915A3C1F9F5C9300067C6A /* TabataPortraitView.m */,
+			);
+			path = TabataPortraitView;
+			sourceTree = "<group>";
+		};
+		75915A3A1F9F5C7300067C6A /* TabataLandscapeView */ = {
+			isa = PBXGroup;
+			children = (
+				75915A3E1F9F5CB200067C6A /* TabataLandscapeView.h */,
+				75915A3F1F9F5CB200067C6A /* TabataLandscapeView.m */,
+			);
+			path = TabataLandscapeView;
+			sourceTree = "<group>";
+		};
+		759475F1205A7FA300AE2D4A /* HealthKitAssistant */ = {
+			isa = PBXGroup;
+			children = (
+				759475F2205A7FF400AE2D4A /* HealthKitSetupAssistant.swift */,
+			);
+			path = HealthKitAssistant;
+			sourceTree = "<group>";
+		};
+		75B57ECD1FD9236B0041A39A /* CustomNavigationBarUIView */ = {
+			isa = PBXGroup;
+			children = (
+				75B57ECE1FD923840041A39A /* CustomNavigationBarUIView.h */,
+				75B57ECF1FD923840041A39A /* CustomNavigationBarUIView.m */,
+			);
+			path = CustomNavigationBarUIView;
+			sourceTree = "<group>";
+		};
+		75B57ED51FD949530041A39A /* AddNewTimerTabataTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				75B57ED61FD949530041A39A /* AddNewTimerTabataViewController.h */,
+				75B57ED71FD949530041A39A /* AddNewTimerTabataViewController.m */,
+			);
+			path = AddNewTimerTabataTableViewController;
+			sourceTree = "<group>";
+		};
+		75B57ED91FD9499C0041A39A /* AddNewTimerRoundsTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				75B57EDA1FD9499C0041A39A /* AddNewTimerRoundsViewController.h */,
+				75B57EDB1FD9499C0041A39A /* AddNewTimerRoundsViewController.m */,
+			);
+			path = AddNewTimerRoundsTableViewController;
+			sourceTree = "<group>";
+		};
+		75B57EDD1FD949F70041A39A /* AddNewTimerStopWatchTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				75B57EDE1FD949F70041A39A /* AddNewTimerStopWatchViewController.h */,
+				75B57EDF1FD949F70041A39A /* AddNewTimerStopWatchViewController.m */,
+			);
+			path = AddNewTimerStopWatchTableViewController;
+			sourceTree = "<group>";
+		};
+		75C2E67A1FBC3D0C00DAA05C /* TabataIntervalsTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				75C2E67B1FBC3D0C00DAA05C /* TabataIntervalsViewController.h */,
+				75C2E67C1FBC3D0C00DAA05C /* TabataIntervalsViewController.m */,
+			);
+			path = TabataIntervalsTableViewController;
+			sourceTree = "<group>";
+		};
+		75D08C691FC859DD00478BB6 /* StopwatchObject */ = {
+			isa = PBXGroup;
+			children = (
+				75D08C6E1FC85A1100478BB6 /* StopwatchObject.h */,
+				75D08C6F1FC85A1100478BB6 /* StopwatchObject.m */,
+			);
+			path = StopwatchObject;
+			sourceTree = "<group>";
+		};
+		75D08C6A1FC859F700478BB6 /* StopwatchUpNextDataModel */ = {
+			isa = PBXGroup;
+			children = (
+				75D08C6B1FC85A0300478BB6 /* StopwatchUpNextDataModel.h */,
+				75D08C6C1FC85A0300478BB6 /* StopwatchUpNextDataModel.m */,
+			);
+			path = StopwatchUpNextDataModel;
+			sourceTree = "<group>";
+		};
+		75D08C751FC85E3100478BB6 /* StopWatchIntervalsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				75D08C771FC85E5D00478BB6 /* StopWatchIntervalsViewController.h */,
+				75D08C761FC85E5D00478BB6 /* StopWatchIntervalsViewController.m */,
+			);
+			path = StopWatchIntervalsViewController;
+			sourceTree = "<group>";
+		};
+		75D994201FBAFD9C000FDD65 /* UpNextDataModel */ = {
+			isa = PBXGroup;
+			children = (
+				75D994211FBAFDB0000FDD65 /* UpNextDataModel.h */,
+				75D994221FBAFDB0000FDD65 /* UpNextDataModel.m */,
+			);
+			path = UpNextDataModel;
+			sourceTree = "<group>";
+		};
+		75EF030B1F8F58E8009B4CBA /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				753127941FE01F7C003E83FA /* UIDevice */,
+				75EF030C1F8F58E8009B4CBA /* UIButton+Clipping.h */,
+				75EF030D1F8F58E8009B4CBA /* UIButton+Clipping.m */,
+				7599D63F1F90D5ED00BB4CEB /* UITabBarController+Transpareable.h */,
+				7599D6401F90D5ED00BB4CEB /* UITabBarController+Transpareable.m */,
+				75D994241FBB50D7000FDD65 /* UINavigationController+Transparent.h */,
+				75D994251FBB50D7000FDD65 /* UINavigationController+Transparent.m */,
+				751B6AD11FCD484C002B3DC7 /* NSLayoutConstraint+Multiplier.h */,
+				751B6AD21FCD484C002B3DC7 /* NSLayoutConstraint+Multiplier.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		B13CE74AD9CDF632665FB3CF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C19E958418E13E3DE1AC14C8 /* Pods-TestTimer.debug.xcconfig */,
+				B3BC2BC5AB5F3EA8E95B4E9B /* Pods-TestTimer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CE01C74E1DB9128D00358266 /* MainAppConnectivity */ = {
+			isa = PBXGroup;
+			children = (
+				CE01C74F1DB9128D00358266 /* MainAppConnectivity.h */,
+				CE01C7501DB9128D00358266 /* MainAppConnectivity.m */,
+			);
+			path = MainAppConnectivity;
+			sourceTree = "<group>";
+		};
+		CE09B9321DB63910000E3A58 /* TimerPickers */ = {
+			isa = PBXGroup;
+			children = (
+				CE09B9361DB63910000E3A58 /* PrepareTimeViewController */,
+				CE09B9481DB63910000E3A58 /* WorkTimeViewController */,
+				CE09B93C1DB63910000E3A58 /* RestTimeViewController */,
+				CE09B9421DB63910000E3A58 /* RoundsViewController */,
+				CE09B9331DB63910000E3A58 /* CyclesViewController */,
+				CE09B9391DB63910000E3A58 /* RestBetweenCyclesViewController */,
+				CE09B93F1DB63910000E3A58 /* RoundsTimeViewController */,
+				CE09B9451DB63910000E3A58 /* SoundEachViewController */,
+			);
+			path = TimerPickers;
+			sourceTree = "<group>";
+		};
+		CE09B9331DB63910000E3A58 /* CyclesViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CE09B9341DB63910000E3A58 /* CyclesViewController.h */,
+				CE09B9351DB63910000E3A58 /* CyclesViewController.m */,
+			);
+			path = CyclesViewController;
+			sourceTree = "<group>";
+		};
+		CE09B9361DB63910000E3A58 /* PrepareTimeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CE09B9371DB63910000E3A58 /* PrepareTimeViewController.h */,
+				CE09B9381DB63910000E3A58 /* PrepareTimeViewController.m */,
+			);
+			path = PrepareTimeViewController;
+			sourceTree = "<group>";
+		};
+		CE09B9391DB63910000E3A58 /* RestBetweenCyclesViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CE09B93A1DB63910000E3A58 /* RestBetweenCyclesViewController.h */,
+				CE09B93B1DB63910000E3A58 /* RestBetweenCyclesViewController.m */,
+			);
+			path = RestBetweenCyclesViewController;
+			sourceTree = "<group>";
+		};
+		CE09B93C1DB63910000E3A58 /* RestTimeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CE09B93D1DB63910000E3A58 /* RestTimeViewController.h */,
+				CE09B93E1DB63910000E3A58 /* RestTimeViewController.m */,
+			);
+			path = RestTimeViewController;
+			sourceTree = "<group>";
+		};
+		CE09B93F1DB63910000E3A58 /* RoundsTimeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CE09B9401DB63910000E3A58 /* RoundsTimeViewController.h */,
+				CE09B9411DB63910000E3A58 /* RoundsTimeViewController.m */,
+			);
+			path = RoundsTimeViewController;
+			sourceTree = "<group>";
+		};
+		CE09B9421DB63910000E3A58 /* RoundsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CE09B9431DB63910000E3A58 /* RoundsViewController.h */,
+				CE09B9441DB63910000E3A58 /* RoundsViewController.m */,
+			);
+			path = RoundsViewController;
+			sourceTree = "<group>";
+		};
+		CE09B9451DB63910000E3A58 /* SoundEachViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CE09B9461DB63910000E3A58 /* SoundEachViewController.h */,
+				CE09B9471DB63910000E3A58 /* SoundEachViewController.m */,
+			);
+			path = SoundEachViewController;
+			sourceTree = "<group>";
+		};
+		CE09B9481DB63910000E3A58 /* WorkTimeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CE09B9491DB63910000E3A58 /* WorkTimeViewController.h */,
+				CE09B94A1DB63910000E3A58 /* WorkTimeViewController.m */,
+			);
+			path = WorkTimeViewController;
+			sourceTree = "<group>";
+		};
+		CE09B9531DB63B1E000E3A58 /* UIClasses */ = {
+			isa = PBXGroup;
+			children = (
+				CE09B95A1DB63B1E000E3A58 /* SettingsManagerThemeCollectionViewCell */,
+				CE09B9611DB63B1E000E3A58 /* ShowSplashScreen */,
+			);
+			path = UIClasses;
+			sourceTree = "<group>";
+		};
+		CE09B95A1DB63B1E000E3A58 /* SettingsManagerThemeCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				CE09B95B1DB63B1E000E3A58 /* SettingsManagerThemeCollectionViewCell.h */,
+				CE09B95C1DB63B1E000E3A58 /* SettingsManagerThemeCollectionViewCell.m */,
+				CE09B95D1DB63B1E000E3A58 /* SettingsManagerThemeCollectionViewCell.xib */,
+			);
+			path = SettingsManagerThemeCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		CE09B9611DB63B1E000E3A58 /* ShowSplashScreen */ = {
+			isa = PBXGroup;
+			children = (
+				CE09B9621DB63B1E000E3A58 /* ShowSplashScreen.h */,
+				CE09B9631DB63B1E000E3A58 /* ShowSplashScreen.m */,
+			);
+			path = ShowSplashScreen;
+			sourceTree = "<group>";
+		};
+		CE09B9721DB63C40000E3A58 /* NewCustomHeaderTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				CE09B9731DB63C40000E3A58 /* NewCustomHeaderTableViewCell.h */,
+				CE09B9741DB63C40000E3A58 /* NewCustomHeaderTableViewCell.m */,
+				CE09B9751DB63C40000E3A58 /* NewCustomHeaderTableViewCell.xib */,
+			);
+			path = NewCustomHeaderTableViewCell;
+			sourceTree = "<group>";
+		};
+		CE12F62E1D9A84C6001A4099 /* MainUITabbarController */ = {
+			isa = PBXGroup;
+			children = (
+				CE12F62F1D9A84E6001A4099 /* MainUITabbarController.h */,
+				CE12F6301D9A84E6001A4099 /* MainUITabbarController.m */,
+			);
+			path = MainUITabbarController;
+			sourceTree = "<group>";
+		};
+		CE2CFCF61DD99DF9007036A6 /* AppUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				CE2CFCF71DD99DF9007036A6 /* Constants */,
+				CE2CFCFA1DD99DF9007036A6 /* Utilities */,
+			);
+			path = AppUtilities;
+			sourceTree = "<group>";
+		};
+		CE2CFCF71DD99DF9007036A6 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				CE2CFCF81DD99DF9007036A6 /* Constants.h */,
+				CE2CFCF91DD99DF9007036A6 /* Constants.m */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		CE2CFCFA1DD99DF9007036A6 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				75C787111FE42B3E000866ED /* TestTimer-Bridging-Header.h */,
+				75C262981F86784100EF9B9E /* Extensions.swift */,
+				75C2629B1F86784200EF9B9E /* Inspectable.swift */,
+				75C262991F86784200EF9B9E /* NSString+Localization.h */,
+				75C2629A1F86784200EF9B9E /* NSString+Localization.m */,
+				CE2CFCFB1DD99DF9007036A6 /* Utilities.h */,
+				CE2CFCFC1DD99DF9007036A6 /* Utilities.m */,
+				755E15751FB34A8A003BE434 /* Enums.h */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		CE38FE251D99060600D806E7 /* AppInfo */ = {
+			isa = PBXGroup;
+			children = (
+				CE38FE261D99060600D806E7 /* AppInfo.h */,
+				CE38FE271D99060600D806E7 /* AppInfo.m */,
+			);
+			path = AppInfo;
+			sourceTree = "<group>";
+		};
+		CECF9C551D4768DC0002C392 /* MoreTabBarViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CECF9C591D4781AE0002C392 /* MoreTabBarTableViewCell */,
+				CECF9C561D477A740002C392 /* MoreTabBarViewController.h */,
+				CECF9C571D477A740002C392 /* MoreTabBarViewController.m */,
+			);
+			path = MoreTabBarViewController;
+			sourceTree = "<group>";
+		};
+		CECF9C591D4781AE0002C392 /* MoreTabBarTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				CEA1CED11D48B379005E11AD /* MoreTableViewCell.h */,
+				CEA1CED21D48B379005E11AD /* MoreTableViewCell.m */,
+				CEA1CED31D48B379005E11AD /* MoreTableViewCell.xib */,
+			);
+			path = MoreTabBarTableViewCell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00B1D9E11C33B98F009415EB /* TestTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00B1DA0F1C33B98F009415EB /* Build configuration list for PBXNativeTarget "TestTimer" */;
+			buildPhases = (
+				32F07740C4EB7DAEDA170624 /* [CP] Check Pods Manifest.lock */,
+				00B1D9DE1C33B98F009415EB /* Sources */,
+				00B1D9DF1C33B98F009415EB /* Frameworks */,
+				00B1D9E01C33B98F009415EB /* Resources */,
+				9200DD89341ACCEC99461F84 /* [CP] Embed Pods Frameworks */,
+				889CC55096B60A5E8730B5DE /* [CP] Copy Pods Resources */,
+				CEFD9B661D65952300EC0242 /* ShellScript */,
+				CE01C74D1DB911B900358266 /* Embed Watch Content */,
+				750D2C561F8B60EF00203E19 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				752BEE901FE2CA85001523E8 /* PBXTargetDependency */,
+			);
+			name = TestTimer;
+			productName = TestTimer;
+			productReference = 00B1D9E21C33B98F009415EB /* TestTimer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		75241E0B1FE1910200CF21EE /* TestTimerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75241E131FE1910200CF21EE /* Build configuration list for PBXNativeTarget "TestTimerUITests" */;
+			buildPhases = (
+				75241E081FE1910200CF21EE /* Sources */,
+				75241E091FE1910200CF21EE /* Frameworks */,
+				75241E0A1FE1910200CF21EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75241E121FE1910200CF21EE /* PBXTargetDependency */,
+			);
+			name = TestTimerUITests;
+			productName = TestTimerUITests;
+			productReference = 75241E0C1FE1910200CF21EE /* TestTimerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		752BEE761FE2CA84001523E8 /* TestTimerWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 752BEE961FE2CA85001523E8 /* Build configuration list for PBXNativeTarget "TestTimerWatch" */;
+			buildPhases = (
+				752BEE751FE2CA84001523E8 /* Resources */,
+				752BEE951FE2CA85001523E8 /* Embed App Extensions */,
+				F3667BD7D72E67BDDC52E4EE /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				752BEE861FE2CA85001523E8 /* PBXTargetDependency */,
+			);
+			name = TestTimerWatch;
+			productName = TestTimerWatch;
+			productReference = 752BEE771FE2CA84001523E8 /* TestTimerWatch.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		752BEE821FE2CA85001523E8 /* TestTimerWatch Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 752BEE921FE2CA85001523E8 /* Build configuration list for PBXNativeTarget "TestTimerWatch Extension" */;
+			buildPhases = (
+				752BEE7F1FE2CA85001523E8 /* Sources */,
+				752BEE801FE2CA85001523E8 /* Frameworks */,
+				752BEE811FE2CA85001523E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TestTimerWatch Extension";
+			productName = "TestTimerWatch Extension";
+			productReference = 752BEE831FE2CA85001523E8 /* TestTimerWatch Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		00B1D9DA1C33B98F009415EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = SoftIntercom;
+				TargetAttributes = {
+					00B1D9E11C33B98F009415EB = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = U4Q8YGTP9Q;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.HealthKit = {
+								enabled = 1;
+							};
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
+					};
+					75241E0B1FE1910200CF21EE = {
+						CreatedOnToolsVersion = 9.2;
+						DevelopmentTeam = XY9H4LH9U8;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 00B1D9E11C33B98F009415EB;
+					};
+					752BEE761FE2CA84001523E8 = {
+						CreatedOnToolsVersion = 9.2;
+						DevelopmentTeam = U4Q8YGTP9Q;
+						ProvisioningStyle = Manual;
+					};
+					752BEE821FE2CA85001523E8 = {
+						CreatedOnToolsVersion = 9.2;
+						DevelopmentTeam = U4Q8YGTP9Q;
+						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.BackgroundModes.watchos.extension = {
+								enabled = 1;
+							};
+							com.apple.HealthKit.watchos = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 00B1D9DD1C33B98F009415EB /* Build configuration list for PBXProject "TestTimer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				de,
+				"zh-Hans",
+				"zh-Hant",
+				ja,
+				es,
+				it,
+				nl,
+				ko,
+				"pt-PT",
+				sv,
+				ru,
+				tr,
+				th,
+			);
+			mainGroup = 00B1D9D91C33B98F009415EB;
+			productRefGroup = 00B1D9E31C33B98F009415EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00B1D9E11C33B98F009415EB /* TestTimer */,
+				75241E0B1FE1910200CF21EE /* TestTimerUITests */,
+				752BEE761FE2CA84001523E8 /* TestTimerWatch */,
+				752BEE821FE2CA85001523E8 /* TestTimerWatch Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00B1D9E01C33B98F009415EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				750876011FC2FA440049B446 /* SettingsManagerTableViewCell.xib in Resources */,
+				CE8C69621D3CB2E10063202B /* Censor.wav in Resources */,
+				CE09B96D1DB63B1E000E3A58 /* SettingsManagerThemeCollectionViewCell.xib in Resources */,
+				CE8C695E1D3CB2E10063202B /* Air Horn.wav in Resources */,
+				757A0B9E1FB3158400B3FF44 /* MainIpadStoryboard.storyboard in Resources */,
+				CE8C69651D3CB2E10063202B /* Double Ding.wav in Resources */,
+				75A655111FD547F70067625C /* BeepSound.wav in Resources */,
+				CE09B9771DB63C40000E3A58 /* NewCustomHeaderTableViewCell.xib in Resources */,
+				7571D8A92031F10B000086A3 /* AvenirNextLTPro-Bold.otf in Resources */,
+				CE8C696B1D3CB2E10063202B /* Tone.wav in Resources */,
+				00E27C321C9C5B35001698D4 /* CustomIntervalsTableViewCell.xib in Resources */,
+				CE8C69601D3CB2E10063202B /* Boxing Bell.wav in Resources */,
+				CE8C69671D3CB2E10063202B /* Punch.wav in Resources */,
+				CEA1CED51D48B379005E11AD /* MoreTableViewCell.xib in Resources */,
+				CE8C69611D3CB2E10063202B /* Buzzer.wav in Resources */,
+				7571D8A52031EFFA000086A3 /* AvenirNextLTPro-It.otf in Resources */,
+				CE8C69661D3CB2E10063202B /* Metal Ding.wav in Resources */,
+				CE8C69641D3CB2E10063202B /* Ding.wav in Resources */,
+				CE8C695F1D3CB2E10063202B /* Beep.wav in Resources */,
+				CEA7DE7D1D5CA41F0035D373 /* LaunchScreen.storyboard in Resources */,
+				CE8C696A1D3CB2E10063202B /* Sports Whistle.wav in Resources */,
+				75FB871A1F87644E009D72D1 /* Localizable.strings in Resources */,
+				7571D8AD2031F113000086A3 /* AvenirNextLTPro-Regular.otf in Resources */,
+				CE8C69691D3CB2E10063202B /* Siren Horn.wav in Resources */,
+				CE00B2451DC724B100126DF4 /* CustomWorkoutTableViewCell.xib in Resources */,
+				00CE8DDC1C7C83CC00E71A7F /* Main.storyboard in Resources */,
+				CEE1FAB91D93B4B000DEB0F1 /* Assets.xcassets in Resources */,
+				CE8C69681D3CB2E10063202B /* Referee Whistle.wav in Resources */,
+				00A810ED1C6E145B00FB7C5D /* ColorSchemeCustomCell.xib in Resources */,
+				CE8C69631D3CB2E10063202B /* Chinese Gong.wav in Resources */,
+				0099C4A91CA176AE00E04B3E /* CustomHeaderTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75241E0A1FE1910200CF21EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		752BEE751FE2CA84001523E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7571D8A62031EFFA000086A3 /* AvenirNextLTPro-It.otf in Resources */,
+				7571D8AE2031F113000086A3 /* AvenirNextLTPro-Regular.otf in Resources */,
+				752BEE7D1FE2CA85001523E8 /* Assets.xcassets in Resources */,
+				7571D8AA2031F10B000086A3 /* AvenirNextLTPro-Bold.otf in Resources */,
+				752BEE7B1FE2CA85001523E8 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		752BEE811FE2CA85001523E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				752BEE8D1FE2CA85001523E8 /* Assets.xcassets in Resources */,
+				7571D8A72031EFFA000086A3 /* AvenirNextLTPro-It.otf in Resources */,
+				7571D8AF2031F113000086A3 /* AvenirNextLTPro-Regular.otf in Resources */,
+				7571D8AB2031F10B000086A3 /* AvenirNextLTPro-Bold.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		32F07740C4EB7DAEDA170624 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestTimer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		750D2C561F8B60EF00203E19 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "TAGS=\"TODO:|FIXME:\"\necho \"searching ${SRCROOT} for ${TAGS}\"\nfind \"${SRCROOT}\" \\( -name \"*.h\" -or -name \"*.m\" -or -name \"*.swift\"  \\) -print0 | xargs -0 egrep --with-filename --line-number --only-matching \"($TAGS).*\\$\" | perl -p -e \"s/($TAGS)/ warning: \\$1/\"\n";
+		};
+		889CC55096B60A5E8730B5DE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TestTimer/Pods-TestTimer-resources.sh",
+				$PODS_CONFIGURATION_BUILD_DIR/Appirater/Appirater.bundle,
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestTimer/Pods-TestTimer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9200DD89341ACCEC99461F84 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestTimer/Pods-TestTimer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CEFD9B661D65952300EC0242 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" 674d3673232b840acf345a5083ff705efad9dbfd dff908f54ab26811e481d18d22485173bef0679643cec4d0a9677fd09ef8d0c5";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00B1D9DE1C33B98F009415EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75C787131FE42CCA000866ED /* TestTimer-Bridging-Header.h in Sources */,
+				751B6AD31FCD484C002B3DC7 /* NSLayoutConstraint+Multiplier.m in Sources */,
+				75258DB7205BB4C3005D4FB2 /* WorkoutSession.m in Sources */,
+				75012C681F82225100D23242 /* AppDelegate.m in Sources */,
+				7562DEAC1FE94170008780DE /* AppleWatchClassesHandlers.m in Sources */,
+				CE09B96C1DB63B1E000E3A58 /* SettingsManagerThemeCollectionViewCell.m in Sources */,
+				CE09B94B1DB63910000E3A58 /* CyclesViewController.m in Sources */,
+				750876031FC2FA440049B446 /* SoundPickerViewController.m in Sources */,
+				753127971FE01F7C003E83FA /* UIDevice+Hardware.m in Sources */,
+				750876001FC2FA440049B446 /* SettingsManagerTableViewCell.m in Sources */,
+				7538DA721FB05FD9007C59B6 /* CircleCyclesEnumerate.m in Sources */,
+				7531279F1FE02007003E83FA /* AppDelegate+RateButton.m in Sources */,
+				75915A3D1F9F5C9300067C6A /* TabataPortraitView.m in Sources */,
+				75358E331FC6C130000042CD /* RoundsIntervalsViewController.m in Sources */,
+				7508760E1FC2FCEE0049B446 /* SettingsManagerImplementation.m in Sources */,
+				75258DB4205BB02F005D4FB2 /* TabataWorkout.m in Sources */,
+				CE09B94F1DB63910000E3A58 /* RoundsTimeViewController.m in Sources */,
+				7538DA661FB056C6007C59B6 /* CircleRoundsTimer.m in Sources */,
+				CEA1CED41D48B379005E11AD /* MoreTableViewCell.m in Sources */,
+				75258DBA205BC086005D4FB2 /* WorkoutDataStore.m in Sources */,
+				7538DA601FB0511C007C59B6 /* RoundsPortraitView.m in Sources */,
+				CE9F1E461CF734180007DC5B /* TabatasWorkouts.m in Sources */,
+				7538DA851FB067FC007C59B6 /* StopwatchLandscapeView.m in Sources */,
+				CE38FE281D99060600D806E7 /* AppInfo.m in Sources */,
+				7538DA881FB0684B007C59B6 /* CircleStopwatchTimer.m in Sources */,
+				CE2CFCFE1DD99DF9007036A6 /* Utilities.m in Sources */,
+				759475F3205A7FF400AE2D4A /* HealthKitSetupAssistant.swift in Sources */,
+				75358E2F1FC6B632000042CD /* RoundsObject.m in Sources */,
+				75D08C781FC85E5D00478BB6 /* StopWatchIntervalsViewController.m in Sources */,
+				7538DA7F1FB06790007C59B6 /* StopwatchTimerViewController.m in Sources */,
+				75915A381F9F5B6F00067C6A /* TabataTimerViewController.m in Sources */,
+				CE09B94E1DB63910000E3A58 /* RestTimeViewController.m in Sources */,
+				CE09B94C1DB63910000E3A58 /* PrepareTimeViewController.m in Sources */,
+				755E15741FB349DD003BE434 /* TimerObject.m in Sources */,
+				CE9F1E451CF734180007DC5B /* TabatasWorkouts+CoreDataProperties.m in Sources */,
+				75915A401F9F5CB200067C6A /* TabataLandscapeView.m in Sources */,
+				00B1D9E71C33B98F009415EB /* main.m in Sources */,
+				75C2629C1F86784300EF9B9E /* Extensions.swift in Sources */,
+				CE09B9501DB63910000E3A58 /* RoundsViewController.m in Sources */,
+				750876041FC2FA440049B446 /* TimeFormatViewController.m in Sources */,
+				00A57E321CAD3DF1000D9009 /* CircleTimer.m in Sources */,
+				7508760A1FC2FABF0049B446 /* SettingsManagerViewController.m in Sources */,
+				75C2629E1F86784300EF9B9E /* Inspectable.swift in Sources */,
+				CE09B9511DB63910000E3A58 /* SoundEachViewController.m in Sources */,
+				CE01C7511DB9128D00358266 /* MainAppConnectivity.m in Sources */,
+				00E27C311C9C5B35001698D4 /* CustomIntervalsTableViewCell.m in Sources */,
+				7538DA6C1FB056F5007C59B6 /* RoundsLandscapeView.m in Sources */,
+				7538DA821FB067E7007C59B6 /* StopwatchPortraitView.m in Sources */,
+				75EF030E1F8F59F6009B4CBA /* UIButton+Clipping.m in Sources */,
+				75C2E67D1FBC3D0C00DAA05C /* TabataIntervalsViewController.m in Sources */,
+				CE00B2441DC724B100126DF4 /* CustomWorkoutTableViewCell.m in Sources */,
+				75D08C6D1FC85A0300478BB6 /* StopwatchUpNextDataModel.m in Sources */,
+				758BA7211FC32E63007BFA26 /* AppColorManager.m in Sources */,
+				CECF9C581D477A740002C392 /* MoreTabBarViewController.m in Sources */,
+				7599D6411F90D5ED00BB4CEB /* UITabBarController+Transpareable.m in Sources */,
+				7538DA781FB06006007C59B6 /* CircleTabataTimer.m in Sources */,
+				75B57ED01FD923840041A39A /* CustomNavigationBarUIView.m in Sources */,
+				75B57EDC1FD9499C0041A39A /* AddNewTimerRoundsViewController.m in Sources */,
+				7538DA751FB05FF3007C59B6 /* CircleRoundsEnumerate.m in Sources */,
+				009836531CB7D3F200616159 /* DatabaseManager.m in Sources */,
+				75358E371FC6FFB9000042CD /* RoundsUpNextDataModel.m in Sources */,
+				75B57ED81FD949530041A39A /* AddNewTimerTabataViewController.m in Sources */,
+				CE34F8491CFC4BED005527F8 /* RoundsWorkouts+CoreDataProperties.m in Sources */,
+				CE34F8501CFC4C06005527F8 /* StopwatchWorkouts.m in Sources */,
+				CE2CFCFD1DD99DF9007036A6 /* Constants.m in Sources */,
+				CE34F84F1CFC4C06005527F8 /* StopwatchWorkouts+CoreDataProperties.m in Sources */,
+				75B57EE01FD949F70041A39A /* AddNewTimerStopWatchViewController.m in Sources */,
+				00A810E71C6E0D3800FB7C5D /* AppTheme.m in Sources */,
+				CE09B96F1DB63B1E000E3A58 /* ShowSplashScreen.m in Sources */,
+				75D994261FBB50D7000FDD65 /* UINavigationController+Transparent.m in Sources */,
+				CE34F84A1CFC4BED005527F8 /* RoundsWorkouts.m in Sources */,
+				CE09B9761DB63C40000E3A58 /* NewCustomHeaderTableViewCell.m in Sources */,
+				CEC0F4EA1D53184D003ABE48 /* ColorSchemeViewController.m in Sources */,
+				7538DA5C1FB05088007C59B6 /* RoundsTimerViewController.m in Sources */,
+				CE09B9521DB63910000E3A58 /* WorkTimeViewController.m in Sources */,
+				7538DA691FB056DA007C59B6 /* CircleRoundsCount.m in Sources */,
+				00A810EC1C6E145B00FB7C5D /* ColorSchemeCustomCell.m in Sources */,
+				750875FF1FC2FA440049B446 /* SettingsManager.m in Sources */,
+				CE09B94D1DB63910000E3A58 /* RestBetweenCyclesViewController.m in Sources */,
+				75D994231FBAFDB0000FDD65 /* UpNextDataModel.m in Sources */,
+				7531279C1FE01FD1003E83FA /* RateUsButton.m in Sources */,
+				755E15791FB35295003BE434 /* TabataObject.m in Sources */,
+				75D08C701FC85A1100478BB6 /* StopwatchObject.m in Sources */,
+				75262AE71FE7F78C00F95D0F /* ConnectivityHandler.swift in Sources */,
+				75C2629D1F86784300EF9B9E /* NSString+Localization.m in Sources */,
+				0099C4A81CA176AE00E04B3E /* CustomHeaderTableViewCell.m in Sources */,
+				755C6D872057DAF00010BEF3 /* BundleImageLoader.m in Sources */,
+				CE12F6311D9A84E6001A4099 /* MainUITabbarController.m in Sources */,
+				009836561CB7D40C00616159 /* TimerModel.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75241E081FE1910200CF21EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75241E0F1FE1910200CF21EE /* TestTimerUITests.swift in Sources */,
+				75241E171FE1915A00CF21EE /* SnapshotHelper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		752BEE7F1FE2CA85001523E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				754273232022FD6E001C4D2A /* SKRingNode.swift in Sources */,
+				754273222022FD6E001C4D2A /* CGFloat.swift in Sources */,
+				75C787141FE42E1C000866ED /* TestTimer-Bridging-Header.h in Sources */,
+				752BEE8B1FE2CA85001523E8 /* ExtensionDelegate.swift in Sources */,
+				0A80326F1FE3180E00C21E82 /* StopWatchController.swift in Sources */,
+				0A8032651FE30B2B00C21E82 /* TimerRow.swift in Sources */,
+				75427337202300D1001C4D2A /* SKTTimingFunctions.swift in Sources */,
+				751D142B200F3514001158A1 /* RoundsNextUpDataModel.swift in Sources */,
+				751D142D200F354E001158A1 /* StopwatchTimerController.swift in Sources */,
+				75258DBB205C1F61005D4FB2 /* HealthKitSetupAssistant.swift in Sources */,
+				757C4AC01FEAB45D00C4BF71 /* RoundsRow.swift in Sources */,
+				75427336202300D1001C4D2A /* SKAction+Extensions.swift in Sources */,
+				754FD0BF2061031E00566384 /* WatchWorkoutSession.swift in Sources */,
+				752451AA1FF7A2EF00C673FF /* Constants.m in Sources */,
+				754273212022FD6E001C4D2A /* SKColor.swift in Sources */,
+				75740F79204FEEB80056FCA0 /* HeaderTimerRow.swift in Sources */,
+				75427332202300D1001C4D2A /* SKNode+Extensions.swift in Sources */,
+				758468F62028431900BDBC36 /* TimerColor.swift in Sources */,
+				756DC4212032F1BD004EE99E /* HeaderStopwatchRow.swift in Sources */,
+				0A80327A1FE3329400C21E82 /* NSNumber.swift in Sources */,
+				75427339202300D1001C4D2A /* SKColor+Extensions.swift in Sources */,
+				7552993C20244F8A0079842C /* DispatchQueue+Once.swift in Sources */,
+				0A8032711FE31A7900C21E82 /* TabataRow.swift in Sources */,
+				756ABDA320109EE1004836C5 /* StopwatchNextUpDataModel.swift in Sources */,
+				7575767D1FF2402A00CCD1C5 /* TimerObject.swift in Sources */,
+				756DC41F2032D9C3004EE99E /* HeaderRoundsRow.swift in Sources */,
+				75427335202300D1001C4D2A /* CGFloat+Extensions.swift in Sources */,
+				0A8032751FE31E8800C21E82 /* StopWatchRow.swift in Sources */,
+				7542733B202300D1001C4D2A /* Int+Extensions.swift in Sources */,
+				7542733C202300D1001C4D2A /* Vector3.swift in Sources */,
+				7542733A202300D1001C4D2A /* SKTEffects.swift in Sources */,
+				754FD0C1206103A700566384 /* WatchWorkoutDataStore.swift in Sources */,
+				75B284721FED49B10013B013 /* TabataTimerController.swift in Sources */,
+				751D1429200F34BF001158A1 /* RoundsTimerController.swift in Sources */,
+				0A80326B1FE317D400C21E82 /* TabataController.swift in Sources */,
+				0A8032631FE3071900C21E82 /* MainController.swift in Sources */,
+				75427331202300D1001C4D2A /* SKAction+SpecialEffects.swift in Sources */,
+				752451AB1FF7CA8000C673FF /* TabatasWorkouts.m in Sources */,
+				75427338202300D1001C4D2A /* CGVector+Extensions.swift in Sources */,
+				754BDAB52036C61400CDD811 /* HealthKitBackgroundManager.swift in Sources */,
+				75427334202300D1001C4D2A /* CGPoint+Extensions.swift in Sources */,
+				754A92272020A529009FBB09 /* CircleType.swift in Sources */,
+				754A92252020A474009FBB09 /* CircleScene.swift in Sources */,
+				75427333202300D1001C4D2A /* SKTAudio.swift in Sources */,
+				0A80326D1FE3180200C21E82 /* RoundsController.swift in Sources */,
+				754FD0BD2061027800566384 /* Workout.swift in Sources */,
+				75025D5C202B09B100440457 /* HeaderTabataRow.swift in Sources */,
+				75E7D1FD2004AD1A006177A9 /* NextUpDataModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		75241E121FE1910200CF21EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 00B1D9E11C33B98F009415EB /* TestTimer */;
+			targetProxy = 75241E111FE1910200CF21EE /* PBXContainerItemProxy */;
+		};
+		752BEE861FE2CA85001523E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 752BEE821FE2CA85001523E8 /* TestTimerWatch Extension */;
+			targetProxy = 752BEE851FE2CA85001523E8 /* PBXContainerItemProxy */;
+		};
+		752BEE901FE2CA85001523E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 752BEE761FE2CA84001523E8 /* TestTimerWatch */;
+			targetProxy = 752BEE8F1FE2CA85001523E8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		00CE8DDA1C7C83CC00E71A7F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00CE8DDB1C7C83CC00E71A7F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		752BEE791FE2CA84001523E8 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				752BEE7A1FE2CA84001523E8 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+		75C262871F86738100EF9B9E /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75C262861F86738100EF9B9E /* en */,
+				75C262881F86739100EF9B9E /* fr */,
+				75C262891F86739400EF9B9E /* de */,
+				75C2628A1F86739500EF9B9E /* zh-Hans */,
+				75C2628B1F86739900EF9B9E /* zh-Hant */,
+				75C2628C1F86739A00EF9B9E /* ja */,
+				75C2628D1F86739B00EF9B9E /* es */,
+				75C2628E1F86739B00EF9B9E /* it */,
+				75C2628F1F86739C00EF9B9E /* nl */,
+				75C262901F86739E00EF9B9E /* ko */,
+				75C262911F86739F00EF9B9E /* pt-PT */,
+				75C262921F8673AF00EF9B9E /* sv */,
+				75C262931F8673B000EF9B9E /* ru */,
+				75C262941F8673B100EF9B9E /* tr */,
+				75C262951F8673B200EF9B9E /* th */,
+				75C262961F8673BC00EF9B9E /* Base */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		00B1DA0D1C33B98F009415EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		00B1DA0E1C33B98F009415EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		00B1DA101C33B98F009415EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C19E958418E13E3DE1AC14C8 /* Pods-TestTimer.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = TimerLaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = TestTimer/TestTimer.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = U4Q8YGTP9Q;
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "TestTimer/TestTimer-Prefix.pch";
+				INFOPLIST_FILE = TestTimer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vgfit.timer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "fb44801d-123e-4b81-94c6-ee0653fdfb6c";
+				PROVISIONING_PROFILE_SPECIFIER = "match Development com.vgfit.timer";
+				SWIFT_OBJC_BRIDGING_HEADER = "TestTimer/AppUtilities/Utilities/TestTimer-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		00B1DA111C33B98F009415EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3BC2BC5AB5F3EA8E95B4E9B /* Pods-TestTimer.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = TimerLaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = TestTimer/TestTimer.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = U4Q8YGTP9Q;
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "TestTimer/TestTimer-Prefix.pch";
+				INFOPLIST_FILE = TestTimer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vgfit.timer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "c5528385-94c8-4229-92ca-32d8152ba196";
+				PROVISIONING_PROFILE_SPECIFIER = "match AppStore com.vgfit.timer";
+				SWIFT_OBJC_BRIDGING_HEADER = "TestTimer/AppUtilities/Utilities/TestTimer-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		75241E141FE1910200CF21EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = XY9H4LH9U8;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = TestTimerUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Softintercom.TestTimerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TestTimer;
+			};
+			name = Debug;
+		};
+		75241E151FE1910200CF21EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XY9H4LH9U8;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = TestTimerUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Softintercom.TestTimerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TestTimer;
+			};
+			name = Release;
+		};
+		752BEE931FE2CA85001523E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = "TestTimerWatch Extension/TestTimerWatch Extension.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = U4Q8YGTP9Q;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "TestTimerWatch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vgfit.timer.wkitapp.wkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "d1a8c69a-5b24-485b-a288-cd01c1e88f70";
+				PROVISIONING_PROFILE_SPECIFIER = "match Development com.vgfit.timer.wkitapp.wkitexte";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "TestTimer/AppUtilities/Utilities/TestTimer-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
+			};
+			name = Debug;
+		};
+		752BEE941FE2CA85001523E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = "TestTimerWatch Extension/TestTimerWatch Extension.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = U4Q8YGTP9Q;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "TestTimerWatch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vgfit.timer.wkitapp.wkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "5cd30312-5bd2-4aa5-a054-9b968fb367e9";
+				PROVISIONING_PROFILE_SPECIFIER = "match AppStore com.vgfit.timer.wkitapp.wkitextensi";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "TestTimer/AppUtilities/Utilities/TestTimer-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
+			};
+			name = Release;
+		};
+		752BEE971FE2CA85001523E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = U4Q8YGTP9Q;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				IBSC_MODULE = TestTimerWatch_Extension;
+				INFOPLIST_FILE = TestTimerWatch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vgfit.timer.wkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "3d5317d3-5c44-4fcd-b2e6-092fec170c51";
+				PROVISIONING_PROFILE_SPECIFIER = "match Development com.vgfit.timer.wkitapp";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
+			};
+			name = Debug;
+		};
+		752BEE981FE2CA85001523E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = U4Q8YGTP9Q;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				IBSC_MODULE = TestTimerWatch_Extension;
+				INFOPLIST_FILE = TestTimerWatch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vgfit.timer.wkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "7a08fe78-8d09-46b5-bda6-519b1c758811";
+				PROVISIONING_PROFILE_SPECIFIER = "match AppStore com.vgfit.timer.wkitapp";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00B1D9DD1C33B98F009415EB /* Build configuration list for PBXProject "TestTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00B1DA0D1C33B98F009415EB /* Debug */,
+				00B1DA0E1C33B98F009415EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00B1DA0F1C33B98F009415EB /* Build configuration list for PBXNativeTarget "TestTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00B1DA101C33B98F009415EB /* Debug */,
+				00B1DA111C33B98F009415EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75241E131FE1910200CF21EE /* Build configuration list for PBXNativeTarget "TestTimerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75241E141FE1910200CF21EE /* Debug */,
+				75241E151FE1910200CF21EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		752BEE921FE2CA85001523E8 /* Build configuration list for PBXNativeTarget "TestTimerWatch Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				752BEE931FE2CA85001523E8 /* Debug */,
+				752BEE941FE2CA85001523E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		752BEE961FE2CA85001523E8 /* Build configuration list for PBXNativeTarget "TestTimerWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				752BEE971FE2CA85001523E8 /* Debug */,
+				752BEE981FE2CA85001523E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		009836541CB7D40C00616159 /* TimerModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				009836551CB7D40C00616159 /* TimerModel.xcdatamodel */,
+			);
+			currentVersion = 009836551CB7D40C00616159 /* TimerModel.xcdatamodel */;
+			path = TimerModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 00B1D9DA1C33B98F009415EB /* Project object */;
+}

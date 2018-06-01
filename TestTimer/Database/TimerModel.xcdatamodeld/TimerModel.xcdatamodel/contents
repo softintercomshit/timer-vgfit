@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11542" systemVersion="16B2555" minimumToolsVersion="Xcode 7.0" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
+    <entity name="RoundsWorkouts" representedClassName="RoundsWorkouts" syncable="YES">
+        <attribute name="prepareTimeRounds" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="restTimeRounds" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="roundsID" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="roundsRounds" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="workoutNameRounds" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="workoutTimeStampRounds" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="workTimeRounds" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+    </entity>
+    <entity name="StopwatchWorkouts" representedClassName="StopwatchWorkouts" syncable="YES">
+        <attribute name="prepareTimeStopwatch" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="stopWatchID" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="timeLap" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="workoutNameStopwatch" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="workoutTimeStampStopwatch" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="TabatasWorkouts" representedClassName="TabatasWorkouts" syncable="YES">
+        <attribute name="cyclesTabata" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="prepareTime" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="restBetweenCyclesTime" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="restTime" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="roundsTabata" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="tabataID" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="workoutName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="workoutTimeStamp" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="workTime" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="RoundsWorkouts" positionX="-36" positionY="81" width="128" height="150"/>
+        <element name="StopwatchWorkouts" positionX="-27" positionY="90" width="128" height="120"/>
+        <element name="TabatasWorkouts" positionX="-36" positionY="9" width="128" height="180"/>
+    </elements>
+</model>

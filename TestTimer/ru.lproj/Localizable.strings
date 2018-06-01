@@ -1,0 +1,196 @@
+/* 
+  Localizable.strings
+  
+
+  Created by Andrei on 10/5/17.
+  
+*/
+
+
+
+//Main Tabata View Controller:
+
+"Tabata" = "Табата";
+"Prepare" = "Подготовка";
+"Work" = "Тренировка";
+"Rest" = "Отдых";
+"Rest BC" = "Отдых МЦ";
+"Rounds left" = "Ост. раунды";
+"Cycles left" = "Ост. циклы";
+"Play" = "Начать";
+"Resume" = "Продолжить";
+"Pause" = "Пауза";
+"Reset" = "Сброс";
+"Do you want to reset the timer?" = "Хотите сбросить таймер?";
+"Yes" = "Да";
+
+
+// Main Rounds View Controller:
+
+"Rounds" = "Раунды";
+
+
+// Main Stopwatch View Controller:
+
+"Stopwatch" = "Секундомер";
+"Time lap" = "Время круга";
+
+
+// Tabata Intervals View Controller:
+
+"Cancel" = "Отмена";
+"Save" = "Сохранить";
+"Intervals" = "Интервалы";
+"My workouts" = "Мои упражнения";
+"Cycles" = "Циклы";
+"Rest between cycles" = "Отдых между циклами";
+"Countdown before you start" = "Обр. отсчет перед тренировкой";
+"Do exercises for this long" = "Выполнять упражнения указанное время";
+"Rest for this long" = "Отдыхать указанное время";
+"One round is work + rest" = "Один раунд вкл. упражнение + отдых";
+"One cycle is" = "Один цикл вкл.";
+"rounds" = "раунда";
+//"One cycle is 2 rounds" = "Один цикл вкл. 2 раунда";
+"Recovery interval" = "Интервал восстановления";
+"Edit" = "Ред.";
+"Delete" = "Удалить";
+"Add new timer" = "Добавить новый таймер";
+"Tabata workout" = "Упражнения табата";
+
+
+// Add New Timer Tabata View Controller:
+
+"Name" = "Название";
+
+// Rounds Intervals View Controller:
+
+"Rounds workout" = "Упражнение с раундами";
+
+// Stopwatch Intervals View Controller:
+
+"Stopwatch workout" = "Упражнение с секундомером";
+
+// Prepare Time View Controller:
+
+"Done" = "Готово";
+"Min" = "Мин.";
+"Sec" = "Сек.";
+"Default" = "По умолчанию";
+"Yellow" = "Желтый";
+"Green" = "Зеленый";
+"Blue" = "Синий";
+"Turquoise" = "Бирюзовый";
+"Red" = "Красный";
+
+
+// Rounds Intervals View Controller:
+
+"Work for this long" = "Делать упражнения указанное время";
+
+// Stopwatch Intervals View Controller:
+
+"Clock will make a sound at each lap" = "Часы будут подавать сигнал при каждом интервале";
+
+// Sound Each View Controller:
+
+"Sound each" = "Звук кажд.";
+
+
+// Settings Manager View Controller
+
+"Sound" = "Звук";
+"Sound scheme" = "Звуковая схема";
+"Voice assist" = "Голосовой ассистент";
+"Vibration" = "Вибрация";
+"Flashlight" = "Вспышка";
+"Screen flash" = "Вспышка экрана";
+"Ducking" = "Затухание";
+"Rotation" = "Вращение";
+"Time format" = "Формат таймера";
+"Visual style" = "Визуальный стиль";
+"Light gray" = "Светло-серый";
+"Gray" = "Серый";
+"Dark gray" = "Темно-серый";
+"Black" = "Черный";
+"Rose" = "Розовый";
+"Violet" = "Фиолетовый";
+"Back" = "Назад";
+"Air Horn" = "Рожок";
+"Beep" = "Вибросигнал";
+"Boxing Bell" = "Свисток в боксе";
+"Buzzer" = "Гудок";
+"Censor" = "Сенсор";
+"Chinese Gong" = "Китайский гонг";
+"Ding" = "Звонок";
+"Double Ding" = "Двойной звонок";
+"Metal Ding" = "Металлический звонок";
+"Punch" = "Удар";
+"Referee Whistle" = "Свисток судьи";
+"Siren Horn" = "Сирена";
+"Sports Whistle" = "Спортивный свисток";
+"Tone" = "Тон";
+"Flashlight works only in foreground mode" = "Вспышка работает только в приоритетном режиме";
+"Reduce music volume during alert" = "Уменьшить громкость музыки во время получения предупреждения";
+"Allow the screen to rotate during workout" = "Разрешить экрану вращаться во время тренировки";
+
+
+// More Tab Bar View Controller
+
+
+"More" = "Больше";
+"Stay connected with VGFIT" = "Оставаться на связи с VGFIT";
+"Rate us" = "Оцените нас";
+"Send feedback" = "Отправить оценку";
+"Tell a friend" = "Поделиться с другом";
+"Share on Facebook" = "Оставить сообщение на Facebook";
+"Tweet about us" = "Оставить сообщение на Twitter";
+"Six Pack Abs by VGFIT" = "Накачай пресс - тренировки от VGFIT";
+"Fitness & Bodybuilding" = "Фитнес и бодибилдинг";
+"Female Fitness" = "Женский фитнес";
+"Yoga by VGFIT" = "Йога от VGFIT";
+"7 Minutes by VGFIT" = "7 минут от VGFIT";
+"No Mail Accounts" = "Нет эл. адресов";
+"Please set up a Mail account in order to send email." = "Пожалуйста, настройте электронную почту так, чтобы иметь возможность отправить письмо.";
+"Timer Pro by VGFIT" = "Timer Pro от VGFIT";
+"Device model" = "Модель устройства";
+"iOS Version" = "Версия iOS";
+"Application Version" = "Версия приложения";
+"Check out this amazing app for iOS device !" = "Попробуйте это великолепное приложение на вашем iOS устройстве!";
+"Check out this amazing Timer Pro application for your iOS device !" = "Попробуйте приложение Timer Pro на вашем iOS устройстве!";
+"Notification" = "Уведомление";
+"Please login to your Facebook account from your device settings." = "Пожалуйста, войдите в ваш Facebook аккаунт при помощи установок вашего устройства.";
+"OK" = "ОК";
+"Oops" = "Ой";
+"The application can't send a tweet at the moment. This is because it cannot reach Twitter or you don't have a Twitter account associated with this device" = "Приложение не может отправить сообщение в Twitter на данный момент. Возможно, Twitter не работает, или у вас нет учетной записи в Twitter, связанной с этим устройством ";
+
+
+
+// Timer Pro New Design
+
+
+"Start" = "Начать";
+"Stop" = "Остановить";
+"Add" = "Добавить";
+"Enter name tabata workout" = "Ввести название упражнений табата";
+"Enter name rounds workout" = "Ввести название раундов упражнения";
+"Enter name stopwatch workout" = "Ввести название секундомера для упражнений";
+"Settings" = "Установки";
+"Up next" = "Далее";
+"Workout done" = "Тренировка закончено";
+
+
+// Water Reminder
+
+"Water Reminder" = "Водный баланс";
+
+// Share app
+
+"Share app" = "Поделиться";
+
+
+// Health Kit
+
+"WARNING!" = "WARNING!";
+"App is not allowed to write data to the Health app. You can turn it on in the Health app" = "App is not allowed to write data to the Health app. You can turn it on in the Health app";
+"Open" = "Open";
+"Workout data is synced with Health app" = "Workout data is synced with Health app";

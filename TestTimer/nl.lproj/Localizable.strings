@@ -1,0 +1,200 @@
+/* 
+  Localizable.strings
+  
+
+  Created by Andrei on 10/5/17.
+  
+*/
+
+
+
+
+//Main Tabata View Controller:
+
+"Tabata" = "Tabata";
+"Prepare" = "Voorbereiden";
+"Work" = "Trainen";
+"Rest" = "Rusten";
+"Rest BC" = "Rust TC";
+"Rounds left" = "Resterende rondes";
+"Cycles left" = "Resterende cycli";
+"Play" = "Spelen";
+"Resume" = "Hervatten";
+"Pause" = "Pauzeren";
+"Reset" = "Resetten";
+"Do you want to reset the timer?" = "Wil je de timer resetten?";
+"Yes" = "Ja";
+
+
+// Main Rounds View Controller:
+
+"Rounds" = "Rondes";
+
+
+// Main Stopwatch View Controller:
+
+"Stopwatch" = "Stopwatch";
+"Time lap" = "Tijdlap";
+
+
+// Tabata Intervals View Controller:
+
+"Cancel" = "Annuleren";
+"Save" = "Opslaan";
+"Intervals" = "Intervals";
+"My workouts" = "Mijn workouts";
+"Cycles" = "Cycli";
+"Rest between cycles" = "Rusten tussen cycli";
+"Countdown before you start" = "Aftellen voordat je start";
+"Do exercises for this long" = "Doe de oefeningen gedurende";
+"Rest for this long" = "Rust gedurende";
+"One round is work + rest" = "Een ronde is trainen + rusten";
+"One cycle is" = "Een cyclus is";
+"rounds" = "rondes";
+//"One cycle is 2 rounds" = "Een cyclus is 2 rondes";
+"Recovery interval" = "Interval herstellen";
+"Edit" = "Bewerken";
+"Delete" = "Verwijderen";
+"Add new timer" = "Nieuwe timer toevoegen";
+"Tabata workout" = "Tabata-workout";
+
+
+// Add New Timer Tabata View Controller:
+
+"Name" = "Naam";
+
+// Rounds Intervals View Controller:
+
+"Rounds workout" = "Ronde workout";
+
+// Stopwatch Intervals View Controller:
+
+"Stopwatch workout" = "Stopwatch workout";
+
+// Prepare Time View Controller:
+
+"Done" = "Klaar";
+"Min" = "Min";
+"Sec" = "Sec";
+"Default" = "Standaard";
+"Yellow" = "Geel";
+"Green" = "Groen";
+"Blue" = "Blauw";
+"Turquoise" = "Turquoise";
+"Red" = "Rood";
+
+
+// Rounds Intervals View Controller:
+
+"Work for this long" = "Train gedurende";
+
+// Stopwatch Intervals View Controller:
+
+"Clock will make a sound at each lap" = "Klok laat geluid horen bij iedere lap";
+
+// Sound Each View Controller:
+
+"Sound each" = "Geluid iedere";
+
+
+// Settings Manager View Controller
+
+"Sound" = "Geluid";
+"Sound scheme" = "Type geluid";
+"Voice assist" = "Stemassistent";
+"Vibration" = "Trilstand";
+"Flashlight" = "Zaklamp";
+"Screen flash" = "Schermflash";
+"Ducking" = "Ducking";
+"Rotation" = "Rotatie";
+"Time format" = "Timer formaat";
+"Visual style" = "Visuele stijl";
+"Light gray" = "Lichtgrijs";
+"Gray" = "Grijs";
+"Dark gray" = "Donkergrijs";
+"Black" = "Zwart";
+"Rose" = "Roze";
+"Violet" = "Paars";
+"Back" = "Terug";
+"Air Horn" = "Luchttoeter";
+"Beep" = "Biep";
+"Boxing Bell" = "Boksbel";
+"Buzzer" = "Zoemer";
+"Censor" = "Sensor";
+"Chinese Gong" = "Chinese Gong";
+"Ding" = "Ding Dong";
+"Double Ding" = "Dubbele Ding Dong";
+"Metal Ding" = "Metalen Ding Dong";
+"Punch" = "Punch";
+"Referee Whistle" = "Scheidsrechtersfluitje";
+"Siren Horn" = "Sirene";
+"Sports Whistle" = "Sportfluitje";
+"Tone" = "Toon";
+"Flashlight works only in foreground mode" = "Zaklamp werkt alleen in de voorgrondmodus";
+"Reduce music volume during alert" = "Muziekvolume zachter zetten tijdens alert";
+"Allow the screen to rotate during workout" = "Toestaan dat het scherm roteert tijdens workout";
+
+
+// More Tab Bar View Controller
+
+
+"More" = "Meer";
+"Stay connected with VGFIT" = "Blijf verbonden met VGFIT";
+"Rate us" = "Beoordeel ons";
+"Send feedback" = "Verstuur feedback";
+"Tell a friend" = "Vertel het een vriend";
+"Share on Facebook" = "Deel op Facebook";
+"Tweet about us" = "Tweet over ons";
+"Six Pack Abs by VGFIT" = "Six Pack Abs door VGFIT";
+"Fitness & Bodybuilding" = "Fitness & Bodybuilding";
+"Female Fitness" = "Fitness voor Vrouwen";
+"Yoga by VGFIT" = "Yoga door VGFIT";
+"7 Minutes by VGFIT" = "7 Minuten door VGFIT";
+"No Mail Accounts" = "Geen E-mailaccounts";
+"Please set up a Mail account in order to send email." = "Stel een E-mailaccount in voor het versturen van een e-mail.";
+"Timer Pro by VGFIT" = " Timer Pro door VGFIT ";
+"Device model" = " Model apparaat ";
+"iOS Version" = " iOS-versie ";
+"Application Version" = " Toepassingsversie ";
+"Check out this amazing app for iOS device !" = " Bekijk deze fantastische app voor je iOS-apparaat ! ";
+"Check out this amazing Timer Pro application for your iOS device !" = " Bekijk deze geweldige Timer Pro-applicatie voor je iOS-apparaat ! ";
+"Notification" = " Notificatie";
+"Please login to your Facebook account from your device settings." = " Log in op je Facebook-account vanaf de instellingen van je apparaat. ";
+"OK" = "OK";
+"Oops" = "Oeps";
+"The application can't send a tweet at the moment. This is because it cannot reach Twitter or you don't have a Twitter account associated with this device" = " De toepassing kan op dit moment geen tweet versturen. Omdat het geen verbinding met Twitter kan maken of omdat je geen Twitter-account hebt die aan dit apparaat is gekoppeld";
+
+
+
+
+// Timer Pro New Design
+
+
+"Start" = "Starten";
+"Stop" = "Stoppen";
+"Add" = "Toevoegen";
+"Enter name tabata workout" = "Naam invoeren van tabata-workout";
+"Enter name rounds workout" = "Naam invoeren van workout-ronde";
+"Enter name stopwatch workout" = "Naam invoeren van stopwatch-workout";
+"Settings" = "Instellingen";
+"Up next" = "Volgende";
+"Workout done" = "Workout gedaan";
+
+
+
+// Water Reminder
+
+"Water Reminder" = "Waterherinnering";
+
+
+// Share app
+
+"Share app" = "Deel de app";
+
+
+// Health Kit
+
+"WARNING!" = "WARNING!";
+"App is not allowed to write data to the Health app. You can turn it on in the Health app" = "App is not allowed to write data to the Health app. You can turn it on in the Health app";
+"Open" = "Open";
+"Workout data is synced with Health app" = "Workout data is synced with Health app";

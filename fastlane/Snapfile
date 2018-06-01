@@ -1,0 +1,28 @@
+devices([
+  "iPad Pro (9.7-inch)"
+])
+
+languages([
+    "de"
+])
+
+# languages([
+#     "es",
+#     "fr",
+#     "it",
+#     "ja",
+#     "ko",
+#     "nl",
+#     "pt-PT",
+#     "ru",
+#     "sv",
+#     "th",
+#     "tr",
+#     "en",
+#     "zh-Hans",
+#     "zh-Hant",
+#     "de"
+# ])
+
+output_directory "./fastlane/screenshots"
+clear_previous_screenshots true

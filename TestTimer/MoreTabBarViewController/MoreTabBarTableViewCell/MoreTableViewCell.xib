@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="AvenirNext.ttc">
+            <string>AvenirNext-Medium</string>
+            <string>AvenirNext-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="MoreTableViewCell" rowHeight="131" id="KGk-i7-Jjw" customClass="MoreTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="317" height="130"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="317" height="129.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AP5-g3-byb">
+                        <rect key="frame" x="0.0" y="0.0" width="317" height="64.5"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="www.vgfit.com" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ef9-1l-Cnl">
+                                <rect key="frame" x="66" y="43.5" width="197" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="G7w-ge-Net"/>
+                                    <constraint firstAttribute="width" constant="197" id="dOC-KM-dKj"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="15"/>
+                                <color key="textColor" red="0.58431372549019611" green="0.58431372549019611" blue="0.58431372549019611" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Ph-14-tDZ">
+                                <rect key="frame" x="66" y="21" width="246" height="23"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" alpha="0.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="VGFITIcon" translatesAutoresizingMaskIntoConstraints="NO" id="N53-jQ-iRT">
+                                <rect key="frame" x="18" y="12" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="3IM-qg-Fhw"/>
+                                    <constraint firstAttribute="width" constant="40" id="3np-bO-r4c"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="appleHealthKitIcon" translatesAutoresizingMaskIntoConstraints="NO" id="ng1-d6-dgt">
+                                <rect key="frame" x="277" y="12" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="Tk5-DQ-mXE"/>
+                                    <constraint firstAttribute="height" constant="40" id="elE-qP-jv0"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="Ef9-1l-Cnl" secondAttribute="trailing" constant="54" id="4lv-ad-cbd"/>
+                            <constraint firstAttribute="height" priority="999" constant="65" id="9xK-7h-W5Y"/>
+                            <constraint firstItem="N53-jQ-iRT" firstAttribute="leading" secondItem="AP5-g3-byb" secondAttribute="leading" constant="18" id="DJH-5z-IX4"/>
+                            <constraint firstItem="3Ph-14-tDZ" firstAttribute="leading" secondItem="N53-jQ-iRT" secondAttribute="trailing" constant="8" id="PgV-FZ-7JX"/>
+                            <constraint firstItem="3Ph-14-tDZ" firstAttribute="centerY" secondItem="AP5-g3-byb" secondAttribute="centerY" id="UYL-I5-h2P"/>
+                            <constraint firstAttribute="bottom" secondItem="ng1-d6-dgt" secondAttribute="bottom" constant="12" id="Vzp-g6-quL"/>
+                            <constraint firstItem="N53-jQ-iRT" firstAttribute="centerY" secondItem="AP5-g3-byb" secondAttribute="centerY" id="Z20-mx-1ZT"/>
+                            <constraint firstAttribute="trailing" secondItem="3Ph-14-tDZ" secondAttribute="trailing" constant="5" id="h8i-b7-jIw"/>
+                            <constraint firstAttribute="trailing" secondItem="ng1-d6-dgt" secondAttribute="trailing" id="kKj-Qk-HwY"/>
+                            <constraint firstItem="ng1-d6-dgt" firstAttribute="top" secondItem="AP5-g3-byb" secondAttribute="top" constant="12" id="nQ7-LD-dMi"/>
+                            <constraint firstItem="Ef9-1l-Cnl" firstAttribute="leading" secondItem="AP5-g3-byb" secondAttribute="leading" constant="66" id="vwo-lT-jtU"/>
+                            <constraint firstAttribute="bottom" secondItem="Ef9-1l-Cnl" secondAttribute="bottom" id="ymQ-0X-g1C"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4EB-Ca-gkg">
+                        <rect key="frame" x="0.0" y="64.5" width="317" height="65"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="fill" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PMS-eb-yee">
+                                <rect key="frame" x="18" y="12" width="40" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <state key="normal" backgroundImage="facebookIcon"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="fill" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nun-W9-yPo">
+                                <rect key="frame" x="138" y="12" width="40" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <state key="normal" backgroundImage="urlIcon"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="fill" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Hx-I6-MmE">
+                                <rect key="frame" x="259" y="12" width="40" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
+                                <state key="normal" backgroundImage="mailIcon"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="fill" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9cx-yk-2on">
+                                <rect key="frame" x="198" y="12" width="40" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <state key="normal" backgroundImage="instagramIcon"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="fill" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wfS-xe-wC0">
+                                <rect key="frame" x="78" y="12" width="40" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <state key="normal" backgroundImage="twitterIcon"/>
+                            </button>
+                        </subviews>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="4EB-Ca-gkg" secondAttribute="trailing" id="OZv-AW-JF8"/>
+                    <constraint firstAttribute="bottom" secondItem="4EB-Ca-gkg" secondAttribute="bottom" id="QN0-De-9EK"/>
+                    <constraint firstItem="AP5-g3-byb" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="V2K-ke-ANL"/>
+                    <constraint firstItem="4EB-Ca-gkg" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="cFi-T4-MF7"/>
+                    <constraint firstItem="AP5-g3-byb" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="dY1-pD-9JY"/>
+                    <constraint firstItem="4EB-Ca-gkg" firstAttribute="top" secondItem="AP5-g3-byb" secondAttribute="bottom" id="fXm-mG-ajf"/>
+                    <constraint firstAttribute="trailing" secondItem="AP5-g3-byb" secondAttribute="trailing" id="lWF-D7-HuP"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="descriptionButtonsUIView" destination="4EB-Ca-gkg" id="D0W-tP-fwq"/>
+                <outlet property="descriptionMoreLabel" destination="Ef9-1l-Cnl" id="ac1-E4-BGp"/>
+                <outlet property="detailUIView" destination="AP5-g3-byb" id="xB9-kL-xya"/>
+                <outlet property="facebookButton" destination="PMS-eb-yee" id="h6F-n6-nDU"/>
+                <outlet property="healthKitImageView" destination="ng1-d6-dgt" id="CK2-kK-3wI"/>
+                <outlet property="instagramButton" destination="9cx-yk-2on" id="6Ce-J6-Dgd"/>
+                <outlet property="mailButton" destination="6Hx-I6-MmE" id="1ne-Ck-Nsl"/>
+                <outlet property="moreImageView" destination="N53-jQ-iRT" id="xbV-1Z-8qY"/>
+                <outlet property="titleMoreLabel" destination="3Ph-14-tDZ" id="K2D-pk-MTz"/>
+                <outlet property="twitterButton" destination="wfS-xe-wC0" id="LiX-S9-9CP"/>
+                <outlet property="urlButton" destination="nun-W9-yPo" id="N7w-mW-DHt"/>
+            </connections>
+            <point key="canvasLocation" x="-380.5" y="347"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="VGFITIcon" width="42" height="42"/>
+        <image name="appleHealthKitIcon" width="50" height="50"/>
+        <image name="facebookIcon" width="40" height="40"/>
+        <image name="instagramIcon" width="40" height="40"/>
+        <image name="mailIcon" width="40" height="40"/>
+        <image name="twitterIcon" width="40" height="40"/>
+        <image name="urlIcon" width="40" height="40"/>
+    </resources>
+</document>

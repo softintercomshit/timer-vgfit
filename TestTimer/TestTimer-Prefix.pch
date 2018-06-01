@@ -1,0 +1,97 @@
+//
+//  TestTimer-Prefix.pch
+//  TestTimer
+//
+//  Created by a on 4/8/16.
+//  Copyright © 2016 SoftIntercom. All rights reserved.
+//
+
+#ifndef TestTimer_Prefix_pch
+#define TestTimer_Prefix_pch
+
+#define shouldRotate @"shouldRotate"
+#define shouldNotRotate @"shouldNotRotate"
+
+#import <MediaPlayer/MediaPlayer.h>
+#import <AVFoundation/AVFoundation.h>
+#import "Utilities.h"
+#import "Constants.h"
+#import <Fabric/Fabric.h>
+#import <Crashlytics/Crashlytics.h>
+#import "AppInfo.h"
+#import "NSString+Localization.h"
+#import "Utilities.h"
+#import "Constants.h"
+#import "UIButton+Clipping.h"
+#import "UINavigationController+Transparent.h"
+#import "Enums.h"
+#import "SettingsManager.h"
+#import "AppColorManager.h"
+#import "SettingsManagerImplementation.h"
+#import "NSLayoutConstraint+Multiplier.h"
+#import "AppTheme.h"
+#import "TestTimer-Swift.h"
+
+#import "DatabaseManager.h"
+
+
+
+
+#define timerDefaultColor 0
+#define timerYellowColor 1
+#define timerGreenColor 2
+#define timerBlueColor 3
+#define timerTurquoiseColor 4
+#define timerRedColor 5
+
+
+
+#define timerPrepareTabataValue 5
+#define timerWorkTabataValue    30
+#define timerRestTabataValue 15
+#define timerRoundsTabataValue  4
+#define timerCyclesTabataValue  3
+#define timerRestBetweenCyclesTabataValue  30
+
+
+#define timerPrepareRoundsValue 5
+#define timerWorkRoundsValue 30
+#define timerRestRoundsValue 15
+#define timerRoundsCountValue 4
+
+
+#define timerPrepareStopwatchValue 5
+#define timerTimeLapStopwatchValue 10
+
+
+#define DEFAULT_LANDSCAPE_MODE UIInterfaceOrientationIsLandscape(self.interfaceOrientation)
+
+
+
+/*Theme colors*/
+#define DEFINE_THEME_WHITE_COLOR [UIColor colorWithRed:(224/255.0) green:(224/255.0)  blue:(224/255.0)alpha:1.0]
+#define DEFINE_THEME_GRAY_COLOR   [UIColor colorWithRed:(104/255.0) green:(104/255.0)  blue:(104/255.0)alpha:1.0]
+#define DEFINE_THEME_DARK_GRAY_COLOR  [UIColor colorWithRed:(56/255.0) green:(56/255.0)  blue:(56/255.0)alpha:1.0]
+
+
+#define DEFINE_THEME_BLACK_COLOR [UIColor colorWithRed:(0/255.0) green:(0/255.0)  blue:(0/255.0)alpha:1.0]
+
+#define DEFINE_THEME_ROSE_COLOR [UIColor colorWithRed:(167/255.0) green:(55/255.0)  blue:(90/255.0)alpha:1.0]
+
+#define DEFINE_THEME_VIOLET_COLOR [UIColor colorWithRed:(112/255.0) green:(68/255.0)  blue:(122/255.0)alpha:1.0]
+
+#define DEFINE_THEME_RED_COLOR [UIColor colorWithRed:(152/255.0) green:(53/255.0)  blue:(53/255.0)alpha:1.0]
+
+#define DEFINE_THEME_GREEN_COLOR [UIColor colorWithRed:(40/255.0) green:(96/255.0)  blue:(78/255.0)alpha:1.0]
+
+#define DEFINE_THEME_BLUE_COLOR [UIColor colorWithRed:(10/255.0) green:(88/255.0)  blue:(129/255.0)alpha:1.0]
+
+
+
+#define DEFAULT_SCREEN_WIDTH ([UIScreen mainScreen].bounds.size.width)
+#define DEFAULT_SCREEN_HEIGHT ([UIScreen mainScreen].bounds.size.height)
+
+
+#endif /* TestTimer_Prefix_pch */
+
+

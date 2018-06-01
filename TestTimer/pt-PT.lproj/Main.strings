@@ -1,0 +1,144 @@
+
+/* Class = "UILabel"; text = "Rest:"; ObjectID = "0C5-A7-3Ub"; */
+"0C5-A7-3Ub.text" = "Rest:";
+
+/* Class = "UILabel"; text = "Play"; ObjectID = "0Ki-a2-TWS"; */
+"0Ki-a2-TWS.text" = "Play";
+
+/* Class = "UILabel"; text = "Min"; ObjectID = "0y6-pH-uoy"; */
+"0y6-pH-uoy.text" = "Min";
+
+/* Class = "UILabel"; text = "03:00"; ObjectID = "2x6-54-aj5"; */
+"2x6-54-aj5.text" = "03:00";
+
+/* Class = "UITabBarItem"; title = "More"; ObjectID = "3dH-fV-PVc"; */
+"3dH-fV-PVc.title" = "More";
+
+/* Class = "UILabel"; text = "Name :"; ObjectID = "6ws-9M-yUk"; */
+"6ws-9M-yUk.text" = "Name :";
+
+/* Class = "UILabel"; text = "Min"; ObjectID = "7dz-KC-hAG"; */
+"7dz-KC-hAG.text" = "Min";
+
+/* Class = "UILabel"; text = "Sec"; ObjectID = "7lm-H0-jZN"; */
+"7lm-H0-jZN.text" = "Sec";
+
+/* Class = "UILabel"; text = "12"; ObjectID = "83K-uk-1kZ"; */
+"83K-uk-1kZ.text" = "12";
+
+/* Class = "UILabel"; text = "Reset"; ObjectID = "8Ae-7M-mxg"; */
+"8Ae-7M-mxg.text" = "Reset";
+
+/* Class = "UILabel"; text = "5"; ObjectID = "9SQ-ve-c9o"; */
+"9SQ-ve-c9o.text" = "5";
+
+/* Class = "UILabel"; text = "8"; ObjectID = "9pb-tq-T9a"; */
+"9pb-tq-T9a.text" = "8";
+
+/* Class = "UILabel"; text = "Name :"; ObjectID = "Ak6-oK-3g3"; */
+"Ak6-oK-3g3.text" = "Name :";
+
+/* Class = "UITabBarItem"; title = "Stopwatch"; ObjectID = "CNN-ZM-xkc"; */
+"CNN-ZM-xkc.title" = "Stopwatch";
+
+/* Class = "UILabel"; text = "Sec"; ObjectID = "Csl-PW-yLx"; */
+"Csl-PW-yLx.text" = "Sec";
+
+/* Class = "UITabBarItem"; title = "Tabata"; ObjectID = "D4m-XI-TEV"; */
+"D4m-XI-TEV.title" = "Tabata";
+
+/* Class = "UILabel"; text = "03:00"; ObjectID = "D6L-e6-UST"; */
+"D6L-e6-UST.text" = "03:00";
+
+/* Class = "UINavigationItem"; title = "Tabata"; ObjectID = "EUM-62-Ui7"; */
+"EUM-62-Ui7.title" = "Tabata";
+
+/* Class = "UILabel"; text = "Rounds left"; ObjectID = "F6d-3I-6aY"; */
+"F6d-3I-6aY.text" = "Rounds left";
+
+/* Class = "UILabel"; text = "Work:"; ObjectID = "I3d-0z-vI0"; */
+"I3d-0z-vI0.text" = "Work:";
+
+/* Class = "UILabel"; text = "Completed"; ObjectID = "I7L-MT-DK0"; */
+"I7L-MT-DK0.text" = "Completed";
+
+/* Class = "UILabel"; text = "Play"; ObjectID = "IGf-Ka-hxK"; */
+"IGf-Ka-hxK.text" = "Play";
+
+/* Class = "UILabel"; text = "03:00"; ObjectID = "KEv-mo-wdN"; */
+"KEv-mo-wdN.text" = "03:00";
+
+/* Class = "UILabel"; text = "02:00"; ObjectID = "Ks7-Gw-6Yc"; */
+"Ks7-Gw-6Yc.text" = "02:00";
+
+/* Class = "UILabel"; text = "Play"; ObjectID = "MgC-Fb-IMI"; */
+"MgC-Fb-IMI.text" = "Play";
+
+/* Class = "UILabel"; text = "Sec"; ObjectID = "NyR-8Z-1cN"; */
+"NyR-8Z-1cN.text" = "Sec";
+
+/* Class = "UILabel"; text = "Sec"; ObjectID = "OFs-Es-aWs"; */
+"OFs-Es-aWs.text" = "Sec";
+
+/* Class = "UILabel"; text = "Min"; ObjectID = "PHg-Ex-3SK"; */
+"PHg-Ex-3SK.text" = "Min";
+
+/* Class = "UILabel"; text = "Prepare"; ObjectID = "PW1-OH-2jM"; */
+"PW1-OH-2jM.text" = "Prepare";
+
+/* Class = "UILabel"; text = "Rounds left"; ObjectID = "RZl-Fn-8pD"; */
+"RZl-Fn-8pD.text" = "Rounds left";
+
+/* Class = "UILabel"; text = "Min"; ObjectID = "SDL-ff-qH2"; */
+"SDL-ff-qH2.text" = "Min";
+
+/* Class = "UILabel"; text = "01:00"; ObjectID = "U2r-7z-6Hb"; */
+"U2r-7z-6Hb.text" = "01:00";
+
+/* Class = "UILabel"; text = "Sec"; ObjectID = "Vhy-MN-6Wv"; */
+"Vhy-MN-6Wv.text" = "Sec";
+
+/* Class = "UILabel"; text = "Completed"; ObjectID = "XVM-DM-jpY"; */
+"XVM-DM-jpY.text" = "Completed";
+
+/* Class = "UILabel"; text = "15:00"; ObjectID = "b03-ED-z1c"; */
+"b03-ED-z1c.text" = "15:00";
+
+/* Class = "UILabel"; text = "15:00"; ObjectID = "bfX-O0-juR"; */
+"bfX-O0-juR.text" = "15:00";
+
+/* Class = "UILabel"; text = "Reset"; ObjectID = "chL-vJ-aFX"; */
+"chL-vJ-aFX.text" = "Reset";
+
+/* Class = "UITabBarItem"; title = "Rounds"; ObjectID = "dR1-ff-Fil"; */
+"dR1-ff-Fil.title" = "Rounds";
+
+/* Class = "UILabel"; text = "Work"; ObjectID = "eSy-mx-IrC"; */
+"eSy-mx-IrC.text" = "Work";
+
+/* Class = "UILabel"; text = "Reset"; ObjectID = "eeH-Wr-raH"; */
+"eeH-Wr-raH.text" = "Reset";
+
+/* Class = "UILabel"; text = "Min"; ObjectID = "fhX-lD-uce"; */
+"fhX-lD-uce.text" = "Min";
+
+/* Class = "UILabel"; text = "05:00"; ObjectID = "mT7-CO-MFX"; */
+"mT7-CO-MFX.text" = "05:00";
+
+/* Class = "UILabel"; text = "Sec"; ObjectID = "mlh-oq-Cf2"; */
+"mlh-oq-Cf2.text" = "Sec";
+
+/* Class = "UILabel"; text = "Time lap:"; ObjectID = "pwj-Uw-P6y"; */
+"pwj-Uw-P6y.text" = "Time lap:";
+
+/* Class = "UILabel"; text = "Name :"; ObjectID = "qYA-jm-Fin"; */
+"qYA-jm-Fin.text" = "Name :";
+
+/* Class = "UILabel"; text = "Time lap"; ObjectID = "t2w-91-JtC"; */
+"t2w-91-JtC.text" = "Time lap";
+
+/* Class = "UILabel"; text = "Cycles left"; ObjectID = "wMO-O8-AAj"; */
+"wMO-O8-AAj.text" = "Cycles left";
+
+/* Class = "UILabel"; text = "Min"; ObjectID = "yof-uH-71V"; */
+"yof-uH-71V.text" = "Min";

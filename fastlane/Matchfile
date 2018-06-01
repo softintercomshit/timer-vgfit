@@ -1,0 +1,12 @@
+git_url "https://github.com/admincaf/certificates.git"
+
+type "adhoc" # The default type, can be: appstore, adhoc or development
+
+ app_identifier ["com.vgfit.timer","com.vgfit.timer.wkitapp","com.vgfit.timer.wkitapp.wkitextension"]
+ username "alexandr@vgfit.com"
+
+# For all available options run `match --help`
+# Remove the # in the beginning of the line to enable the other options
+
+
+git_branch "vgfit"

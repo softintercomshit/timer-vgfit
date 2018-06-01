@@ -1,0 +1,199 @@
+/* 
+  Localizable.strings
+  
+
+  Created by Andrei on 10/5/17.
+  
+*/
+
+
+//Main Tabata View Controller:
+
+"Tabata" = "タバタ";
+"Prepare" = "準備";
+"Work" = "ワークアウト";
+"Rest" = "休憩";
+"Rest BC" = "休息 BC";
+"Rounds left" = "残りラウンド数";
+"Cycles left" = "残りサイクル数";
+"Play" = "スタート";
+"Resume" = "再開";
+"Pause" = "一時停止";
+"Reset" = "リセット";
+"Do you want to reset the timer?" = "タイマーをリセットしますか？";
+"Yes" = "はい";
+
+
+// Main Rounds View Controller:
+
+"Rounds" = "ラウンド式";
+
+
+// Main Stopwatch View Controller:
+
+"Stopwatch" = "ストップウォッチ式";
+"Time lap" = "ラップタイム";
+
+
+// Tabata Intervals View Controller:
+
+"Cancel" = "キャンセル";
+"Save" = "保存";
+"Intervals" = "インターバル";
+"My workouts" = "マイ·ワークアウト";
+"Cycles" = "サイクル数";
+"Rest between cycles" = "サイクル間の休憩";
+"Countdown before you start" = "スタート前のカウントダウン";
+"Do exercises for this long" = "エクササイズ時間の長さ";
+"Rest for this long" = "休憩時間の長さ";
+"One round is work + rest" = "１ラウンドはワークアウト＋休憩です。";
+"One cycle is" = "１サイクルは";
+"rounds" = "ラウンドです。";
+//"One cycle is 2 rounds" = "１サイクルは２ラウンドです。";
+"Recovery interval" = "回復用インターバル";
+"Edit" = "編集";
+"Delete" = "削除";
+"Add new timer" = "新しいタイマーの追加";
+"Tabata workout" = "タバタ式ワークアウト";
+
+
+// Add New Timer Tabata View Controller:
+
+"Name" = "名前";
+
+// Rounds Intervals View Controller:
+
+"Rounds workout" = "ラウンド式ワークアウト";
+
+// Stopwatch Intervals View Controller:
+
+"Stopwatch workout" = "ストップウォッチ式ワークアウト";
+
+// Prepare Time View Controller:
+
+"Done" = "完了";
+"Min" = "分";
+"Sec" = "秒";
+"Default" = "デフォルト";
+"Yellow" = "イエロー";
+"Green" = "グリーン";
+"Blue" = "ブルー";
+"Turquoise" = "ターコイズ";
+"Red" = "レッド";
+
+
+// Rounds Intervals View Controller:
+
+"Work for this long" = "ワークアウト時間の長さ";
+
+// Stopwatch Intervals View Controller:
+
+"Clock will make a sound at each lap" = "ラップ１回ごとに音が出ます。";
+
+// Sound Each View Controller:
+
+"Sound each" = "音の出る間隔";
+
+
+// Settings Manager View Controller
+
+"Sound" = "サウンド";
+"Sound scheme" = "サウンドの種類";
+"Voice assist" = "音声アシスト";
+"Vibration" = "バイブレーション";
+"Flashlight" = "懐中電灯";
+"Screen flash" = "画面の点滅";
+"Ducking" = "音量の調整";
+"Rotation" = "回転";
+"Time format" = "時間表示形式";
+"Visual style" = "テーマ色";
+"Light gray" = "ライトグレー";
+"Gray" = "グレー";
+"Dark gray" = "ダークグレー";
+"Black" = "ブラック";
+"Rose" = "ローズ";
+"Violet" = "バイオレット";
+"Back" = "戻る";
+"Air Horn" = "エアホーン";
+"Beep" = "ビープ音";
+"Boxing Bell" = "ボクシングのゴング";
+"Buzzer" = "ブザー";
+"Censor" = "ピー音";
+"Chinese Gong" = "中国の鐘";
+"Ding" = "チャイム";
+"Double Ding" = "２連続チャイム";
+"Metal Ding" = "金属を叩く音";
+"Punch" = "パンチ";
+"Referee Whistle" = "レフェリーの笛";
+"Siren Horn" = "サイレン";
+"Sports Whistle" = "スポーツのホイッスル";
+"Tone" = "トーン";
+"Flashlight works only in foreground mode" = "懐中電灯はバックグラウンドモードではお使いいただけません。";
+"Reduce music volume during alert" = "アラート中に音量が下がります。";
+"Allow the screen to rotate during workout" = "ワークアウト中にスクリーンが回転できるようになります。";
+
+
+// More Tab Bar View Controller
+
+
+"More" = "その他";
+"Stay connected with VGFIT" = "VGFITをフォローする";
+"Rate us" = "アプリを評価する";
+"Send feedback" = "フィードバックを送る";
+"Tell a friend" = "友達に教える";
+"Share on Facebook" = "Facebookでシェアする";
+"Tweet about us" = "アプリについてツイートする";
+"Six Pack Abs by VGFIT" = "Six Pack Abs by VGFIT";
+"Fitness & Bodybuilding" = "Fitness & Bodybuilding";
+"Female Fitness" = "女性のフィットネス";
+"Yoga by VGFIT" = "ヨガ by VGFIT";
+"7 Minutes by VGFIT" = "7分間ワークアウト by VGFIT";
+"No Mail Accounts" = "メールアカウントがありません。";
+"Please set up a Mail account in order to send email." = "Eメールを送るには、メールアカウントを設定してください。";
+"Timer Pro by VGFIT" = " Timer Pro by VGFIT ";
+"Device model" = "端末のモデル";
+"iOS Version" = "iOSのバージョン";
+"Application Version" = "アプリのバージョン";
+"Check out this amazing app for iOS device !" = "この素晴らしいアプリをiOS端末でご確認ください！";
+"Check out this amazing Timer Pro application for your iOS device !" = "この素晴らしいTimer ProアプリをiOS端末でご確認ください！";
+"Notification" = "通知";
+"Please login to your Facebook account from your device settings." = "端末の設定から、Facebookアカウントにサインインしてください。";
+"OK" = "OK";
+"Oops" = "しまった！";
+"The application can't send a tweet at the moment. This is because it cannot reach Twitter or you don't have a Twitter account associated with this device" = " 現在このアプリからツイートを送ることができません。Twitterにアクセスできないか、この端末に関連づけられたTwitterアカウントがありません。";
+
+
+
+
+// Timer Pro New Design
+
+
+"Start" = "スタート";
+"Stop" = "ストップ";
+"Add" = "追加";
+"Enter name tabata workout" = "タバタ式ワークアウトの名前の入力";
+"Enter name rounds workout" = "ラウンド式ワークアウトの名前の入力";
+"Enter name stopwatch workout" = "ストップウォッチ式ワークアウトの名前の入力";
+"Settings" = "設定";
+"Up next" = "次";
+"Workout done" = "ワークアウト完了";
+
+
+
+// Water Reminder
+
+"Water Reminder" = "ウォーター・リマインダー";
+
+// Share app
+
+"Share app" = "アプリをシェアする";
+
+
+// Health Kit
+
+"WARNING!" = "WARNING!";
+"App is not allowed to write data to the Health app. You can turn it on in the Health app" = "App is not allowed to write data to the Health app. You can turn it on in the Health app";
+"Open" = "Open";
+"Workout data is synced with Health app" = "Workout data is synced with Health app";
+
+
